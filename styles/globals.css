@@ -1,3 +1,113 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-heading;
+}
+p,
+span,
+* {
+  @apply font-body;
+}
+h1 {
+  font-size: 36px;
+  line-height: 36px;
+}
+h2 {
+  font-size: 30px;
+  line-height: 30px;
+}
+h3 {
+  font-size: 24px;
+  line-height: 24px;
+}
+h4 {
+  font-size: 20px;
+  line-height: 20px;
+}
+h5 {
+  font-size: 16px;
+  line-height: 20px;
+}
+h6 {
+  font-size: 14px;
+  line-height: 16px;
+}
+p {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 96px;
+    line-height: 96px;
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  h3 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  h4 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  h5 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h6 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  h2 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  h4 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  h5 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  h6 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
