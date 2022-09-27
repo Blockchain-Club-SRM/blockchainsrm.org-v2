@@ -1,7 +1,6 @@
 import React from "react";
-import Close from "@material-ui/icons/Close";
 
-const MenuItems = ({ show, active }) => {
+const MenuItems = ({ show, active }: any) => {
   return (
     <div>
       <ul
@@ -11,7 +10,7 @@ const MenuItems = ({ show, active }) => {
             : "hidden"
         }
       >
-        <Close onClick={show} />
+        <div onClick={show}>x</div>
         <li>
           <a href="/">Home</a>
         </li>

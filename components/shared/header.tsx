@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-// import { Link } from "react-router-dom";
-import MenuItems from "./MenuItems";
-import { MenuOutlined } from "@material-ui/icons";
-import { ReactComponent as Logo } from "../Assets/logo.svg";
+import MenuItems from "./menu-item";
+import Logo from "../../public/assets/logo.svg";
+import more from "../../public/assets/more_btn.png";
+import Image from "next/image";
 
 const Header = () => {
   const [active, setActive] = useState(false);
@@ -12,15 +12,13 @@ const Header = () => {
   };
 
   return (
-    <div className="fixed w-full text-white flex justify-around  p-2 items-center">
-      <div className="object-scale-down">
-        <Logo />
+    <div className="absolute w-full text-white flex justify-between  p-2 items-center left-0 right-0 z-50 top-0">
+      <div className="object-scale-down max-h-24 w-28">
+        <img src={Logo.src} alt="" />
       </div>
       <nav>
-        <div className="absolute right-6 top-12 md:hidden">
-          <MenuOutlined onClick={show} />
-        </div>
-        <ul className="hidden md:flex gap-8 p-3 content-center uppercase bg-black/50 backdrop-blur-md">
+        <div className="absolute right-6 top-12 md:hidden">outlined</div>
+        <ul className="hidden md:flex gap-8 p-3 py-6 content-center uppercase bg-navbar-gradient backdrop-blur-md">
           <li>
             <a href="https://tailwindcss.com/">Home</a>
           </li>
@@ -43,6 +41,12 @@ const Header = () => {
 
         <MenuItems show={show} active={active} />
       </nav>
+      <Image
+        src={more}
+        alt="Explore More"
+        objectFit="scale-down"
+        className="w-10 h-10"
+      />
     </div>
   );
 };

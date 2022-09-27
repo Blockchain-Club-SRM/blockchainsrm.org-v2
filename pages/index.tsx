@@ -1,11 +1,11 @@
 import type { NextPage } from "next";
 import { Layout } from "../components/shared";
-import Hero from "../components/hero";
+import { Landing } from "../components/index";
 
 const Home: NextPage = () => {
   return (
     <Layout>
-      <Hero />
+      <Landing />
     </Layout>
   );
 };
