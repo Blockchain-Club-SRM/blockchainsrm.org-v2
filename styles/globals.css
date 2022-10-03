@@ -111,3 +111,16 @@ p {
     line-height: 16px;
   }
 }
+
+body{
+   background-image: url('../components/shared/dtbg.svg');
+  
+}
+
+@media (max-width: 768px) {
+  
+body{
+  background-image: url('../components/shared/mbbg.svg');
+ 
+}
+}
