@@ -1,12 +1,16 @@
 import React from "react";
 import Logo from "../../public/assets/logo.svg";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Footer = () => {
   return (
     <footer className="p-4 sm:p-6 bg-transparent">
       <div className="md:flex md:justify-around ">
         <div className="mb-6 md:mb-0">
-          <Logo />
+          <img src={Logo.src} alt="" className="h-16 md:h-16" />
         </div>
         <div className="mb-6 md:mb-0 text-white self-center">
           <p className="">
@@ -15,18 +19,24 @@ const Footer = () => {
           </p>
           <ul className="flex gap-4 p-6 content-center">
             <li>
-              <a href="/">insta</a>
-            </li>
-            <li>
-              <a href="https://twitter.com/BlockchainSRM">twitter</a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/company/blockchain-club-srm/">
-                linkedin
+              <a href="/">
+                {/* <InstagramIcon /> */}
               </a>
             </li>
             <li>
-              <a href="/">github</a>
+              <a href="https://twitter.com/BlockchainSRM">
+                {/* <TwitterIcon /> */}
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/blockchain-club-srm/">
+                {/* <LinkedInIcon /> */}
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                {/* <GitHubIcon /> */}
+              </a>
             </li>
           </ul>
           <p>All rights reserved @blockchainsrm</p>

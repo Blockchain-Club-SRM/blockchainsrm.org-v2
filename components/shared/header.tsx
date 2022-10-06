@@ -3,6 +3,7 @@ import MenuItems from "./menu-item";
 import Logo from "../../public/assets/logo.svg";
 import more from "../../public/assets/more_btn.png";
 import Image from "next/image";
+import { MenuOutlined } from "@material-ui/icons";
 
 const Header = () => {
   const [active, setActive] = useState(false);
@@ -13,11 +14,13 @@ const Header = () => {
 
   return (
     <div className="absolute w-full text-white flex justify-between  p-2 items-center left-0 right-0 z-50 top-0">
-      <div className="object-scale-down max-h-24 w-28">
-        <img src={Logo.src} alt="" />
+      <div className="">
+        <img src={Logo.src} alt="" className="h-16"/>
       </div>
       <nav>
-        <div className="absolute right-6 top-12 md:hidden">outlined</div>
+        <div className="absolute right-6 top-12 md:hidden">
+          <MenuOutlined onClick={show} />
+        </div>
         <ul className="hidden md:flex gap-8 p-3 py-6 content-center uppercase bg-navbar-gradient backdrop-blur-md">
           <li>
             <a href="https://tailwindcss.com/">Home</a>
@@ -41,12 +44,9 @@ const Header = () => {
 
         <MenuItems show={show} active={active} />
       </nav>
-      <Image
-        src={more}
-        alt="Explore More"
-        objectFit="scale-down"
-        className="w-10 h-10"
-      />
+        <a href="https://github.com/" >
+          <img src={more.src} alt="" className="invisible md:visible h-14"/>
+        </a>
     </div>
   );
 };
