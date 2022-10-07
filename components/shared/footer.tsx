@@ -1,11 +1,67 @@
 import React from "react";
 import Logo from "../../public/assets/logo.svg";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import Link from "next/link";
+import {
+  AiOutlineInstagram,
+  AiOutlineTwitter,
+  AiFillLinkedin,
+  AiFillGithub,
+} from "react-icons/ai";
 
 const Footer = () => {
+  const menu = [
+    {
+      name: "Home",
+      path: "/",
+    },
+    {
+      name: "Events",
+      path: "/",
+    },
+    {
+      name: "About us",
+      path: "/",
+    },
+    {
+      name: "Our Team",
+      path: "/",
+    },
+  ];
+
+  const supportMenu = [
+    {
+      name: "Contact Us",
+      path: "/",
+    },
+    {
+      name: "Mail",
+      path: "/",
+    },
+  ];
+
+  const socialMenu = [
+    {
+      key: "Instagram",
+      path: "/",
+      icon: <AiOutlineInstagram size={26} className="cursor-pointer" />,
+    },
+    {
+      key: "Twitter",
+      path: "https://twitter.com/BlockchainSRM",
+      icon: <AiOutlineTwitter size={26} className="cursor-pointer" />,
+    },
+    {
+      key: "LinkedIn",
+      path: "https://www.linkedin.com/company/blockchain-club-srm/",
+      icon: <AiFillLinkedin size={26} className="cursor-pointer" />,
+    },
+    {
+      key: "Instagram",
+      path: "/",
+      icon: <AiFillGithub size={26} className="cursor-pointer" />,
+    },
+  ];
+
   return (
     <footer className="p-4 sm:p-6 bg-transparent">
       <div className="md:flex md:justify-around ">
@@ -18,26 +74,13 @@ const Footer = () => {
             space.
           </p>
           <ul className="flex gap-4 p-6 content-center">
-            <li>
-              <a href="/">
-                {/* <InstagramIcon /> */}
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/BlockchainSRM">
-                {/* <TwitterIcon /> */}
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/company/blockchain-club-srm/">
-                {/* <LinkedInIcon /> */}
-              </a>
-            </li>
-            <li>
-              <a href="/">
-                {/* <GitHubIcon /> */}
-              </a>
-            </li>
+            {socialMenu.map((item) => {
+              return (
+                <Link key={item.key} href={item.path}>
+                  {item.icon}
+                </Link>
+              );
+            })}
           </ul>
           <p>All rights reserved @blockchainsrm</p>
         </div>
@@ -46,49 +89,28 @@ const Footer = () => {
             About
           </h2>
           <ul className="text-white dark:text-white">
-            <li className="mb-2">
-              <a href="https://tailwindcss.com/" className="hover:underline">
-                Home
-              </a>
-            </li>
-            <li className="mb-2">
-              <a href="https://tailwindcss.com/" className="hover:underline">
-                Our Events
-              </a>
-            </li>
-            <li className="mb-2">
-              <a href="https://tailwindcss.com/" className="hover:underline">
-                Our Team
-              </a>
-            </li>
-            <li className="mb-2">
-              <a href="https://tailwindcss.com/" className="hover:underline">
-                Projects
-              </a>
-            </li>
+            {menu.map((item, index) => {
+              return (
+                <li key={index} className="mb-2">
+                  <Link href={item.path}>{item.name}</Link>
+                </li>
+              );
+            })}
           </ul>
         </div>
+
         <div>
           <h2 className="mb-6 text-md font-semibold text-gray-900 uppercase dark:text-white">
             Support
           </h2>
           <ul className="text-white dark:text-white">
-            <li className="mb-2">
-              <a
-                href="https://github.com/themesberg/flowbite"
-                className="hover:underline "
-              >
-                Contact Us
-              </a>
-            </li>
-            <li className="mb-2">
-              <a
-                href="https://discord.gg/4eeurUVvTy"
-                className="hover:underline"
-              >
-                Mail
-              </a>
-            </li>
+            {supportMenu.map((item, index) => {
+              return (
+                <li key={index} className="mb-2">
+                  <Link href={item.path}>{item.name}</Link>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </div>
