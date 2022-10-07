@@ -114,13 +114,13 @@ p {
 
 body{
    background-image: url('../components/shared/dtbg.svg');
-  
+   background-repeat:repeat-y;
+   background-size: contain;
 }
 
 @media (max-width: 768px) {
   
 body{
   background-image: url('../components/shared/mbbg.svg');
- 
 }
 }
