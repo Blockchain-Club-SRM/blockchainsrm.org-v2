@@ -115,7 +115,7 @@ p {
 body{
    background-image: url('../components/shared/dtbg.svg');
    background-repeat:repeat-y;
-   background-size: contain;
+   background-size: cover;
 }
 
 @media (max-width: 768px) {
