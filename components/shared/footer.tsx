@@ -56,7 +56,7 @@ const Footer = () => {
       icon: <AiFillLinkedin size={26} className="cursor-pointer" />,
     },
     {
-      key: "Instagram",
+      key: "Github",
       path: "/",
       icon: <AiFillGithub size={26} className="cursor-pointer" />,
     },
