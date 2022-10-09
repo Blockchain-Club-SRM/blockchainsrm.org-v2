@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-heading;
+  @apply font-heading font-normal;
 }
 p,
 span,
@@ -112,15 +112,14 @@ p {
   }
 }
 
-body{
-   background-image: url('../components/shared/dtbg.svg');
-   background-repeat:repeat-y;
-   background-size: 100%;
+body {
+  background-image: url("../public/dtbg.svg");
+  background-repeat: repeat-y;
+  background-size: 110%;
 }
 
 @media (max-width: 768px) {
-  
-body{
-  background-image: url('../components/shared/mbbg.svg');
-}
+  body {
+    background-image: url("../public/mbbg.svg");
+  }
 }
