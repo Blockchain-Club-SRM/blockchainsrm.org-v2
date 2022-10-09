@@ -1,6 +1,7 @@
 import React from "react";
+import Link from "next/link";
 
-const MenuItems = ({ show, active }: any) => {
+const MenuItems = ({ show, active, menu }: any) => {
   return (
     <div>
       <ul
@@ -11,24 +12,13 @@ const MenuItems = ({ show, active }: any) => {
         }
       >
         <div onClick={show}>x</div>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/">Events</a>
-        </li>
-        <li>
-          <a href="/">About us</a>
-        </li>
-        <li>
-          <a href="/">Our Team</a>
-        </li>
-        <li>
-          <a href="/">Projects</a>
-        </li>
-        <li>
-          <a href="/">Contact Us</a>
-        </li>
+        {menu.map((item, index) => {
+          return (
+            <li key={index}>
+              <Link href={item.path}>{item.name}</Link>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );
