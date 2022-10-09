@@ -5,7 +5,7 @@ import more from "../../public/assets/more_btn.png";
 
 const Landing = () => {
   return (
-    <div className="bg-black text-white p-4 flex justify-center items-center md:flex-row flex-col">
+    <div className=" text-white p-4 flex justify-center items-center md:flex-row flex-col">
       <div className="grid place-items-center md:place-items-start">
         <p className="font-extralight mb-6 text-base">
           WELCOME TO BLOCKCHAIN CLUB SRM
