@@ -3,6 +3,8 @@ import MenuItems from "./menu-item";
 import Logo from "../../public/assets/logo.svg";
 import more from "../../public/assets/more_btn.png";
 import Image from "next/image";
+import { BiMenu } from "react-icons/bi";
+import Link from "next/link";
 
 const Header = () => {
   const [active, setActive] = useState(false);
@@ -11,42 +13,51 @@ const Header = () => {
     setActive(!active);
   };
 
+  const menu = [
+    {
+      name: "Home",
+      path: "/",
+    },
+    {
+      name: "Events",
+      path: "/",
+    },
+    {
+      name: "About us",
+      path: "/",
+    },
+    {
+      name: "Our Team",
+      path: "/",
+    },
+    {
+      name: "Contact Us",
+      path: "/",
+    },
+  ];
+
   return (
     <div className="absolute w-full text-white flex justify-between  p-2 items-center left-0 right-0 z-50 top-0">
-      <div className="object-scale-down max-h-24 w-28">
-        <img src={Logo.src} alt="" />
-      </div>
+      <img src={Logo.src} alt="" className="h-16" />
       <nav>
-        <div className="absolute right-6 top-12 md:hidden">outlined</div>
+        <div className="absolute right-6 top-12 md:hidden">
+          <BiMenu onClick={show} size={26} className="cursor-pointer" />
+        </div>
         <ul className="hidden md:flex gap-8 p-3 py-6 content-center uppercase bg-navbar-gradient backdrop-blur-md">
-          <li>
-            <a href="https://tailwindcss.com/">Home</a>
-          </li>
-          <li>
-            <a href="/">Events</a>
-          </li>
-          <li>
-            <a href="/">About us</a>
-          </li>
-          <li>
-            <a href="/">Our Team</a>
-          </li>
-          <li>
-            <a href="/">Projects</a>
-          </li>
-          <li>
-            <a href="/">Contact Us</a>
-          </li>
+          {menu.map((item, index) => {
+            return (
+              <li key={index}>
+                <Link href={item.path}>{item.name}</Link>
+              </li>
+            );
+          })}
         </ul>
 
-        <MenuItems show={show} active={active} />
+        <MenuItems show={show} active={active} menu={menu} />
       </nav>
-      <Image
-        src={more}
-        alt="Explore More"
-        objectFit="scale-down"
-        className="w-10 h-10"
-      />
+      <Link href="https://github.com/">
+        <img src={more.src} alt="" className="invisible md:visible h-14" />
+      </Link>
     </div>
   );
 };
