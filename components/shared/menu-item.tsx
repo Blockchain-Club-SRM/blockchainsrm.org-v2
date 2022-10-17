@@ -12,7 +12,7 @@ const MenuItems = ({ show, active, menu }: any) => {
         }
       >
         <div onClick={show}>x</div>
-        {menu.map((item, index) => {
+        {menu.map((item: any, index: any) => {
           return (
             <li key={index}>
               <Link href={item.path}>{item.name}</Link>
