@@ -115,7 +115,7 @@ p {
 body {
   background-image: url("../public/dtbg.svg");
   background-repeat: repeat-y;
-  background-size: 110%;
+  background-size: 105%;
 }
 
 @media (max-width: 768px) {
@@ -124,7 +124,11 @@ body {
   }
 }
 
-.card{
-  background: linear-gradient(147.75deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+.card {
+  background: linear-gradient(
+    147.75deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
   backdrop-filter: blur(10px);
 }
