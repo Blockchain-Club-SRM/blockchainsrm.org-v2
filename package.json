@@ -9,10 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "jquery": "^3.6.1",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "react-spring": "^9.5.5",
+    "react-spring-3d-carousel": "^1.2.1"
   },
   "devDependencies": {
     "@types/node": "18.7.18",
