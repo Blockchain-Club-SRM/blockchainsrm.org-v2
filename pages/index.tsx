@@ -1,10 +1,10 @@
 import type { NextPage } from "next";
 import { Layout } from "../components/shared";
 import { Landing, Events } from "../components/index";
-
-import AboutUs from "../components/index/about";
-
 import Dummy from "../components/shared/dummy";
+import  AboutUs  from "../components/index/about"
+
+import Industry from "../components/index/Industry";
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +13,7 @@ const Home: NextPage = () => {
       <Events />
       <AboutUs />
       <Dummy />
+      <Industry/>
     </Layout>
   );
 };
