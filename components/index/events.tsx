@@ -10,6 +10,7 @@ const Events = () => {
       content: (
         <div className="h-[70%] w-[70%]">
           <Image src={dummy} alt="Events" />
+          <p>hello 1</p>
         </div>
       ),
     },
@@ -18,6 +19,7 @@ const Events = () => {
       content: (
         <div className="h-[70%] w-[70%]">
           <Image src={dummy} alt="Events" />
+          <p>2</p>
         </div>
       ),
     },
@@ -26,6 +28,7 @@ const Events = () => {
       content: (
         <div className="h-[70%] w-[70%]">
           <Image src={dummy} alt="Events" />
+          <p>3</p>
         </div>
       ),
     },
@@ -34,6 +37,7 @@ const Events = () => {
       content: (
         <div className="h-[70%] w-[70%]">
           <Image src={dummy} alt="Events" />
+          <p>4</p>
         </div>
       ),
     },
@@ -42,6 +46,7 @@ const Events = () => {
       content: (
         <div className="h-[70%] w-[70%]">
           <Image src={dummy} alt="Events" />
+          <p>5</p>
         </div>
       ),
     },
@@ -50,12 +55,13 @@ const Events = () => {
       content: (
         <div className="h-[70%] w-[70%]">
           <Image src={dummy} alt="Events" />
+          <p>6</p>
         </div>
       ),
     },
   ];
   return (
-    <div className="flex flex-col justify-center gap-12">
+    <div className="flex flex-col justify-center gap-12 mb-36">
       <h6 className="text-transparent bg-clip-text bg-subheading-gradient max-w-max self-center font-normal">
         Explore Our New & Upcoming Events
       </h6>

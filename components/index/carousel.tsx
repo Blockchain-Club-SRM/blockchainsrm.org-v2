@@ -9,8 +9,9 @@ export default function CarouselSection(props: any) {
 
   const [offsetRadius, setOffsetRadius] = useState(2);
   const [showArrows, setShowArrows] = useState(false);
-  const [goToSlide, setGoToSlide] = useState<number>(0);
+  const [goToSlide, setGoToSlide] = useState<number | null>(0);
   const [cards] = useState(table);
+  const [showNavigation, setShowNavigation] = useState(true);
 
   useEffect(() => {
     setOffsetRadius(props.offset);
@@ -18,8 +19,8 @@ export default function CarouselSection(props: any) {
   }, [props.offset, props.showArrows]);
 
   const Carousel: any = dynamic(() => import("react-spring-3d-carousel"), {
-    ssr: false,
     loading: () => <div>loading...</div>,
+    ssr: false,
   });
 
   return (
@@ -30,7 +31,7 @@ export default function CarouselSection(props: any) {
         slides={cards}
         goToSlide={goToSlide}
         offsetRadius={offsetRadius}
-        showNavigation={showArrows}
+        showNavigation={showNavigation}
         animationConfig={config.gentle}
       />
     </div>
