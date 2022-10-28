@@ -63,8 +63,18 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="p-4 sm:p-6 bg-transparent">
-      <div className="md:flex md:justify-around ">
+    <footer className="p-4 sm:p-6 bg-transparent relative ">
+      <img
+        src="assets/footer-cube.png"
+        alt=""
+        className="absolute scale-50 -left-64 -top-20 "
+      />
+      <img
+        src="assets/footer-hand.png"
+        alt=""
+        className="absolute scale-75 -right-40 -top-56"
+      />
+      <div className="md:flex md:justify-around relative">
         <div className="mb-6 md:mb-0">
           <img src={Logo.src} alt="" className="h-16 md:h-16" />
         </div>

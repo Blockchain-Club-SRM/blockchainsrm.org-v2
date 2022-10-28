@@ -61,12 +61,17 @@ const Events = () => {
     },
   ];
   return (
-    <div className="flex flex-col justify-center gap-12 mb-36">
+    <div className="flex flex-col justify-center gap-12 my-36 relative">
       <h6 className="text-transparent bg-clip-text bg-subheading-gradient max-w-max self-center font-normal">
         Explore Our New & Upcoming Events
       </h6>
 
       <h1 className="font-bold self-center text-white">Our Events</h1>
+      <img
+        src="assets/events-hand-top.png"
+        alt=""
+        className="absolute -right-56 scale-75 -z-10 top-[-25%]"
+      />
       <Carousel
         cards={cards}
         height="500px"
@@ -74,6 +79,12 @@ const Events = () => {
         margin="0 auto"
         offset={2}
         showArrows={false}
+      />
+
+      <img
+        src="assets/events-hand-bottom.png"
+        alt=""
+        className="absolute -left-64 scale-75 -z-10 bottom-[-75%]"
       />
     </div>
   );

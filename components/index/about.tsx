@@ -48,6 +48,11 @@ const AboutUs = () => {
         Guidance And Educating The Students With Latest Advancements In This
         Technology.
       </h4>
+      <img
+        src="assets/vision-statue.png"
+        alt=""
+        className="absolute -right-48 scale-75 -z-10"
+      />
 
       <h1 className="text-primary-blue font-bold mx-auto md:ml-24">
         Our Mission
@@ -57,6 +62,11 @@ const AboutUs = () => {
         Educating Them On New Terms In Blockchain And Encouraging Them To
         Participate In Events, Hackathons, Ideathons And Conferences.{" "}
       </h4>
+      <img
+        src="assets/mission-hand.png"
+        alt=""
+        className="absolute -right-48 scale-75 -z-10 bottom-[-20%]"
+      />
     </div>
   );
 };
