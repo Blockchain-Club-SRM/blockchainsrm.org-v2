@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"3d-react-carousel@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/3d-react-carousel/-/3d-react-carousel-1.0.0.tgz#76a4ddb8447280feaa12c8d25c481c80b8222829"
-  integrity sha512-5ChIc2JAGZhSgs7w1HxZbZYd17yIx2RLU74RI6Qj2aa91oZhO6qKHfsOtx7CmSsfFhiUc6k8Cdpmh7BAKhOL5g==
-
 "@babel/code-frame@^7.0.0":
   version "7.18.6"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.18.6.tgz#3b25d38c89600baa2dcc219edfa88a74eb2c427a"
