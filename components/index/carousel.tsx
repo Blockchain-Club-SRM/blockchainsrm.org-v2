@@ -9,7 +9,7 @@ export default function CarouselSection(props: any) {
 
   const [offsetRadius, setOffsetRadius] = useState(2);
   const [showArrows, setShowArrows] = useState(false);
-  const [goToSlide, setGoToSlide] = useState(undefined);
+  const [goToSlide, setGoToSlide] = useState<number>(0);
   const [cards] = useState(table);
 
   useEffect(() => {
