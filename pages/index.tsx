@@ -1,15 +1,18 @@
 import type { NextPage } from "next";
 import { Layout } from "../components/shared";
-import { Landing } from "../components/index";
-
+import { Landing, Events } from "../components/index";
+import Dummy from "../components/shared/dummy";
 import  AboutUs  from "../components/index/about"
 
 import Industry from "../components/index/Industry";
+
 const Home: NextPage = () => {
   return (
     <Layout>
       <Landing />
+      <Events />
       <AboutUs />
+      <Dummy />
       <Industry/>
     </Layout>
   );
