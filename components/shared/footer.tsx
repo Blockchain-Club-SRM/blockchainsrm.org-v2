@@ -72,7 +72,7 @@ const Footer = () => {
       <img
         src="assets/footer-hand.png"
         alt=""
-        className="absolute scale-75 -right-40 -top-56"
+        className="absolute scale-75 -right-40 md:-top-56"
       />
       <div className="md:flex md:justify-around relative">
         <div className="mb-6 md:mb-0">

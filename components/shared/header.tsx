@@ -40,13 +40,13 @@ const Header = () => {
     <div className="absolute w-full text-white flex justify-between  p-2 items-center left-0 right-0 z-50 top-0">
       <img src={Logo.src} alt="" className="h-16" />
       <nav>
-        <div className="absolute right-6 top-12 md:hidden">
+        <div className="absolute right-6 top-12 md:hidden cursor-pointer">
           <BiMenu onClick={show} size={26} className="cursor-pointer" />
         </div>
         <ul className="hidden md:flex gap-8 p-3 py-6 content-center uppercase bg-navbar-gradient backdrop-blur-md">
           {menu.map((item, index) => {
             return (
-              <li key={index}>
+              <li className="cursor-pointer" key={index}>
                 <Link href={item.path}>{item.name}</Link>
               </li>
             );

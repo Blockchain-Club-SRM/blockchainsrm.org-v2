@@ -3,18 +3,15 @@ import { config } from "react-spring";
 import dynamic from "next/dynamic";
 
 export default function CarouselSection(props: any) {
-  const table = props.cards.map((element: any, index: number) => {
+  const cards = props.cards.map((element: any, index: number) => {
     return { ...element, onClick: () => setGoToSlide(index) };
   });
 
-  const [offsetRadius, setOffsetRadius] = useState(2);
   const [showArrows, setShowArrows] = useState(false);
   const [goToSlide, setGoToSlide] = useState<number | null>(0);
-  const [cards] = useState(table);
-  const [showNavigation, setShowNavigation] = useState(true);
 
   useEffect(() => {
-    setOffsetRadius(props.offset);
+    // setOffsetRadius(props.offset);
     setShowArrows(props.showArrows);
   }, [props.offset, props.showArrows]);
 
@@ -24,14 +21,12 @@ export default function CarouselSection(props: any) {
   });
 
   return (
-    <div
-      style={{ width: props.width, height: props.height, margin: props.margin }}
-    >
+    <div className="h-64 md:h-[500px]">
       <Carousel
         slides={cards}
         goToSlide={goToSlide}
-        offsetRadius={offsetRadius}
-        showNavigation={showNavigation}
+        showNavigation={true}
+        offsetRadius={100}
         animationConfig={config.gentle}
       />
     </div>

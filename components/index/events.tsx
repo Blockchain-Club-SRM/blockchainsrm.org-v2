@@ -8,52 +8,47 @@ const Events = () => {
     {
       key: 1,
       content: (
-        <div className="h-[70%] w-[70%]">
+        <div className="max-h-[70%] w-[70%]">
           <Image src={dummy} alt="Events" />
-          <p>hello 1</p>
         </div>
       ),
     },
     {
       key: 2,
       content: (
-        <div className="h-[70%] w-[70%]">
+        <div className="max-h-[70%] w-[70%]">
           <Image src={dummy} alt="Events" />
-          <p>2</p>
         </div>
       ),
     },
     {
       key: 3,
       content: (
-        <div className="h-[70%] w-[70%]">
+        <div className="max-h-[70%] w-[70%]">
           <Image src={dummy} alt="Events" />
-          <p>3</p>
         </div>
       ),
     },
     {
       key: 4,
       content: (
-        <div className="h-[70%] w-[70%]">
+        <div className="max-h-[70%] w-[70%]">
           <Image src={dummy} alt="Events" />
-          <p>4</p>
         </div>
       ),
     },
     {
       key: 5,
       content: (
-        <div className="h-[70%] w-[70%]">
+        <div className="max-h-[70%] w-[70%]">
           <Image src={dummy} alt="Events" />
-          <p>5</p>
         </div>
       ),
     },
     {
       key: 6,
       content: (
-        <div className="h-[70%] w-[70%]">
+        <div className="max-h-[70%] w-[70%]">
           <Image src={dummy} alt="Events" />
           <p>6</p>
         </div>
@@ -72,14 +67,7 @@ const Events = () => {
         alt=""
         className="absolute -right-56 scale-75 -z-10 top-[-25%]"
       />
-      <Carousel
-        cards={cards}
-        height="500px"
-        width="80%"
-        margin="0 auto"
-        offset={2}
-        showArrows={false}
-      />
+      <Carousel cards={cards} showArrows={true} className="carousel" />
 
       <img
         src="assets/events-hand-bottom.png"
