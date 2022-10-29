@@ -20,15 +20,15 @@ const Header = () => {
     },
     {
       name: "Events",
-      path: "/",
+      path: "/#events",
     },
     {
       name: "About us",
-      path: "/",
+      path: "/#about-us",
     },
     {
       name: "Our Team",
-      path: "/",
+      path: "/team",
     },
     {
       name: "Contact Us",

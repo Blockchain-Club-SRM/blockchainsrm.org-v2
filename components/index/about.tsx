@@ -4,7 +4,10 @@ import Image from "next/image";
 
 const AboutUs = () => {
   return (
-    <div className="mt-14 flex justify-center flex-col gap-12 text-white md:max-w-[80%] mx-auto relative">
+    <div
+      id="about-us"
+      className="mt-14 flex justify-center flex-col gap-12 text-white md:max-w-[80%] mx-auto relative"
+    >
       <h6 className="text-transparent bg-clip-text bg-subheading-gradient max-w-max self-center font-normal">
         Everything About our Club
       </h6>

@@ -56,7 +56,10 @@ const Events = () => {
     },
   ];
   return (
-    <div className="flex flex-col justify-center gap-12 my-36 relative">
+    <div
+      className="flex flex-col justify-center gap-12 my-36 relative"
+      id="events"
+    >
       <h6 className="text-transparent bg-clip-text bg-subheading-gradient max-w-max self-center font-normal">
         Explore Our New & Upcoming Events
       </h6>
