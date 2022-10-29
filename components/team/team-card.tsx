@@ -15,7 +15,7 @@ const TeamCard = ({ details }: any) => {
           <p className="text-gray-400">@{position}</p>
         </div>
         <button className="py-2 px-6 border-[#F81DFB] border-2 rounded-full">
-          <a href={socials} target="_blank" rel="noopener">
+          <a href={socials} target="_blank" rel="noopener noreferrer">
             Socials
           </a>
         </button>
