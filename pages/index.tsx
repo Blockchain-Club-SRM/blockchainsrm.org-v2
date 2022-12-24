@@ -7,6 +7,8 @@ import AboutUs from "../components/index/about";
 import Industry from "../components/index/industry";
 import Head from "next/head";
 
+import {Newsletter} from "../components/index/newsletter";
+
 const Home: NextPage = () => {
   return (
     <>
@@ -19,6 +21,7 @@ const Home: NextPage = () => {
         {/* <Dummy /> */}
         <Events />
         <Industry />
+        <Newsletter />
       </Layout>
     </>
   );

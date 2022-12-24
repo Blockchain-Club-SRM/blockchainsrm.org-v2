@@ -135,3 +135,7 @@ body {
   );
   backdrop-filter: blur(10px);
 }
+
+.newsletterSubmit {
+  clip-path: polygon(0 45%, 70% 45%, 70% 25%, 100% 65%, 0 65%);
+}
