@@ -31,7 +31,7 @@ const AboutUs = () => {
         <img
           src={horz.src}
           alt=""
-          className="px-6 max-h-32 hidden lg:block col-start-1 col-end-3 row-span-2"
+          className="px-6 z-30 max-h-32 hidden lg:block col-start-1 col-end-3 row-span-2"
         />
         <h4 className="lg:-mt-12 ml-0 lg:-ml-[5%] xl:-ml-[15%] font-light leading-8 max-w-3xl col-start-2 row-span-2 col-span-2">
           Empowering Blockchain Professionals And Enthusiasts, And Instilling
@@ -48,7 +48,7 @@ const AboutUs = () => {
         <img
           src={horz.src}
           alt=""
-          className="px-6 max-h-32 hidden lg:block col-start-1 col-end-3 row-span-2"
+          className="px-6 z-30 max-h-32 hidden lg:block col-start-1 col-end-3 row-span-2"
         />
         <h4 className="lg:-mt-12 ml-0 lg:-ml-[5%] xl:-ml-[15%] font-light leading-8 max-w-3xl col-start-2 row-span-2 col-span-2">
           Providing Students With Opportunities And Projects On A Regular Basis.

@@ -38,7 +38,7 @@ const Header = () => {
 
   return (
     <div className="absolute w-full text-white flex justify-between  p-2 items-center left-0 right-0 z-50 top-0">
-      <img src={Logo.src} alt="" className="h-16" />
+      <img src={Logo.src} alt="" className="h-16 ml-12" />
       <nav>
         <div className="absolute right-6 top-12 md:hidden cursor-pointer">
           <BiMenu onClick={show} size={26} className="cursor-pointer" />
@@ -56,7 +56,11 @@ const Header = () => {
         <MenuItems show={show} active={active} menu={menu} />
       </nav>
       <Link href="https://github.com/">
-        <img src={more.src} alt="" className="invisible md:visible h-14" />
+        <img
+          src={more.src}
+          alt=""
+          className="invisible md:visible h-12 mr-12"
+        />
       </Link>
     </div>
   );
