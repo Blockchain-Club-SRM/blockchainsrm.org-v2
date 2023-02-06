@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "./carousel";
 import Image from "next/image";
 import dummy from "../../public/assets/events_dummy.png";
+import Modal from "./eventModal";
 
 const Events = () => {
   const cards = [
@@ -56,6 +57,7 @@ const Events = () => {
     },
   ];
   return (
+    <>
     <div
       className="flex flex-col justify-center gap-12 my-36 relative"
       id="events"
@@ -78,6 +80,8 @@ const Events = () => {
         className="absolute -left-64 scale-75 -z-10 bottom-[-75%]"
       />
     </div>
+    <Modal />
+    </>
   );
 };
 

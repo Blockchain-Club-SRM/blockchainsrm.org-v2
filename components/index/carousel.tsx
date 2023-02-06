@@ -1,10 +1,24 @@
 import { useState, useEffect } from "react";
 import { config } from "react-spring";
 import dynamic from "next/dynamic";
+import Modal from "./eventModal";
 
 export default function CarouselSection(props: any) {
   const cards = props.cards.map((element: any, index: number) => {
-    return { ...element, onClick: () => setGoToSlide(index) };
+    return { ...element, onClick: () => {
+      
+      let heading = document.getElementById('event-modal-name')
+      let date = document.getElementById('event-modal-date')
+      let content = document.getElementById('event-modal-content')
+      if (heading && date && content) {
+        document.querySelector('body')?.classList.add('overflow-hidden')
+        heading.innerHTML = 'Event Name' //props.heading;
+        date.innerHTML = 'Hello' //props.date;
+        content.innerHTML = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod laborum nam porro voluptatibus itaque quibusdam vero, odio laudantium aspernatur, distinctio, doloremque nemo eius provident sed soluta repellendus architecto vitae suscipit.' //props.content;
+        document.getElementById('event-modal-container')?.classList.remove('hidden');
+      }
+      setGoToSlide(index)
+    } };
   });
 
   const [showArrows, setShowArrows] = useState(false);
