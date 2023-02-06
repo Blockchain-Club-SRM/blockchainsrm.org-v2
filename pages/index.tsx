@@ -5,6 +5,7 @@ import Dummy from "../components/shared/dummy";
 import AboutUs from "../components/index/about";
 
 import Industry from "../components/index/industry";
+import Partners from "../components/index/partners";
 import Head from "next/head";
 
 import {Newsletter} from "../components/index/newsletter";
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
         {/* <Dummy /> */}
         <Events />
         <Industry />
+        <Partners/>
         <Newsletter />
       </Layout>
     </>
