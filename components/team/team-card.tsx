@@ -3,7 +3,7 @@ import React from "react";
 const TeamCard = ({ details }: any) => {
   const { name, position, socials, profile, cover } = details;
   return (
-    <div className="flex flex-col bg-team-gradient p-4 rounded-xl relative text-white xl:max-w-[20%]">
+    <div className="flex flex-col bg-team-gradient p-2 rounded-xl relative text-white xl:max-w-[20%]">
       <img src={cover} alt="" />
       <img src={profile} className="w-[5rem] h-[5rem] -mt-[10%] z-0 rounded-[50%] " alt="" />
       <div className="flex my-8 justify-between">

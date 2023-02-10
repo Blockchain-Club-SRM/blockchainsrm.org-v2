@@ -3,7 +3,7 @@ import Carousel from "./carousel";
 import Image from "next/image";
 import dummy from "../../public/assets/events_dummy.png";
 import Modal from "./eventModal";
-
+import blogo from '../../public/images/blogo.jpeg'
 const Events = () => {
   const cards = [
     {
@@ -13,6 +13,11 @@ const Events = () => {
           <Image src={dummy} alt="Events" />
         </div>
       ),
+      img: '/images/inauguration.png',
+      heading : "Inauguration",
+      desc : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt sapien nec turpis egestas, pellentesque suscipit turpis venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque commodo a erat quis consequat.  ",
+      date : "12 may "
+
     },
     {
       key: 2,
@@ -21,6 +26,11 @@ const Events = () => {
           <Image src={dummy} alt="Events" />
         </div>
       ),
+      img : '/images/decode.png',
+      heading : "De-Code",
+      desc : "De-Code was organised by Blockchain Club SRM to help students comprehend the relationship between blockchain and emerging technologies. More than 250 students attended the event on September 23, 2022, from 2:00 to 5:00 p.m. in the G N Ramachandran Hall of the Biotechnology Building. Mr. Krishna, Blockchain Architect at Roni Analytics, and Mr. Chandrashekhar, Product Manager at Lumos Lab, were the keynote speakers. Sponsors of the event were Octaloop, Lumos Lab, and Roni Analytics.",
+      date : "23 sept"
+      
     },
     {
       key: 3,
@@ -29,6 +39,11 @@ const Events = () => {
           <Image src={dummy} alt="Events" />
         </div>
       ),
+      img : "/images/byzantine.png",
+      heading : "Byzantine",
+      desc : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt sapien nec turpis egestas, pellentesque suscipit turpis venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque commodo a erat quis consequat.  ",
+      date : "13 june"
+
     },
     {
       key: 4,
@@ -37,24 +52,33 @@ const Events = () => {
           <Image src={dummy} alt="Events" />
         </div>
       ),
+      heading : "DS Hack",
+      desc : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt sapien nec turpis egestas, pellentesque suscipit turpis venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque commodo a erat quis consequat.  ",
+      date : "1-4 sept"
     },
     {
-      key: 5,
+      key: 4,
       content: (
         <div className="max-h-[70%] w-[70%]">
           <Image src={dummy} alt="Events" />
         </div>
       ),
+      heading : "DS Hack",
+      desc : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt sapien nec turpis egestas, pellentesque suscipit turpis venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque commodo a erat quis consequat.  ",
+      date : "1-4 sept"
     },
     {
-      key: 6,
+      key: 4,
       content: (
         <div className="max-h-[70%] w-[70%]">
           <Image src={dummy} alt="Events" />
-          <p>6</p>
         </div>
       ),
+      heading : "DS Hack",
+      desc : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt sapien nec turpis egestas, pellentesque suscipit turpis venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque commodo a erat quis consequat.  ",
+      date : "1-4 sept"
     },
+    
   ];
   return (
     <>
@@ -72,7 +96,7 @@ const Events = () => {
         alt=""
         className="absolute -right-56 scale-75 -z-10 top-[-25%]"
       />
-      <Carousel cards={cards} showArrows={true} className="carousel" />
+      <Carousel cards={cards} showArrows={true} className="carousel"  />
 
       <img
         src="assets/events-hand-bottom.png"
@@ -80,7 +104,7 @@ const Events = () => {
         className="absolute -left-64 scale-75 -z-10 bottom-[-75%]"
       />
     </div>
-    <Modal />
+    <Modal /> 
     </>
   );
 };
