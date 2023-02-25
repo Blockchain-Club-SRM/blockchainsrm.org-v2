@@ -1,16 +1,23 @@
 import React from "react";
 import Carousel from "./carousel";
-import Image from "next/image";
-import dummy from "../../public/assets/events_dummy.png";
 import Modal from "./eventModal";
-import blogo from "../../public/images/blogo.jpeg";
+
+import dummy from "../../public/assets/events_dummy.png";
+import E1 from "../../public/assets/events/E1.png";
+import E2 from "../../public/assets/events/E2.png";
+import E3 from "../../public/assets/events/E3.png";
+
 const Events = () => {
   const cards = [
     {
       key: 1,
       content: (
-        <div className="max-h-[70%] w-[70%]">
-          <img src={`${dummy.src}`} alt="Events" />
+        <div className="event-card max-h-[70%] w-[70%] cursor-pointer relative">
+          <img src={`${dummy.src}`} alt="Events"/>
+          <div className="hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="text-xl text-[#00D1FF]">Inauguration</p>
+            <p className="text-xl text-white">12 May</p>
+          </div>
         </div>
       ),
       img: "/images/inauguration.png",
@@ -21,8 +28,12 @@ const Events = () => {
     {
       key: 2,
       content: (
-        <div className="max-h-[70%] w-[70%]">
-          <img src={`${dummy.src}`} alt="Events" />
+        <div className="event-card max-h-[70%] w-[70%] cursor-pointer relative">
+          <img src={`${E1.src}`} alt="Events"/>
+          <div className="hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="text-xl text-[#00D1FF]">De-code</p>
+            <p className="text-xl text-white">23 Sept</p>
+          </div>
         </div>
       ),
       img: "/images/decode.png",
@@ -33,8 +44,12 @@ const Events = () => {
     {
       key: 3,
       content: (
-        <div className="max-h-[70%] w-[70%]">
-          <img src={`${dummy.src}`} alt="Events" />
+        <div className="event-card max-h-[70%] w-[70%] cursor-pointer relative">
+          <img src={`${dummy.src}`} alt="Events"/>
+          <div className="hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="text-xl text-[#00D1FF]">Byzantine</p>
+            <p className="text-xl text-white">13 June</p>
+          </div>
         </div>
       ),
       img: "/images/byzantine.png",
@@ -45,8 +60,12 @@ const Events = () => {
     {
       key: 4,
       content: (
-        <div className="max-h-[70%] w-[70%]">
-          <img src={`${dummy.src}`} alt="Events" />
+        <div className="event-card max-h-[70%] w-[70%] cursor-pointer relative">
+          <img src={`${E3.src}`} alt="Events"/>
+          <div className="hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="text-xl text-[#00D1FF]">DS Hack</p>
+            <p className="text-xl text-white">1-4 Sept</p>
+          </div>
         </div>
       ),
       heading: "DS Hack",
@@ -56,8 +75,12 @@ const Events = () => {
     {
       key: 5,
       content: (
-        <div className="max-h-[70%] w-[70%]">
-          <img src={`${dummy.src}`} alt="Events" />
+        <div className="event-card max-h-[70%] w-[70%] cursor-pointer relative">
+          <img src={`${E1.src}`} alt="Events"/>
+          <div className="hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="text-xl text-[#00D1FF]">DS Hack</p>
+            <p className="text-xl text-white">1-4 Sept</p>
+          </div>
         </div>
       ),
       heading: "DS Hack",
@@ -67,8 +90,12 @@ const Events = () => {
     {
       key: 6,
       content: (
-        <div className="max-h-[70%] w-[70%]">
-          <img src={`${dummy.src}`} alt="Events" />
+        <div className="event-card max-h-[70%] w-[70%] cursor-pointer relative">
+          <img src={`${E3.src}`} alt="Events" className="object-cover"/>
+          <div className="hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="text-xl text-[#00D1FF]">DS Hack</p>
+            <p className="text-xl text-white">1-4 Sept</p>
+          </div>
         </div>
       ),
       heading: "DS Hack",
