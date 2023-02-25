@@ -5,7 +5,7 @@ const TeamCard = ({ details }: any) => {
   return (
     <div className="flex flex-col bg-team-gradient p-4 rounded-xl relative text-white xl:max-w-[22%]">
       <img src={cover} alt="" />
-      <img src={profile} className="w-[5rem] h-[5rem] -mt-[10%] object-cover rounded-full " alt="" />
+      <img src={profile} className="w-[6rem] h-[6rem] -mt-[15%] ml-[7%] border-[3px] border-black object-cover rounded-full " alt="" />
       <div className="flex my-8 justify-between items-center gap-1 flex-wrap">
         <div className="flex flex-col">
           <div className="flex gap-1">
