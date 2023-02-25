@@ -3,6 +3,8 @@ import p1 from '../../public/partner1.png'
 import p2 from '../../public/partner2.png'
 import p3 from '../../public/partner3.png'
 import p4 from '../../public/partner4.png'
+import { uuid } from 'uuidv4';
+
 const data = [
    {
       id : 1,
@@ -32,7 +34,7 @@ const Partners = () => {
       <h1 className="font-bold self-center">Our Partners</h1>
       <div className="md:flex ">
         {data.map((data)=>(
-            <div className="mx-12 md:my-12 " >
+            <div key={uuid()} className="mx-12 md:my-12 " >
                    <img  className="mx-auto" src={data.img.src} alt="img" />
              </div>
         ))}
