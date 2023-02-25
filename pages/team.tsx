@@ -28,10 +28,10 @@ const team = () => {
       cover: "/assets/teams/3.png",
     },
     {
-      name: 'Pranay',
-      position: 'cryptolead',
-      socials: 'https://www.linkedin.com/in/pranay-goenka-241931227/',
-      profile: 'https://drive.google.com/uc?export=view&id=1Le4ZMiRn7zCj41vagb-flEi_I1VKzUyA',
+      name: 'Deepak',
+      position: 'techlead',
+      socials: 'Nhi hai',
+      profile: 'https://drive.google.com/uc?export=view&id=1VF4XWQL95omv9UYcHWnu6mPsg6x9pJ5p',
       cover: "/assets/teams/4.png",
     },
     {
