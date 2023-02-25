@@ -28,10 +28,10 @@ const team = () => {
       cover: "/assets/teams/3.png",
     },
     {
-      name: 'Deepak',
-      position: 'techlead',
-      socials: 'Nhi hai',
-      profile: 'cyber-wallpaper - Deepak Kumar.jpg',
+      name: 'Pranay',
+      position: 'cryptolead',
+      socials: 'https://www.linkedin.com/in/pranay-goenka-241931227/',
+      profile: 'https://drive.google.com/uc?export=view&id=1Le4ZMiRn7zCj41vagb-flEi_I1VKzUyA',
       cover: "/assets/teams/4.png",
     },
     {
@@ -131,7 +131,7 @@ const team = () => {
       name: 'Pratham',
       position: 'Tech',
       socials: 'https://github.com/pratham-bhatnagar',
-      profile: 'https://drive.google.com/uc?export=view&id=1h5C_YyBTNcx3Mzk13RLGxdkFUkxqsL2X',
+      profile: 'https://drive.google.com/uc?export=view&id=198EiEUHUw_NNYzEXDBajFC8SxyoT4-bc',
       cover: '/assets/teams/D1.png'
     },
     {
@@ -222,7 +222,7 @@ const team = () => {
       name: 'Devansh',
       position: 'member',
       socials: 'https://github.com/Devansh-Mehra',
-      profile: 'IMG_20221106_203639 - devansh mehra.jpg'
+      profile: 'https://drive.google.com/uc?export=view&id=1CDPdZTXg4GgP9KmdXpDgakuvx4V58s-R'
     },
     {
       name: 'Divyansh',
