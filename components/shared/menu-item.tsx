@@ -11,10 +11,15 @@ const MenuItems = ({ show, active, menu }: any) => {
             : "hidden"
         }
       >
-        <div onClick={show}>x</div>
+        <div
+          onClick={show}
+          className="cursor-pointer font-semibold hover:text-primary-pink"
+        >
+          x
+        </div>
         {menu.map((item: any, index: any) => {
           return (
-            <li key={index}>
+            <li key={index} className="hover:text-primary-pink">
               <Link href={item.path}>{item.name}</Link>
             </li>
           );
