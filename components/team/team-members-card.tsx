@@ -3,9 +3,9 @@ import React from "react";
 const TeamMembersCard = ({ details }: any) => {
   const { name, position, socials, profile, cover } = details;
   return (
-    <div className="flex flex-col bg-team-gradient p-4 rounded-xl justify-between relative text-white xl:max-w-[20%]">
+    <div className="flex flex-col p-2 justify-between relative text-white">
       
-      <img src={profile} className="w-[7rem] h-[7rem] -mt-[10%] z-0 rounded-[50%] " alt="" />
+      <img src={profile} className="w-[7rem] h-[7rem] object-cover rounded-full " alt="" />
        <p className="text-center mt-4">{name}</p>
          
     </div>
