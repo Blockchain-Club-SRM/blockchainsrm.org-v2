@@ -37,13 +37,13 @@ const Header = () => {
   ];
 
   return (
-    <div className="absolute w-full text-white flex justify-between  p-2 items-center left-0 right-0 z-50 top-0">
-      <img src={Logo.src} alt="" className="h-16 ml-12" />
+    <div className="absolute w-full text-white flex justify-between  p-2 items-center left-0 right-0 z-50 top-0 bg-navbar-gradient">
+      <img src={Logo.src} alt="" className="h-16 md:ml-6" />
       <nav>
-        <div className="absolute right-6 top-12 md:hidden cursor-pointer">
+        <div className="md:hidden cursor-pointer">
           <BiMenu onClick={show} size={26} className="cursor-pointer" />
         </div>
-        <ul className="hidden md:flex gap-8 p-3 py-6 content-center uppercase bg-navbar-gradient backdrop-blur-md">
+        <ul className="hidden md:flex gap-8 p-3 py-6 mr-6 content-center uppercase backdrop-blur-md">
           {menu.map((item, index) => {
             return (
               <li className="cursor-pointer" key={index}>
@@ -52,18 +52,8 @@ const Header = () => {
             );
           })}
         </ul>
-
         <MenuItems show={show} active={active} menu={menu} />
       </nav>
-      <div className="cursor-pointer">
-        <Link href="https://github.com/Blockchain-Club-SRM">
-          <img
-            src={more.src}
-            alt=""
-            className="invisible md:visible h-12 mr-12"
-          />
-        </Link>
-      </div>
     </div>
   );
 };

@@ -19,11 +19,6 @@ const Landing = () => {
           inquisitive minds, that believes in implementing concepts of Web3 and
           Decentralization
         </p>
-        <div className="w-40 lg:w-1/5 md:w-1/3 mt-7 ">
-          <a href="https://github.com/">
-            <Image src={more} alt="Explore More" />
-          </a>
-        </div>
       </div>
       <div className="md:w-fit w-[70%] md:mt-0 mt-6">
         <Image src={heroImage} alt="Hero Image" />
