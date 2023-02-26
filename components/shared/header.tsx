@@ -37,7 +37,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="absolute w-full text-white flex justify-between  p-2 items-center left-0 right-0 z-50 top-0">
+    <div className="fixed w-full text-white flex justify-between  p-2 items-center left-0 right-0 z-50 top-0">
       <Link href={"/"}>
         <img src={Logo.src} alt="" className="h-16 ml-12 cursor-pointer" />
       </Link>
