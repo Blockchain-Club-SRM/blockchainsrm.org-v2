@@ -4,7 +4,6 @@ import Modal from "./eventModal";
 
 import dummy from "../../public/assets/events_dummy.png";
 import E1 from "../../public/assets/events/E1.png";
-import E2 from "../../public/assets/events/E2.png";
 import E3 from "../../public/assets/events/E3.png";
 
 const Events = () => {
