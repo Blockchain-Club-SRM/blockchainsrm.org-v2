@@ -3,6 +3,11 @@ import p1 from '../../public/partner1.png'
 import p2 from '../../public/partner2.png'
 import p3 from '../../public/partner3.png'
 import p4 from '../../public/partner4.png'
+import p5 from '../../public/partner5.png'
+import p6 from '../../public/partner6.png'
+import p7 from '../../public/partner7.png'
+import p8 from '../../public/partner8.png'
+import p9 from '../../public/partner9.png'
 import { uuid } from 'uuidv4';
 import Image from "next/image";
 
@@ -23,6 +28,26 @@ const data = [
       id : 4,
       img : p4
    },
+   {
+      id:5,
+      img: p5
+   },
+   {
+      id:6,
+      img:p6
+   },
+   {
+      id:7,
+      img:p7
+   },
+   {
+      id:8,
+      img:p8
+   },
+   {
+      id:9,
+      img:p9
+   }
 ]
 const Partners = () => {
 
