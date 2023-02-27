@@ -745,7 +745,7 @@ const team = () => {
       <Head>
         <title>Blockchain Club SRM | Team</title>
       </Head>
-      <Layout className="flex flex-col gap-8">
+      <Layout className="flex flex-col gap-8 mt-8">
         <h1 className="font-bold text-white self-center">Our Team</h1>
         <h2 className="text-[#00D1FF] mt-4 font-semibold">Leads:</h2>
         <div className="flex flex-wrap gap-10 items-center justify-center">
