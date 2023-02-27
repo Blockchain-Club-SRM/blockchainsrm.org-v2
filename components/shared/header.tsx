@@ -43,7 +43,7 @@ const Header = () => {
         <div className="md:hidden cursor-pointer">
           <BiMenu onClick={show} size={26} className="cursor-pointer" />
         </div>
-        <ul className="hidden md:flex gap-8 p-3 py-6 mr-6 content-center uppercase backdrop-blur-md">
+        <ul className="hidden md:flex gap-8 p-3 py-6 mr-6 content-center uppercase">
           {menu.map((item, index) => {
             return (
               <li className="cursor-pointer" key={index}>
