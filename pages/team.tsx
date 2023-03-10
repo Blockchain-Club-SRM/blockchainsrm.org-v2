@@ -131,8 +131,8 @@ const team = () => {
       name: 'Pratham',
       position: 'Tech',
       socials: 'https://github.com/pratham-bhatnagar',
-      profile: 'https://drive.google.com/uc?export=view&id=198EiEUHUw_NNYzEXDBajFC8SxyoT4-bc',
-      cover: '/assets/teams/D1.png'
+      profile: './images/pratham-pfp.png',
+      cover: '/images/pratham-cover.png'
     },
     {
       name: 'Siddhardha',
