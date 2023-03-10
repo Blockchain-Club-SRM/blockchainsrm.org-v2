@@ -107,6 +107,13 @@ const team = () => {
   ];
   const associates = [
     {
+      name: 'Pratham',
+      position: 'Tech',
+      socials: 'https://twitter.com/prrthamm',
+      profile: './images/pratham-pfp.png',
+      cover: '/images/pratham-cover.png'
+    },
+    {
       name: 'Abhivansh',
       position: 'Tech',
       socials: 'https://github.com/AbhivanshBhatnagar',
@@ -126,13 +133,6 @@ const team = () => {
       socials: 'https://github.com/mdfarhaan',
       profile: 'https://drive.google.com/uc?export=view&id=1GQNNHyrgEgKwtvaa3-R4FogV8sUYdvec',
       cover: '/assets/teams/3.png'
-    },
-    {
-      name: 'Pratham',
-      position: 'Tech',
-      socials: 'https://github.com/pratham-bhatnagar',
-      profile: './images/pratham-pfp.png',
-      cover: '/images/pratham-cover.png'
     },
     {
       name: 'Siddhardha',
