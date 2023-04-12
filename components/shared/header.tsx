@@ -37,16 +37,25 @@ const Header = () => {
   ];
 
   return (
-    <div className="absolute w-full text-white flex justify-between  p-2 items-center left-0 right-0 z-50 top-0 bg-navbar-gradient">
-      <img src={Logo.src} alt="" className="h-16 md:ml-6" />
+    <div
+      className={`fixed w-full text-white flex justify-between  p-2 items-center left-0 right-0 z-50 top-0 ${
+        !active && " backdrop-blur-md md:backdrop-blur-none"
+      }`}
+    >
+      <Link href={"/"}>
+        <img src={Logo.src} alt="" className="h-16 ml-12 cursor-pointer" />
+      </Link>
       <nav>
-        <div className="md:hidden cursor-pointer">
+        <div className="absolute right-6 top-6 md:hidden cursor-pointer">
           <BiMenu onClick={show} size={26} className="cursor-pointer" />
         </div>
-        <ul className="hidden md:flex gap-8 p-3 py-6 mr-6 content-center uppercase">
+        <ul className="hidden md:flex gap-8 p-3 py-6 lg:w-[50vw] md:justify-center content-center uppercase bg-navbar-gradient backdrop-blur-md">
           {menu.map((item, index) => {
             return (
-              <li className="cursor-pointer" key={index}>
+              <li
+                className="cursor-pointer hover:text-primary-pink"
+                key={index}
+              >
                 <Link href={item.path}>{item.name}</Link>
               </li>
             );
