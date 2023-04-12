@@ -15,13 +15,10 @@ const AboutUs = () => {
       <h1 className="font-bold self-center">About Us</h1>
 
       <h4 className="flex justify-center mt-6 text-center bg-about-gradient rounded-lg p-8 font-light leading-8">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Blockchain Club SRM is the pioneer student-led club around concepts of
+        Web3 and distributed consensus. We are a club of 40+ strong members with
+        expertise in various domains and technologies. Blockchain Club SRM is a
+       student driven community dedicated to improving the web3 sector. 
       </h4>
 
       <h1 className="text-primary-blue font-bold mx-auto md:mx-0 md:ml-24">

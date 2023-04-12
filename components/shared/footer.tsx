@@ -86,9 +86,9 @@ const Footer = () => {
           <ul className="flex gap-4 p-6 content-center">
             {socialMenu.map((item) => {
               return (
-                <Link key={item.key} href={item.path}>
-                  {item.icon}
-                </Link>
+                <li key={item.key} className="hover:text-[#AD1AAF]">
+                  <Link href={item.path}>{item.icon}</Link>
+                </li>
               );
             })}
           </ul>
@@ -101,7 +101,7 @@ const Footer = () => {
           <ul className="text-white dark:text-white">
             {menu.map((item, index) => {
               return (
-                <li key={index} className="mb-2">
+                <li key={index} className="mb-2 hover:text-[#AD1AAF]">
                   <Link href={item.path}>{item.name}</Link>
                 </li>
               );
@@ -116,7 +116,7 @@ const Footer = () => {
           <ul className="text-white dark:text-white">
             {supportMenu.map((item, index) => {
               return (
-                <li key={index} className="mb-2">
+                <li key={index} className="mb-2 hover:text-[#AD1AAF]">
                   <Link href={item.path}>{item.name}</Link>
                 </li>
               );

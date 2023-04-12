@@ -1,16 +1,22 @@
 import React from "react";
 import Carousel from "./carousel";
-import Image from "next/image";
-import dummy from "../../public/assets/events_dummy.png";
 import Modal from "./eventModal";
-import blogo from "../../public/images/blogo.jpeg";
+
+import dummy from "../../public/assets/events_dummy.png";
+import E1 from "../../public/assets/events/E1.png";
+import E3 from "../../public/assets/events/E3.png";
+
 const Events = () => {
   const cards = [
     {
       key: 1,
       content: (
-        <div className="max-h-[70%] w-[70%]">
-          <img src={`${dummy.src}`} alt="Events" />
+        <div className="event-card cursor-pointer ">
+          <img src={`/images/inauguration.png`}  className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md" alt="Events"/>
+          <div className="hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="text-xl text-[#00D1FF]">Inauguration</p>
+            <p className="text-xl text-white">12 May</p>
+          </div>
         </div>
       ),
       img: "/images/inauguration.png",
@@ -21,11 +27,15 @@ const Events = () => {
     {
       key: 2,
       content: (
-        <div className="max-h-[70%] w-[70%]">
-          <img src={`${dummy.src}`} alt="Events" />
+        <div className="event-card cursor-pointer ">
+          <img src={`./images/decode.jpeg`} className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md" alt="Events"/>
+          <div className="hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="text-xl text-[#00D1FF]">De-code</p>
+            <p className="text-xl text-white">23 Sept</p>
+          </div>
         </div>
       ),
-      img: "/images/decode.png",
+      img: "/images/decode.jpeg",
       heading: "De-Code",
       desc: "De-Code was organised by Blockchain Club SRM to help students comprehend the relationship between blockchain and emerging technologies. More than 250 students attended the event on September 23, 2022, from 2:00 to 5:00 p.m. in the G N Ramachandran Hall of the Biotechnology Building. Mr. Krishna, Blockchain Architect at Roni Analytics, and Mr. Chandrashekhar, Product Manager at Lumos Lab, were the keynote speakers. Sponsors of the event were Octaloop, Lumos Lab, and Roni Analytics.",
       date: "23 sept",
@@ -33,8 +43,12 @@ const Events = () => {
     {
       key: 3,
       content: (
-        <div className="max-h-[70%] w-[70%]">
-          <img src={`${dummy.src}`} alt="Events" />
+        <div className="event-card cursor-pointer ">
+          <img src={`/images/byzantine.jpeg`} className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md" alt="Events"/>
+          <div className="hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="text-xl text-[#00D1FF]">Byzantine</p>
+            <p className="text-xl text-white">13 June</p>
+          </div>
         </div>
       ),
       img: "/images/byzantine.png",
@@ -42,39 +56,7 @@ const Events = () => {
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt sapien nec turpis egestas, pellentesque suscipit turpis venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque commodo a erat quis consequat.  ",
       date: "13 june",
     },
-    {
-      key: 4,
-      content: (
-        <div className="max-h-[70%] w-[70%]">
-          <img src={`${dummy.src}`} alt="Events" />
-        </div>
-      ),
-      heading: "DS Hack",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt sapien nec turpis egestas, pellentesque suscipit turpis venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque commodo a erat quis consequat.  ",
-      date: "1-4 sept",
-    },
-    {
-      key: 5,
-      content: (
-        <div className="max-h-[70%] w-[70%]">
-          <img src={`${dummy.src}`} alt="Events" />
-        </div>
-      ),
-      heading: "DS Hack",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt sapien nec turpis egestas, pellentesque suscipit turpis venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque commodo a erat quis consequat.  ",
-      date: "1-4 sept",
-    },
-    {
-      key: 6,
-      content: (
-        <div className="max-h-[70%] w-[70%]">
-          <img src={`${dummy.src}`} alt="Events" />
-        </div>
-      ),
-      heading: "DS Hack",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt sapien nec turpis egestas, pellentesque suscipit turpis venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque commodo a erat quis consequat.  ",
-      date: "1-4 sept",
-    },
+    
   ];
   return (
     <>

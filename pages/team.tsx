@@ -10,14 +10,14 @@ const team = () => {
       position: "president",
       socials: "https://www.linkedin.com/in/aditya-jain-b5040a1b8/",
       profile: "https://drive.google.com/uc?export=view&id=1C0bQc95LJq0OKzlMQc0YHIO978-0mJh0",
-      cover: "/assets/teams/default-cover-1.png",
+      cover: "/assets/teams/1.png",
     },
     {
       name: "Sreyom",
       position: "vicepresident",
       socials: "https://www.github.com/sreyom31",
       profile: "https://drive.google.com/uc?export=view&id=1kWm0fJJeYuDXL_0XSwPW9WBKPjUxqERv",
-      cover: "/assets/teams/default-cover-1.png",
+      cover: "/assets/teams/2.png",
     },
 
     {
@@ -25,137 +25,143 @@ const team = () => {
       position: "vicepresident",
       socials: "https://www.linkedin.com/in/sarvottammishra",
       profile: "https://drive.google.com/uc?export=view&id=1g89fN8PE-pvpCNJK-Gf23QGZEo6bAaZA",
-      cover: "/assets/teams/default-cover-1.png",
-    },
-
-    {
-      name: 'Pranay',
-      position: 'cryptolead',
-      socials: 'https://www.linkedin.com/in/pranay-goenka-241931227/',
-      profile: 'https://drive.google.com/uc?export=view&id=1Le4ZMiRn7zCj41vagb-flEi_I1VKzUyA',
-      cover: "/assets/teams/default-cover-1.png",
-    },
-    {
-      name: 'Yash',
-      position: 'cryptolead',
-      socials: 'https://www.linkedin.com/in/yash-khandelwal-76384b227',
-      profile: 'https://drive.google.com/uc?export=view&id=1-lzuiC95b9TWUOjOc5HP2l-ysD_r6MS2',
-      cover: "/assets/teams/default-cover-1.png",
-    },
-    {
-      name: 'Ayushya',
-      position: 'corporatelead',
-      socials: 'https://www.linkedin.com/in/torque44/',
-      profile: 'https://drive.google.com/uc?export=view&id=1M5WHPYm_10tPbfM0ldaxDVJ6FRkn28JS',
-      cover: "/assets/teams/default-cover-1.png",
-    },
-    {
-      name: 'Toshak',
-      position: 'corporatelead',
-      socials: 'https://www.linkedin.com/in/toshak-kamal-kaushik-362954166/',
-      profile: 'https://drive.google.com/uc?export=view&id=1ou0xD39AOvdRrrBgssIb_qK0aSuNuJxF',
-      cover: "/assets/teams/default-cover-1.png",
-    },
-    {
-      name: 'Ujjwal',
-      position: 'corporatelead',
-      socials: 'Ujjwal Gupta',
-      profile: 'https://drive.google.com/uc?export=view&id=1DlqDks_VTGeuF6sYal3FbQfgscgyifrr',
-      cover: "/assets/teams/default-cover-1.png",
-    },
-    {
-      name: 'Yuvraj',
-      position: 'corporatelead',
-      socials: 'https://www.linkedin.com/in/yuvraj-patel-014364152',
-      profile: 'https://drive.google.com/uc?export=view&id=1RkR4wdLJCmboZ8KstmXQ5OU2Ne3pzxMO',
-      cover: "/assets/teams/default-cover-1.png",
-    },
-    {
-      name: 'Arpit',
-      position: 'creativeslead',
-      socials: 'https://www.linkedin.com/in/arpit-goyal-b476271a0',
-      profile: 'https://drive.google.com/uc?export=view&id=1rN6IPBbwbOiTd92I6qQlk0LQr9QSU381',
-      cover: "/assets/teams/default-cover-1.png",
-    },
-    {
-      name: 'Shweta',
-      position: 'creativeslead',
-      socials: 'www.linkedin.com/in/shweta-sanadhya',
-      profile: 'https://drive.google.com/uc?export=view&id=1YPKT1ZHjFf8BMOt6qewz2gLeBLinE4d7',
-      cover: "/assets/teams/default-cover-1.png",
-    },
-    {
-      name: 'Lakshmi',
-      position: 'editoriallead',
-      socials: 'https://www.linkedin.com/in/lakshmi-vibha/',
-      profile: 'https://drive.google.com/uc?export=view&id=1IOg1SahJ0bBlv1YwZu_EUxZfbTyb8QCy',
-      cover: "/assets/teams/default-cover-1.png",
-    },
-    {
-      name: 'Saatvik',
-      position: 'editoriallead',
-      socials: 'https://www.linkedin.com/in/saatvik-yadav-8698b41ba',
-      profile: 'https://drive.google.com/uc?export=view&id=198ffJMO0FfX0vS4feGpHVJy7-wThOllu',
-      cover: "/assets/teams/default-cover-1.png",
+      cover: "/assets/teams/3.png",
     },
     {
       name: 'Deepak',
       position: 'techlead',
       socials: 'Nhi hai',
       profile: 'https://drive.google.com/uc?export=view&id=1VF4XWQL95omv9UYcHWnu6mPsg6x9pJ5p',
-      cover: "/assets/teams/default-cover-1.png",
-    }
+      cover: "/assets/teams/4.png",
+    },
+    {
+      name: 'Yash',
+      position: 'cryptolead',
+      socials: 'https://www.linkedin.com/in/yash-khandelwal-76384b227',
+      profile: 'https://drive.google.com/uc?export=view&id=1-lzuiC95b9TWUOjOc5HP2l-ysD_r6MS2',
+      cover: "/assets/teams/5.png",
+    },
+    {
+      name: 'Pranay',
+      position: 'cryptolead',
+      socials: 'https://www.linkedin.com/in/pranay-goenka-241931227/',
+      profile: 'https://drive.google.com/uc?export=view&id=1jJQUN9J1VtODd8mFRKEHQlKARYg1NGwB',
+      cover: "/assets/teams/6.png",
+    },
+    {
+      name: 'Ayushya',
+      position: 'corporatelead',
+      socials: 'https://www.linkedin.com/in/torque44/',
+      profile: 'https://drive.google.com/uc?export=view&id=1M5WHPYm_10tPbfM0ldaxDVJ6FRkn28JS',
+      cover: "/assets/teams/7.png",
+    },
+    {
+      name: 'Yuvraj',
+      position: 'corporatelead',
+      socials: 'https://www.linkedin.com/in/yuvraj-patel-014364152',
+      profile: 'https://drive.google.com/uc?export=view&id=1RkR4wdLJCmboZ8KstmXQ5OU2Ne3pzxMO',
+      cover: "/assets/teams/D1.png",
+    },
+    {
+      name: 'Ujjwal',
+      position: 'corporatelead',
+      socials: 'Ujjwal Gupta',
+      profile: 'https://drive.google.com/uc?export=view&id=1DlqDks_VTGeuF6sYal3FbQfgscgyifrr',
+      cover: "/assets/teams/9.png",
+    },
+    {
+      name: 'Toshak',
+      position: 'corporatelead',
+      socials: 'https://www.linkedin.com/in/toshak-kamal-kaushik-362954166/',
+      profile: 'https://drive.google.com/uc?export=view&id=1ou0xD39AOvdRrrBgssIb_qK0aSuNuJxF',
+      cover: "/assets/teams/10.png",
+    },
+    {
+      name: 'Saatvik',
+      position: 'editoriallead',
+      socials: 'https://www.linkedin.com/in/saatvik-yadav-8698b41ba',
+      profile: 'https://drive.google.com/uc?export=view&id=198ffJMO0FfX0vS4feGpHVJy7-wThOllu',
+      cover: "/assets/teams/11.png",
+    },
+    {
+      name: 'Vibha',
+      position: 'editoriallead',
+      socials: 'https://www.linkedin.com/in/lakshmi-vibha/',
+      profile: 'https://drive.google.com/uc?export=view&id=1IOg1SahJ0bBlv1YwZu_EUxZfbTyb8QCy',
+      cover: "/assets/teams/12.png",
+    },
+    {
+      name: 'Arpit',
+      position: 'creativeslead',
+      socials: 'https://www.linkedin.com/in/arpit-goyal-b476271a0',
+      profile: 'https://drive.google.com/uc?export=view&id=1rN6IPBbwbOiTd92I6qQlk0LQr9QSU381',
+      cover: "/assets/teams/13.png",
+    },
+    // {
+    //   name: 'Shweta',
+    //   position: 'creativeslead',
+    //   socials: 'www.linkedin.com/in/shweta-sanadhya',
+    //   profile: 'https://drive.google.com/uc?export=view&id=1YPKT1ZHjFf8BMOt6qewz2gLeBLinE4d7',
+    //   cover: "/assets/teams/11.png",
+    // },
   ];
   const associates = [
     {
-      name: 'Maharsi',
-      position: 'Crypto',
-      socials: 'https://www.linkedin.com/in/maharsi-bhagat',
-      profile: 'https://drive.google.com/uc?export=view&id=1LoBg7H5qOyIYTkkWxwz4_GOYF2WYxmRF',
-      cover: '/assets/teams/default-cover.png'
-    },
-    {
-      name: 'Vedant',
-      position: 'Crypto',
-      socials: 'https://www.linkedin.com/in/vedant-utage-043020223/',
-      profile: 'https://drive.google.com/uc?export=view&id=1p1xqVz4gLe2b-7eZl-PBYbLIjgZynqT3',
-      cover: '/assets/teams/default-cover.png'
+      name: 'Pratham',
+      position: 'Tech',
+      socials: 'https://twitter.com/prrthamm',
+      profile: './images/pratham-pfp.png',
+      cover: '/images/pratham-cover.png'
     },
     {
       name: 'Abhivansh',
       position: 'Tech',
       socials: 'https://github.com/AbhivanshBhatnagar',
       profile: 'https://drive.google.com/uc?export=view&id=1qaz6CCA9QnHdqA6pjkeZRWgcbFvd0RFg',
-      cover: '/assets/teams/default-cover.png'
+      cover: '/assets/teams/14.png'
     },
     {
       name: 'Harashnabin',
       position: 'Tech',
       socials: 'https://github.com/HarashnabinRoy',
       profile: 'https://drive.google.com/uc?export=view&id=18SILoYRR4EUVe3clA1B5Cpmr_ZZhrEs4',
-      cover: '/assets/teams/default-cover.png'
+      cover: '/assets/teams/D2.png'
     },
     {
       name: 'Farhaan',
       position: 'Tech',
       socials: 'https://github.com/mdfarhaan',
       profile: 'https://drive.google.com/uc?export=view&id=1GQNNHyrgEgKwtvaa3-R4FogV8sUYdvec',
-      cover: '/assets/teams/default-cover.png'
-    },
-    {
-      name: 'Pratham',
-      position: 'Tech',
-      socials: 'https://github.com/pratham-bhatnagar',
-      profile: 'https://drive.google.com/uc?export=view&id=198EiEUHUw_NNYzEXDBajFC8SxyoT4-bc',
-      cover: '/assets/teams/default-cover.png'
+      cover: '/assets/teams/3.png'
     },
     {
       name: 'Siddhardha',
       position: 'Tech',
       socials: 'https://github.com/Siddhardha123',
       profile: 'https://drive.google.com/uc?export=view&id=1X-BRkanJJopk11IOrPiHXbWxoSgHRauj',
-      cover: '/assets/teams/default-cover.png'
-    }
+      cover: '/assets/teams/1.png'
+    },
+    {
+      name: 'Maharsi',
+      position: 'Crypto',
+      socials: 'https://www.linkedin.com/in/maharsi-bhagat',
+      profile: 'https://drive.google.com/uc?export=view&id=1LoBg7H5qOyIYTkkWxwz4_GOYF2WYxmRF',
+      cover: '/assets/teams/D2.png'
+    },
+    {
+      name: 'Vedant',
+      position: 'Crypto',
+      socials: 'https://www.linkedin.com/in/vedant-utage-043020223/',
+      profile: 'WhatsApp Image 2022-11-06 at 8.34.36 PM - Vedant Utage.jpeg',
+      cover: '/assets/teams/20.png'
+    },
+    {
+      name: 'Aditya',
+      position: 'Editorial',
+      socials: 'https://github.com/ADITYAz2002',
+      profile: 'https://drive.google.com/uc?export=view&id=1_lCaUFtjVWGsXdMSZwBDPRpC8o3eirxt',
+      cover: '/assets/teams/D1.png'
+    },
   ];
   const tech: any[] = [
     {
@@ -691,12 +697,6 @@ const team = () => {
       profile: 'https://drive.google.com/uc?export=view&id=1kLEorICBCIsuehAcVFrJredeT0TAP-o6'
     },
     {
-      name: 'Aditya',
-      position: 'member',
-      socials: 'https://github.com/ADITYAz2002',
-      profile: 'https://drive.google.com/uc?export=view&id=1_lCaUFtjVWGsXdMSZwBDPRpC8o3eirxt'
-    },
-    {
       name: 'Ayushi',
       position: 'member',
       socials: 'https://github.com/dreamcatcher1712',
@@ -745,7 +745,7 @@ const team = () => {
       <Head>
         <title>Blockchain Club SRM | Team</title>
       </Head>
-      <Layout className="flex flex-col gap-8">
+      <Layout className="flex flex-col gap-8 mt-8">
         <h1 className="font-bold text-white self-center">Our Team</h1>
         <h2 className="text-[#00D1FF] mt-4 font-semibold">Leads:</h2>
         <div className="flex flex-wrap gap-10 items-center justify-center">

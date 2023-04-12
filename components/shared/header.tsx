@@ -61,18 +61,8 @@ const Header = () => {
             );
           })}
         </ul>
-
         <MenuItems show={show} active={active} menu={menu} />
       </nav>
-      <div className="cursor-pointer">
-        <Link href="https://github.com/Blockchain-Club-SRM">
-          <img
-            src={more.src}
-            alt=""
-            className="invisible md:visible h-12 mr-12"
-          />
-        </Link>
-      </div>
     </div>
   );
 };

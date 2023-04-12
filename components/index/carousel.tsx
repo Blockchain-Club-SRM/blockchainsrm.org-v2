@@ -26,10 +26,11 @@ export default function CarouselSection(props: any) {
   });
 
   const [showArrows, setShowArrows] = useState(false);
-  const [goToSlide, setGoToSlide] = useState<number | null>(0);
+  const [goToSlide, setGoToSlide] = useState<number>(0);
 
   useEffect(() => {
     // setOffsetRadius(props.offset);
+    console.log(goToSlide);
     setShowArrows(props.showArrows);
   }, [props.offset, props.showArrows]);
 
