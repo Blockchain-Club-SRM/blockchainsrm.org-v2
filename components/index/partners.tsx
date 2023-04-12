@@ -8,6 +8,7 @@ import p6 from '../../public/partner6.png'
 import p7 from '../../public/partner7.png'
 import p8 from '../../public/partner8.png'
 import p9 from '../../public/partner9.png'
+import p10 from '../../public/partner10.png'
 import { uuid } from 'uuidv4';
 import Image from "next/image";
 
@@ -45,9 +46,14 @@ const data = [
       img:p8
    },
    {
+      id:10,
+      img:p10
+   },
+   {
       id:9,
       img:p9
-   }
+   },
+
 ]
 const Partners = () => {
 
@@ -60,7 +66,7 @@ const Partners = () => {
       <div className="flex md:flex-row  flex-wrap flex-col items-center justify-evenly gap-10">
         {data.map((data)=>(
             <div key={uuid()} className="" >
-                   <Image width={200} height={90} className="mx-auto cursor-pointer object-contain" src={data.img.src} alt="Sponsors" />
+                   <Image width={200} height={110} className={`mx-auto cursor-pointer object-contain`} src={data.img.src} alt="Sponsors"/>
              </div>
         ))}
         
