@@ -16,25 +16,21 @@ const Footer = () => {
     },
     {
       name: "Events",
-      path: "/",
+      path: "/#events",
     },
     {
       name: "About us",
-      path: "/",
+      path: "/#about-us",
     },
     {
       name: "Our Team",
-      path: "/",
+      path: "/team",
     },
   ];
 
   const supportMenu = [
     {
       name: "Contact Us",
-      path: "/",
-    },
-    {
-      name: "Mail",
       path: "/",
     },
   ];
