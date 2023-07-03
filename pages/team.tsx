@@ -70,7 +70,7 @@ const team: React.FC<TeamPageProps> = ({ data }) => {
 
 export default team;
 
-export async function getStaticProps(context: unknown) {
+export async function getStaticProps() {
   const leads = [
     {
       name: "Aditya",

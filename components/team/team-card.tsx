@@ -7,20 +7,20 @@ const TeamCard = ({ details }: any) => {
     <div className="flex flex-col bg-team-gradient p-4 rounded-xl relative text-white xl:max-w-[22%]">
       <Image
         src={cover}
-        blurDataURL="L5AcANr@01KO1NNv}T,p4VxG_KEf"
-        placeholder="blur"
         alt=""
         width={200}
         height={125}
+        priority={true}
+        unoptimized
         className="object-cover rounded-md"
       />
       <div className="w-20 h-20 -mt-[20%] ml-[8%] relative rounded-full">
         <Image
-          blurDataURL="LLK-LRofFyae~UofIpWA00j[DhWA"
-          placeholder="blur"
           src={profile}
           alt=""
           layout="fill"
+          priority={true}
+          unoptimized
           className="object-cover rounded-full"
         />
       </div>
@@ -32,6 +32,8 @@ const TeamCard = ({ details }: any) => {
               src="/assets/teams/check.svg"
               width={15}
               height={15}
+              priority={true}
+              unoptimized
               alt=""
             />
           </div>
