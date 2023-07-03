@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 
 const TeamCard = ({ details }: any) => {
   const { name, position, socials, profile, cover } = details;
+  const [isLoading, setIsLoading] = useState(true);
+
+  const handleImageLoad = () => {
+    console.log("check");
+    setIsLoading(false);
+  };
+
   return (
     <div className="flex flex-col bg-team-gradient p-4 rounded-xl relative text-white xl:max-w-[22%]">
       <Image
@@ -10,8 +17,7 @@ const TeamCard = ({ details }: any) => {
         alt=""
         width={200}
         height={125}
-        priority={true}
-        unoptimized
+        loading="lazy"
         className="object-cover rounded-md"
       />
       <div className="w-20 h-20 -mt-[20%] ml-[8%] relative rounded-full">
@@ -19,9 +25,11 @@ const TeamCard = ({ details }: any) => {
           src={profile}
           alt=""
           layout="fill"
-          priority={true}
-          unoptimized
-          className="object-cover rounded-full"
+          onLoad={handleImageLoad}
+          loading="lazy"
+          className={`bg-slate-700 object-cover rounded-full ${
+            isLoading ? "animate-pulse" : ""
+          }`}
         />
       </div>
       <div className="flex my-8 justify-between items-center gap-1 flex-wrap">
@@ -32,8 +40,7 @@ const TeamCard = ({ details }: any) => {
               src="/assets/teams/check.svg"
               width={15}
               height={15}
-              priority={true}
-              unoptimized
+              loading="lazy"
               alt=""
             />
           </div>
