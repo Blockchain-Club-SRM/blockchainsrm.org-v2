@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <div
       id="about-us"
-      className="mt-14 flex justify-center flex-col gap-12 text-white md:max-w-[80%] mx-auto relative"
+      className="mt-4 flex justify-center flex-col gap-8 text-white md:max-w-[80%] mx-auto relative"
     >
       <h6 className="text-transparent bg-clip-text bg-subheading-gradient max-w-max self-center font-normal">
         Everything About our Club
@@ -14,7 +14,7 @@ const AboutUs = () => {
 
       <h1 className="font-bold self-center">About Us</h1>
 
-      <h4 className="flex justify-center mt-6 text-center bg-about-gradient rounded-lg p-8 font-light leading-8">
+      <h4 className="flex justify-center mt-4 text-center bg-about-gradient rounded-lg p-8 font-light leading-8">
         Blockchain Club SRM is the pioneer student-led club around concepts of
         Web3 and distributed consensus. We are a club of 40+ strong members with
         expertise in various domains and technologies. Blockchain Club SRM is a
@@ -30,7 +30,7 @@ const AboutUs = () => {
           alt=""
           className="px-6 z-30 max-h-32 hidden lg:block col-start-1 col-end-3 row-span-2"
         />
-        <h4 className="lg:-mt-12 ml-0 lg:-ml-[5%] xl:-ml-[15%] font-light leading-8 max-w-3xl col-start-2 row-span-2 col-span-2">
+        <h4 className="lg:-mt-10 ml-0 lg:-ml-[5%] xl:-ml-[15%] font-light leading-8 max-w-3xl col-start-2 row-span-2 col-span-2">
           Empowering Blockchain Professionals And Enthusiasts, And Instilling
           Knowledge To Be Trailblazers In The Industry. Providing Support And
           Guidance And Educating The Students With Latest Advancements In This
@@ -47,7 +47,7 @@ const AboutUs = () => {
           alt=""
           className="px-6 z-30 max-h-32 hidden lg:block col-start-1 col-end-3 row-span-2"
         />
-        <h4 className="lg:-mt-12 ml-0 lg:-ml-[5%] xl:-ml-[15%] font-light leading-8 max-w-3xl col-start-2 row-span-2 col-span-2">
+        <h4 className="lg:-mt-10 ml-0 lg:-ml-[5%] xl:-ml-[15%] font-light leading-8 max-w-3xl col-start-2 row-span-2 col-span-2">
           Providing Students With Opportunities And Projects On A Regular Basis.
           Educating Them On New Terms In Blockchain And Encouraging Them To
           Participate In Events, Hackathons, Ideathons And Conferences.{" "}
@@ -57,7 +57,7 @@ const AboutUs = () => {
       <img
         src={verticalLine.src}
         alt=""
-        className="absolute z-20 h-3/5 top-1/3 mt-8 px-6 hidden lg:block"
+        className="absolute z-20 h-3/5 top-1/3 mt-2 px-6 hidden lg:block"
       />
       <img
         src="assets/mission-hand.png"
