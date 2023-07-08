@@ -9,6 +9,7 @@ import p7 from '../../public/partner7.png'
 import p8 from '../../public/partner8.png'
 import p9 from '../../public/partner9.png'
 import p10 from '../../public/partner10.png'
+import p12 from '../../public/wstf-logo.svg'
 import { uuid } from 'uuidv4';
 import Image from "next/image";
 
@@ -53,6 +54,10 @@ const data = [
       id:9,
       img:p9
    },
+   {
+      id:12,
+      img:p12
+   }
 
 ]
 const Partners = () => {
