@@ -25,10 +25,11 @@ const TeamCard = ({ details }: any) => {
           src={profile}
           alt=""
           layout="fill"
-          onLoad={handleImageLoad}
-          loading="lazy"
-          className={`bg-slate-700 object-cover rounded-full ${
-            isLoading ? "animate-pulse" : ""
+          objectFit="cover"
+          onLoadingComplete={handleImageLoad}
+          priority={true}
+          className={`rounded-full ${
+            isLoading ? "bg-[#54115c] animate-pulse" : ""
           }`}
         />
       </div>

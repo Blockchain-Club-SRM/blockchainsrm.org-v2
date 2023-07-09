@@ -16,14 +16,13 @@ const TeamMembersCard = ({ details }: any) => {
         height={120}
         quality={100}
         src={profile}
-        // layout="intrinsic"
         objectFit="cover"
         className={`${
-          isLoading ? "animate-pulse" : ""
-        } rounded-full bg-[#54115c]`}
+          isLoading ? "animate-pulse" : "bg-[#54115c]"
+        } rounded-full `}
         alt=""
         onLoadingComplete={handleImageLoad}
-        priority={true}
+        loading="eager"
       />
 
       <p className="text-center mt-4">{name}</p>

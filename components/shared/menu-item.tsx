@@ -18,8 +18,8 @@ const MenuItems = ({ show, active, menu }: any) => {
         {menu.map((item: any, index: any) => {
           return (
             <li key={index} className="hover:text-primary-pink">
-              <Link onClick={show} href={item.path}>
-                {item.name}
+              <Link href={item.path}>
+                <div onClick={show}>{item.name}</div>
               </Link>
             </li>
           );
