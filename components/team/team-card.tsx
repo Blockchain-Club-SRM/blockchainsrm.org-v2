@@ -27,7 +27,7 @@ const TeamCard = ({ details }: any) => {
           layout="fill"
           objectFit="cover"
           onLoadingComplete={handleImageLoad}
-          priority={true}
+          loading="eager"
           className={`rounded-full ${
             isLoading ? "bg-[#54115c] animate-pulse" : ""
           }`}
