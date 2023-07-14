@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import MenuItems from "./menu-item";
 import Logo from "../../public/assets/logo.svg";
+import Srm from "../../public/assets/srm.png";
 import more from "../../public/assets/more_btn.png";
 import Image from "next/image";
 import { BiMenu } from "react-icons/bi";
@@ -42,9 +43,12 @@ const Header = () => {
         !active && " backdrop-blur-md md:backdrop-blur-none"
       }`}
     >
-      <Link href={"/"}>
-        <img src={Logo.src} alt="" className="h-16 ml-12 cursor-pointer" />
-      </Link>
+      <div className="flex items-center">
+        <img src={Srm.src} alt="" className="h-16 cursor-pointer" />
+        <Link href={"/"}>
+          <img src={Logo.src} alt="" className="h-16 cursor-pointer" />
+        </Link>
+      </div>
       <nav>
         <div className="absolute right-6 top-6 md:hidden cursor-pointer">
           <BiMenu onClick={show} size={26} className="cursor-pointer" />
