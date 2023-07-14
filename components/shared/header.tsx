@@ -43,7 +43,7 @@ const Header = () => {
         !active && " backdrop-blur-md md:backdrop-blur-none"
       }`}
     >
-      <div className="flex items-center">
+      <div className="flex items-center space-x-3">
         <img src={Srm.src} alt="" className="h-16 cursor-pointer" />
         <Link href={"/"}>
           <img src={Logo.src} alt="" className="h-16 cursor-pointer" />
