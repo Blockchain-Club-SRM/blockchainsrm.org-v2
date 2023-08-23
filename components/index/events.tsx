@@ -11,10 +11,10 @@ const Events = () => {
     {
       key: 1,
       content: (
-        <div className="event-card cursor-pointer ">
+        <div className="event-card cursor-pointer group">
           <img src={`/images/inauguration.png`}  className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md" alt="Events"/>
-          <div className="hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-            <p className="text-xl text-[#00D1FF]">Inauguration</p>
+          <div className=" hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="text-xl text-[#00D1FF] group-hover:mt-72">Inauguration</p>
             <p className="text-xl text-white">12 May</p>
           </div>
         </div>
@@ -27,10 +27,10 @@ const Events = () => {
     {
       key: 2,
       content: (
-        <div className="event-card cursor-pointer ">
+        <div className="event-card cursor-pointer group ">
           <img src={`./images/decode.jpeg`} className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md" alt="Events"/>
-          <div className="hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-            <p className="text-xl text-[#00D1FF]">De-code</p>
+          <div className=" hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="text-xl text-[#00D1FF] group-hover:mt-80">De-code</p>
             <p className="text-xl text-white">23 Sept</p>
           </div>
         </div>
@@ -43,10 +43,10 @@ const Events = () => {
     {
       key: 3,
       content: (
-        <div className="event-card cursor-pointer ">
+        <div className="event-card cursor-pointer group ">
           <img src={`/images/byzantine.jpeg`} className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md" alt="Events"/>
           <div className="hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-            <p className="text-xl text-[#00D1FF]">Byzantine</p>
+            <p className="text-xl text-[#00D1FF] group-hover:mt-96">Byzantine</p>
             <p className="text-xl text-white">13 June</p>
           </div>
         </div>
