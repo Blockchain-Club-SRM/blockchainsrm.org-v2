@@ -33,7 +33,7 @@ const Header = () => {
     },
     {
       name: "Contact Us",
-      path: "/",
+      path: "/contact",
     },
   ];
 
