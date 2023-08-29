@@ -139,7 +139,7 @@ body {
 .modal-event-content {
   background-image: url("../public/dtbg.svg");
   background-size: cover;
-  background-position: center;;
+  background-position: center;
 }
 
 .newsletterSubmit {
@@ -157,10 +157,10 @@ body {
   background: #fff;
 }
 
-.event-card:hover img{
+.event-card:hover img {
   filter: blur(10px);
   transition: 0.2s;
 }
-.event-card:hover div{
+.event-card:hover div {
   display: flex;
 }

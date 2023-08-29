@@ -31,7 +31,7 @@ const Footer = () => {
   const supportMenu = [
     {
       name: "Contact Us",
-      path: "/",
+      path: "/contact",
     },
     {
       name: "Mail",
