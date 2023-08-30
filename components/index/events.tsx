@@ -15,7 +15,7 @@ const Events = () => {
           <img src={`/images/inauguration.png`}  className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md" alt="Events"/>
           <div className=" hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             <p className="text-xl text-[#00D1FF] group-hover:mt-72">Inauguration</p>
-            <p className="text-xl text-white">12 May</p>
+            <p className="text-xl text-white">12 May 2022</p>
           </div>
         </div>
       ),
@@ -31,7 +31,7 @@ const Events = () => {
           <img src={`./images/decode.jpeg`} className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md" alt="Events"/>
           <div className=" hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             <p className="text-xl text-[#00D1FF] group-hover:mt-80">De-code</p>
-            <p className="text-xl text-white">23 Sept</p>
+            <p className="text-xl text-white">23 Sept 2022</p>
           </div>
         </div>
       ),
@@ -41,13 +41,29 @@ const Events = () => {
       date: "23 sept",
     },
     {
+      key: 4,
+      content: (
+        <div className="event-card cursor-pointer group ">
+          <img src={`/images/convulent.jpg`} className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md" alt="Events"/>
+          <div className="hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="text-xl text-[#00D1FF] group-hover:mt-96">Convulent</p>
+            <p className="text-xl text-white">28 Feb 2023</p>
+          </div>
+        </div>
+      ),
+      img: "/images/convulent.jpg",
+      heading: "Convulent",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt sapien nec turpis egestas, pellentesque suscipit turpis venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque commodo a erat quis consequat.  ",
+      date: "28 Feb 2023",
+    },
+    {
       key: 3,
       content: (
         <div className="event-card cursor-pointer group ">
           <img src={`/images/byzantine.jpeg`} className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md" alt="Events"/>
           <div className="hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             <p className="text-xl text-[#00D1FF] group-hover:mt-96">Byzantine</p>
-            <p className="text-xl text-white">13 June</p>
+            <p className="text-xl text-white">13 June 2022</p>
           </div>
         </div>
       ),
