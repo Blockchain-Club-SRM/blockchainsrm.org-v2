@@ -28,13 +28,13 @@ const TeamCard = ({ details }: any) => {
           <p className="text-gray-400">@{position}</p>
         </div>
         <div className="flex justify-between gap-1">
-          <a href={socials} target="_blank" rel="noopener noreferrer">
+          <a href={socials.linkedin} target="_blank" rel="noopener noreferrer">
             <AiFillLinkedin className="text-white text-xl" />
           </a>
-          <a href={socials} target="_blank" rel="noopener noreferrer">
+          <a href={socials.github} target="_blank" rel="noopener noreferrer">
             <AiFillGithub className="text-white text-xl" />
           </a>
-          <a href={socials} target="_blank" rel="noopener noreferrer">
+          <a href={socials.twitter} target="_blank" rel="noopener noreferrer">
             <AiFillTwitterCircle className="text-white text-xl" />
           </a>
         </div>
