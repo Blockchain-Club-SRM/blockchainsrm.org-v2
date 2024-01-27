@@ -16,15 +16,15 @@ const Footer = () => {
     },
     {
       name: "Events",
-      path: "/",
+      path: "/#events",
     },
     {
       name: "About us",
-      path: "/",
+      path: "/#about-us",
     },
     {
       name: "Our Team",
-      path: "/",
+      path: "/team",
     },
   ];
 
@@ -35,14 +35,14 @@ const Footer = () => {
     },
     {
       name: "Mail",
-      path: "/",
+      path: "mailto:blockchainclubsrm@gmail.com",
     },
   ];
 
   const socialMenu = [
     {
       key: "Instagram",
-      path: "/",
+      path: "https://www.instagram.com/blockchainsrm/",
       icon: <AiOutlineInstagram size={26} className="cursor-pointer" />,
     },
     {
@@ -57,7 +57,7 @@ const Footer = () => {
     },
     {
       key: "Github",
-      path: "/",
+      path: "https://github.com/Blockchain-Club-SRM",
       icon: <AiFillGithub size={26} className="cursor-pointer" />,
     },
   ];
@@ -87,7 +87,9 @@ const Footer = () => {
             {socialMenu.map((item) => {
               return (
                 <li key={item.key} className="hover:text-[#AD1AAF]">
-                  <Link href={item.path}>{item.icon}</Link>
+                  <Link href={item.path} target="_blank" rel="noopener noreferrer">
+                    {item.icon}
+                  </Link>
                 </li>
               );
             })}
@@ -102,7 +104,9 @@ const Footer = () => {
             {menu.map((item, index) => {
               return (
                 <li key={index} className="mb-2 hover:text-[#AD1AAF]">
-                  <Link href={item.path}>{item.name}</Link>
+                  <Link href={item.path} target="_blank" rel="noopener noreferrer">
+                    {item.name}
+                  </Link>
                 </li>
               );
             })}
@@ -117,7 +121,9 @@ const Footer = () => {
             {supportMenu.map((item, index) => {
               return (
                 <li key={index} className="mb-2 hover:text-[#AD1AAF]">
-                  <Link href={item.path}>{item.name}</Link>
+                  <Link href={item.path} target="_blank" rel="noopener noreferrer">
+                    {item.name}
+                  </Link>
                 </li>
               );
             })}
