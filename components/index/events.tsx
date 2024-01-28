@@ -77,26 +77,30 @@ const Events = () => {
   return (
     <>
       <div
-        className="flex flex-col justify-center gap-12 my-36 relative"
+        className="relative"
         id="events"
       >
-        <h6 className="text-transparent bg-clip-text bg-subheading-gradient max-w-max self-center font-normal">
-          Explore Our New & Upcoming Events
-        </h6>
+        <div className="flex flex-col justify-center gap-12 my-36 relative">
+          <h6 className="text-transparent bg-clip-text bg-subheading-gradient max-w-max self-center font-normal">
+            Explore Our New & Upcoming Events
+          </h6>
 
-        <h1 className="font-bold self-center text-white">Our Events</h1>
-        <img
-          src="assets/events-hand-top.png"
-          alt=""
-          className="absolute -right-56 scale-75 -z-10 top-[-25%]"
-        />
-        <Carousel cards={cards} showArrows={true} className="carousel" />
+          <h1 className="font-bold self-center text-white">Our Events</h1>
 
-        <img
-          src="assets/events-hand-bottom.png"
-          alt=""
-          className="absolute -left-64 scale-75 -z-10 bottom-[-75%]"
-        />
+          <Carousel cards={cards} showArrows={true} className="carousel" />
+
+          <img
+            src="assets/event-top-hand.png"
+            alt=""
+            className="absolute left-0 transform -translate-x-1/2 -translate-y-1/2 scale-75 -z-10 top-1/2"
+          />
+
+          <img
+            src="assets/event-bottom-hand.png"
+            alt=""
+            className="absolute right-0 transform translate-x-1/2 translate-y-1/2 scale-50 -z-10 bottom-0"
+          />
+        </div>
       </div>
       <Modal />
     </>

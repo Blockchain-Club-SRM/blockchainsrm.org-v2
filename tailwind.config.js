@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         "primary-blue": "#00D1FF",
         "primary-pink": "#AD1AAF",
+        "dark-purple":"#4A235A",
       },
       backgroundImage: {
         "subheading-gradient":
