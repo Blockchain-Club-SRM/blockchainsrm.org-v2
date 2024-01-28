@@ -16,11 +16,11 @@ const Footer = () => {
     },
     {
       name: "Events",
-      path: "/",
+      path: "/#events",
     },
     {
       name: "About us",
-      path: "/",
+      path: "/#about-us",
     },
     {
       name: "Our Team",
