@@ -16,11 +16,11 @@ const Footer = () => {
     },
     {
       name: "Events",
-      path: "/#events",
+      path: "/",
     },
     {
       name: "About us",
-      path: "/#about-us",
+      path: "/",
     },
     {
       name: "Our Team",
@@ -87,9 +87,9 @@ const Footer = () => {
             {socialMenu.map((item) => {
               return (
                 <li key={item.key} className="hover:text-[#AD1AAF]">
-                  <Link href={item.path} target="_blank" rel="noopener noreferrer">
+                  <a href={item.path} target="_blank" rel="noopener noreferrer">
                     {item.icon}
-                  </Link>
+                  </a>
                 </li>
               );
             })}
