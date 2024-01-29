@@ -16,11 +16,11 @@ const Footer = () => {
     },
     {
       name: "Events",
-      path: "/",
+      path: "/#events",
     },
     {
       name: "About us",
-      path: "/",
+      path: "/#about-us",
     },
     {
       name: "Our Team",
@@ -104,7 +104,7 @@ const Footer = () => {
             {menu.map((item, index) => {
               return (
                 <li key={index} className="mb-2 hover:text-[#AD1AAF]">
-                  <Link href={item.path} target="_blank" rel="noopener noreferrer">
+                  <Link href={item.path} rel="noopener noreferrer">
                     {item.name}
                   </Link>
                 </li>
@@ -121,7 +121,7 @@ const Footer = () => {
             {supportMenu.map((item, index) => {
               return (
                 <li key={index} className="mb-2 hover:text-[#AD1AAF]">
-                  <Link href={item.path} target="_blank" rel="noopener noreferrer">
+                  <Link href={item.path} rel="noopener noreferrer">
                     {item.name}
                   </Link>
                 </li>
