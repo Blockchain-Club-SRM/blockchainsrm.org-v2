@@ -70,7 +70,7 @@ const Partners = () => {
   return (
     <div className="my-20 mb-[10vh] flex justify-center flex-col gap-12 text-white md:max-w-[100%] mx-auto relative">
       <h6 className="text-transparent bg-clip-text bg-subheading-gradient max-w-max self-center font-normal">
-      Our partners and sponsors for the club 
+      Our partners and sponsors for the club! 
       </h6>
       <h1 className="font-bold self-center">Our Partners</h1>
       <div className="flex md:flex-row  flex-wrap flex-col items-center justify-evenly gap-10">
