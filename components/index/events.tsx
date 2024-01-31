@@ -53,7 +53,7 @@ const Events = () => {
       ),
       img: "/images/convulent.jpg",
       heading: "Convulent",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt sapien nec turpis egestas, pellentesque suscipit turpis venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque commodo a erat quis consequat.  ",
+      desc: "The event proved to be a success and a meaningful discussion with many famous industrial people as speakers. They covered topics like Introduction to Web3, Distributed Databases, Relayers and Smart Contracts, Router protocol, Cross-chain communication, Bitcoin SV, Rust tutorial on Smart Contract Deployment, ESG Scores and Sustainable Development through 5ire, Solidity and Advanced Defi, App Dev in Web3 and Zero-knowledge Proof. Each session ended with a great discussion along with a Q/A session.",
       date: "28 Feb 2023",
     },
     {
