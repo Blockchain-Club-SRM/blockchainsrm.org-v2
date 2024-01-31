@@ -25,7 +25,7 @@ const Modal = () => {
                         </div>
 
                         <div id="event-modal-content" className="text-white">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod laborum nam porro voluptatibus itaque quibusdam vero, odio laudantium aspernatur, distinctio, doloremque nemo eius provident sed soluta repellendus architecto vitae suscipit.
+                            The event proved to be a success and a meaningful discussion with many famous industrial people as speakers. They covered topics like Introduction to Web3, Distributed Databases, Relayers and Smart Contracts, Router protocol, Cross-chain communication, Bitcoin SV, Rust tutorial on Smart Contract Deployment, ESG Scores and Sustainable Development through 5ire, Solidity and Advanced Defi, App Dev in Web3 and Zero-knowledge Proof. Each session ended with a great discussion along with a Q/A session.
                         </div>
             
                     </div>
