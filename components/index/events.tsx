@@ -69,7 +69,7 @@ const Events = () => {
       ),
       img: "/images/byzantine.png",
       heading: "Byzantine",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt sapien nec turpis egestas, pellentesque suscipit turpis venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque commodo a erat quis consequat.  ",
+      desc: "Mr. Aishwary Gupta, who dispelled misunderstandings and offered insights into the world of Blockchain, including Crypto and Web3, was the speaker during an interactive session on Blockchain and its applications, organised by the Blockchain Club SRM.",
       date: "13 june",
     },
     
