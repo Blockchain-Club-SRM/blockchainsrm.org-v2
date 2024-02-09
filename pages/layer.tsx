@@ -5,6 +5,7 @@ import text from "../public/layertext.png"
 import ship from "../public/ship.png"
 import Link from "next/link"
 import TimeMain from "../components/shared/time"
+import About from "../components/shared/layerabout"
 
 export default function Layer(){
     return(
@@ -15,6 +16,7 @@ export default function Layer(){
             <Image alt="ship" src={ship} className="absolute top-[22rem] -left-5 w-[83rem]" />
             <Image alt="99" src={ninenine} className="invisible self-center mt-[40rem]" />
             <TimeMain/>
+            <About/>
             <div className="buttons flex mt-16 self-center gap-14 mb-72">
             <Link  href="https://layer-2.devfolio.co/" >  <h1 className="bg-[#849fa2] hover:scale-110 transition-transform h-16 backdrop-blur-sm w-72 text-center p-4 rounded-full bg-opacity-50 tracking-[3.38px] border-2 border-[#d2cccc] font-Montserrat text-white text-lg ">Devfolio</h1>  </Link>
             <Link  href="https://layer-2.devfolio.co/" >  <h1 className="bg-black h-16 hover:scale-110 transition-transform backdrop-blur-sm w-72 text-center p-4 rounded-full bg-opacity-30 tracking-[3.38px] border-2 border-[#d2cccc] font-Montserrat text-white text-lg ">Learn More</h1>  </Link>
