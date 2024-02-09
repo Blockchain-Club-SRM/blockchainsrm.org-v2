@@ -35,6 +35,11 @@ const Header = () => {
       name: "Contact Us",
       path: "/contact",
     },
+
+    {
+      name: "Layer",
+      path: "/layer",
+    }
   ];
 
   return (
