@@ -10,15 +10,16 @@ const TeamCard = ({ details }: any) => {
   const { name, position, socials, profile, cover } = details;
   return (
     <div className="flex flex-col bg-team-gradient p-4 rounded-xl relative text-white w-max">
-      <Image
-        src={profile}
-        blurDataURL="L5AcANr@01KO1NNv}T,p4VxG_KEf"
-        placeholder="blur"
-        alt=""
-        width={200}
-        height={200}
-        className="object-cover rounded-md"
-      />
+      <div
+        style={{
+          width: 200,
+          height: 200,
+          backgroundImage: `url(${profile})`,
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+        }}
+      ></div>
 
       <div className="flex my-8 justify-between items-center gap-4 flex-wrap">
         <div className="flex flex-col">
