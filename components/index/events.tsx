@@ -12,23 +12,33 @@ const Events = () => {
       key: 1,
       content: (
         <div className="event-card cursor-pointer group">
-          <img src={`/images/inauguration.png`}  className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md" alt="Events"/>
+          <img
+            src={`/images/inauguration.png`}
+            className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md"
+            alt="Events"
+          />
           <div className=" hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-            <p className="text-xl text-[#00D1FF] group-hover:mt-72">Inauguration</p>
+            <p className="text-xl text-[#00D1FF] group-hover:mt-72">
+              Inauguration
+            </p>
             <p className="text-xl text-white">12 May 2022</p>
           </div>
         </div>
       ),
       img: "/images/inauguration.png",
       heading: "Inauguration",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt sapien nec turpis egestas, pellentesque suscipit turpis venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque commodo a erat quis consequat.  ",
+      desc: "Blockchain Club SRM, a pioneer student-led community dedicated to improving the web3 sector, was officially launched on 12th May 2022 at the SRM Institute of Science and Technology, Kattankulathur campus. The inauguration ceremony was graced by the presence of Dr. M. Lakshmi, the Head of Department of Data Science and Business Systems, who delivered the inaugural address and congratulated the founding members of the club for their initiative and vision. The founding members of the club, namely Aditya Jain, Sreeyom Sreesaan Nayak, Yash Khandelwal, and Sarvottam Mishra, introduced the clubs mission, vision, and objectives to the audience, which comprised of students, faculty, and industry experts. The club aims to provide students with opportunities and guidance to learn and explore the latest advancements in blockchain technology and its applications in various domains.",
       date: "12 may ",
     },
     {
       key: 2,
       content: (
         <div className="event-card cursor-pointer group ">
-          <img src={`./images/decode.jpeg`} className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md" alt="Events"/>
+          <img
+            src={`./images/decode.jpeg`}
+            className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md"
+            alt="Events"
+          />
           <div className=" hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             <p className="text-xl text-[#00D1FF] group-hover:mt-80">De-code</p>
             <p className="text-xl text-white">23 Sept 2022</p>
@@ -44,9 +54,15 @@ const Events = () => {
       key: 4,
       content: (
         <div className="event-card cursor-pointer group ">
-          <img src={`/images/convulent.jpg`} className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md" alt="Events"/>
+          <img
+            src={`/images/convulent.jpg`}
+            className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md"
+            alt="Events"
+          />
           <div className="hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-            <p className="text-xl text-[#00D1FF] group-hover:mt-96">Convulent</p>
+            <p className="text-xl text-[#00D1FF] group-hover:mt-96">
+              Convulent
+            </p>
             <p className="text-xl text-white">28 Feb 2023</p>
           </div>
         </div>
@@ -60,9 +76,15 @@ const Events = () => {
       key: 3,
       content: (
         <div className="event-card cursor-pointer group ">
-          <img src={`/images/byzantine.jpeg`} className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md" alt="Events"/>
+          <img
+            src={`/images/byzantine.jpeg`}
+            className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md"
+            alt="Events"
+          />
           <div className="hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-            <p className="text-xl text-[#00D1FF] group-hover:mt-96">Byzantine</p>
+            <p className="text-xl text-[#00D1FF] group-hover:mt-96">
+              Byzantine
+            </p>
             <p className="text-xl text-white">13 June 2022</p>
           </div>
         </div>
@@ -72,14 +94,10 @@ const Events = () => {
       desc: "Mr. Aishwary Gupta, who dispelled misunderstandings and offered insights into the world of Blockchain, including Crypto and Web3, was the speaker during an interactive session on Blockchain and its applications, organised by the Blockchain Club SRM.",
       date: "13 june",
     },
-    
   ];
   return (
     <>
-      <div
-        className="relative"
-        id="events"
-      >
+      <div className="relative" id="events">
         <div className="flex flex-col justify-center gap-12 my-36 relative">
           <h6 className="text-transparent bg-clip-text bg-subheading-gradient max-w-max self-center font-normal">
             Explore Our New & Upcoming Events
