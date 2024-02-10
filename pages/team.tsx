@@ -200,14 +200,14 @@ const team = () => {
       cover: "/assets/teams/14.png",
     },
     {
-      name: "Ajay",
+      name: "Ishaan Khurana",
       position: "Tech",
       socials: {
-        github:"https://github.com/CampVamp", 
-        linkedin:"https://www.linkedin.com/in/ajay-ram/",
-        twitter:"https://twitter.com/Xpodnow",},
+        github:"https://github.com/ik04", 
+        linkedin:"https://www.linkedin.com/in/ishaan-khurana-398114212/",
+        },
       profile:
-        "./assets/teams/Ajay.jpg",
+        "./assets/teams/Ishaan.jpeg",
     },
     {
       name: "Ahaan Sekhar Das",
