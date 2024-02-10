@@ -1,0 +1,20 @@
+/* partners.module.css */
+
+/* Define the styles for the container of the bubbles */
+
+  /* Define the styles for the bubbles */
+  .bubble {
+    position: absolute;
+    animation: scroll 10s linear infinite;
+  }
+  
+  /* Define the keyframes for scrolling animation */
+  @keyframes scroll {
+    0% {
+      left: 100%; /* Start the animation from the right side */
+    }
+    100% {
+      left: -100%; /* Move the bubbles to the left side */
+    }
+  }
+  
