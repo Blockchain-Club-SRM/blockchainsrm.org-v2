@@ -18,7 +18,7 @@ const team = () => {
     },
     {
       name: "Pratham Bhatnagar",
-      position: "Vice President",
+      position: "VicePresident",
       socials: {
         github: "https://github.com/pratham-bhatnagar", 
         linkedin: "https://www.linkedin.com/in/pratham-bhatnagar/",
@@ -29,7 +29,7 @@ const team = () => {
     },
     {
       name: "Harsh Srivastava",
-      position: "Tech lead",
+      position: "TechLead",
       socials: {
         github: "https://github.com/Srivastava57Harsh", 
         linkedin: "https://www.linkedin.com/in/srivastava57harsh/",
@@ -40,7 +40,7 @@ const team = () => {
     },
     {
       name: "Karan Pargal",
-      position: "techLead",
+      position: "TechLead",
       socials: {
         github: "https://github.com/karanpargal", 
         linkedin: "https://www.linkedin.com/in/karan-pargal/",
@@ -52,7 +52,7 @@ const team = () => {
     },
     {
       name: "Prajin Chopra",
-      position: "cryptoLead",
+      position: "CryptoLead",
       socials: {
         github: "https://github.com/chopraprajin", 
         linkedin: "https://www.linkedin.com/in/chopraprajin",
@@ -76,7 +76,7 @@ const team = () => {
     // },
     {
       name: "Aman Parida",
-      position: "corporateLead",
+      position: "CorporateLead",
       socials: {
         github: "/", 
         linkedin: "https://www.linkedin.com/in/aman-parida-794b19251",
@@ -87,7 +87,7 @@ const team = () => {
     },
     {
       name: "Raj Kakadia",
-      position: "corporatelead",
+      position: "CorporateLead",
       socials: {
         github: "https://github.com/rajkadakia", 
         linkedin: "https://www.linkedin.com/in/raj-kadakia-787056256",
@@ -98,7 +98,7 @@ const team = () => {
     },
     {
       name: "Vansika Sonthalia",
-      position: "operationslead",
+      position: "OperationsLead",
       socials: {
         github: "https://github.com/vsonthalia", 
         linkedin: "https://www.linkedin.com/in/vansika-sonthalia-5a113324a/",
@@ -121,7 +121,7 @@ const team = () => {
     // },
     {
       name: "Suhani Khanna",
-      position: "editorialLead",
+      position: "EditorialLead",
       socials: {
         github: "https://github.com/SuhaniKhanna", 
         linkedin: "https://www.linkedin.com/in/suhani-khanna-903a1122a",
@@ -133,7 +133,7 @@ const team = () => {
     },
     {
       name: "Heer Mehta",
-      position: "editorialLead",
+      position: "EditorialLead",
       socials: {
         github: "https://github.com/Heermehta9", 
         linkedin: "https://www.linkedin.com/in/heer-mehta-7a354a256/",
@@ -145,7 +145,7 @@ const team = () => {
     },
     {
       name: "Ayushi Gupta",
-      position: "editorialLead",
+      position: "EditorialLead",
       socials: {
         github: "https://github.com/dreamcatcher1712", 
         linkedin: "https://www.linkedin.com/in/ayushi-gupta-445970237",
@@ -306,7 +306,7 @@ const team = () => {
   const tech: any[] = [
     {
       name: "Akash",
-      position: "member",
+      position: "Member",
       socials: {
         github: "https://github.com/akashpanda122", 
         linkedin: "https://www.linkedin.com/in/akash-panda-dev/",
@@ -316,7 +316,7 @@ const team = () => {
     },
     {
       name: "Milind Mishra",
-      position: "Tech",
+      position: "Member",
       socials: {
         github: "https://github.com/imilindmishra",
         linkedin: "https://www.linkedin.com/in/milind-mishra-2a3b23257/",
@@ -328,7 +328,7 @@ const team = () => {
     },
     {
       name: "Taseen Iqbal",
-      position: "Tech",
+      position: "Member",
       socials: {
         github: "https://github.com/PaleDeath",
         linkedin: "https://www.linkedin.com/in/taseen-iqbal-2b428125b/",
@@ -340,7 +340,7 @@ const team = () => {
     },
     {
       name: "Atul",
-      position: "member",
+      position: "Member",
       socials: {
         github: "https://github.com/AtulRaghuvanshi73",
         linkedin: "https://www.linkedin.com/feed/",
@@ -351,10 +351,14 @@ const team = () => {
     },
     {
       name: "Varun",
-      position: "member",
-      socials: "https://github.com/Varun-2538",
+      position: "Member",
+      socials: {
+        github: "https://github.com/Varun-2538",
+        linkedin: "https://www.linkedin.com/in/varun-singh-422a27206/",
+        twitter: "https://twitter.com/Varunsingh2534",
+      },
       profile:
-        "./assets/teams/Varun.jpg",
+        "./assets/teams/Varun.jpeg",
     },
     {
       name: "Aayush Gautam",
