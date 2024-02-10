@@ -13,12 +13,12 @@ const team = () => {
         linkedin: "https://www.linkedin.com/in/vedant-utage-043020223/",
         twitter: "https://twitter.com/vedantutage03",
       },
-      profile: "./images/prez.png",
+      profile: "./assets/teams/prez.png",
       cover: "/assets/teams/1.png",
     },
     {
       name: "Pratham Bhatnagar",
-      position: "Vice President",
+      position: "VicePresident",
       socials: {
         github: "https://github.com/pratham-bhatnagar", 
         linkedin: "https://www.linkedin.com/in/pratham-bhatnagar/",
@@ -29,38 +29,37 @@ const team = () => {
     },
     {
       name: "Harsh Srivastava",
-      position: "Tech lead",
+      position: "TechLead",
       socials: {
         github: "https://github.com/Srivastava57Harsh", 
         linkedin: "https://www.linkedin.com/in/srivastava57harsh/",
         twitter: "https://twitter.com/_0xharsh",
       },
-      profile:
-        "https://drive.google.com/uc?export=view&id=1dylr7nujElomVVrvFN47RqRCmeNQ7wpE",
-      cover: "/assets/teams/3.png",
+      profile: "./assets/teams/HarshSrivastava.jpeg",
+      cover: "public/assets/teams/HarshSrivastava.jpeg",
     },
     {
       name: "Karan Pargal",
-      position: "techLead",
+      position: "TechLead",
       socials: {
         github: "https://github.com/karanpargal", 
         linkedin: "https://www.linkedin.com/in/karan-pargal/",
         twitter: "https://twitter.com/karan_pargal",
       },
       profile:
-        "https://drive.google.com/uc?export=view&id=1K8QbLjaGeKFvTPAAMO5WPtvho24KxeOk",
+        "./assets/teams/KaranPargal.png",
       cover: "/assets/teams/4.png",
     },
     {
       name: "Prajin Chopra",
-      position: "cryptoLead",
+      position: "CryptoLead",
       socials: {
         github: "https://github.com/chopraprajin", 
         linkedin: "https://www.linkedin.com/in/chopraprajin",
         twitter: "https://twitter.com/chopraprajin",
       },
       profile:
-        "https://drive.google.com/open?id=1FGLDTIK9xAv1Sqeuj48mFc7_Y3wVPUN6",
+        "./assets/teams/Prajin.jpg",
       cover: "/assets/teams/5.png",
     },
     // {
@@ -77,35 +76,35 @@ const team = () => {
     // },
     {
       name: "Aman Parida",
-      position: "corporateLead",
+      position: "CorporateLead",
       socials: {
         github: "/", 
         linkedin: "https://www.linkedin.com/in/aman-parida-794b19251",
         twitter: "https://twitter.com/AmanParida2003?t=oSM3HyY5nW48JVGdDUrFYw&s=09",
       },
-      profile:"https://drive.google.com/open?id=1KAyFTVSUF1F_G5vNFrxSn6ftYnY7UKpK",
+      profile:"./assets/teams/Aman.jpg",
       cover: "/assets/teams/7.png",
     },
     {
       name: "Raj Kakadia",
-      position: "corporatelead",
+      position: "CorporateLead",
       socials: {
         github: "https://github.com/rajkadakia", 
         linkedin: "https://www.linkedin.com/in/raj-kadakia-787056256",
         twitter: "https://twitter.com/kadakia_raj?t=U4f-R-HB5GQlSXdazAIqXQ&s=08",
       },
-      profile:"https://drive.google.com/open?id=1f1Y_-96_F1aA6ijuuzeVCk7nZTlafPTQ",
+      profile:"./assets/teams/Raj.jpg",
       cover: "/assets/teams/D1.png",
     },
     {
       name: "Vansika Sonthalia",
-      position: "corporatelead",
+      position: "OperationsLead",
       socials: {
         github: "https://github.com/vsonthalia", 
         linkedin: "https://www.linkedin.com/in/vansika-sonthalia-5a113324a/",
         twitter: "https://twitter.com/v4nsika",
       },
-      profile:"https://drive.google.com/open?id=1ydrm-bvCguuzkf17gGgBMwpP6HEdHhVq",
+      profile:"./assets/teams/Vansika.jpg",
       cover: "/assets/teams/9.png",
     },
     // {
@@ -122,38 +121,38 @@ const team = () => {
     // },
     {
       name: "Suhani Khanna",
-      position: "editorialLead",
+      position: "EditorialLead",
       socials: {
         github: "https://github.com/SuhaniKhanna", 
-        linkedin: "https://www.linkedin.com/mwlite/in/suhani-khanna-903a1122a",
+        linkedin: "https://www.linkedin.com/in/suhani-khanna-903a1122a",
         twitter: "https://twitter.com/Suhanikhanna30",
       },
       profile:
-        "https://drive.google.com/open?id=1M5lhaOvQQWl8p-6TJL432C1Vxi-sSynp",
+        "./assets/teams/Suhani.jpg",
       cover: "/assets/teams/11.png",
     },
     {
       name: "Heer Mehta",
-      position: "editorialLead",
+      position: "EditorialLead",
       socials: {
-        github: "/", 
+        github: "https://github.com/Heermehta9", 
         linkedin: "https://www.linkedin.com/in/heer-mehta-7a354a256/",
-        twitter: "/",
+        twitter: "https://x.com/Heermehta_9?s=08",
       },
       profile:
-        "https://drive.google.com/open?id=1IzBy145xKeBBV_Lk8Awjk2zIpousuhr2",
+        "./assets/teams/Heer.jpg",
       cover: "/assets/teams/12.png",
     },
     {
       name: "Ayushi Gupta",
-      position: "editorialLead",
+      position: "EditorialLead",
       socials: {
         github: "https://github.com/dreamcatcher1712", 
         linkedin: "https://www.linkedin.com/in/ayushi-gupta-445970237",
         twitter: "https://twitter.com/ayunshiegupta",
       },
       profile:
-        "https://drive.google.com/open?id=1M5lhaOvQQWl8p-6TJL432C1Vxi-sSynp",
+        "./assets/teams/Ayushi.jpg",
       cover: "/assets/teams/11.png",
     },
     // {
@@ -178,14 +177,14 @@ const team = () => {
   ];
   const associates = [
     {
-      name: "Abhinav Rajeev Kumar",
+      name: "Abhinav Kumar",
       position: "Tech",
       socials: {
         github: "https://github.com/MajorTimberWolf",
         linkedin: "https://www.linkedin.com/in/abhinav-rajeev-kumar",
         twitter: "https://twitter.com/MajorTimbWlf21?t=fzM4vrQ9-gRscspSWfSLxw&s=09",
       },
-      profile: "https://drive.google.com/open?id=1rbp3_4d6iaYKfxcbQCOtJX6g1MVVo9Ab",
+      profile: "./assets/teams/AbhinavKumar.jpg",
       cover: "/images/pratham-cover.png",
     },
     {
@@ -197,18 +196,18 @@ const team = () => {
         twitter: "https://twitter.com/CodeKartikey?t=WWi0Tz4wRTlg8QCblux6XA&s=09",
       },
       profile:
-        "https://drive.google.com/open?id=1sJlivDaDoII7guYI-exLN5GgX46sLCPt",
+        "./assets/teams/Kartikey.jpg",
       cover: "/assets/teams/14.png",
     },
     {
-      name: "Ajay",
+      name: "Ishaan Khurana",
       position: "Tech",
       socials: {
-        github:"https://github.com/CampVamp", 
-        linkedin:"https://www.linkedin.com/in/ajay-ram/",
-        twitter:"https://twitter.com/Xpodnow",},
+        github:"https://github.com/ik04", 
+        linkedin:"https://www.linkedin.com/in/ishaan-khurana-398114212/",
+        },
       profile:
-        "https://drive.google.com/uc?export=view&id=1SvADx44VNZHpVcoJ4JUL53DR6rq2rijh",
+        "./assets/teams/Ishaan.jpeg",
     },
     {
       name: "Ahaan Sekhar Das",
@@ -219,20 +218,8 @@ const team = () => {
         twitter: "https://twitter.com/1asd133667",
       },
       profile:
-        "https://drive.google.com/open?id=1TmTmRuPYySx5OcKf_izNPdNVvd85E-V0",
+        "./assets/teams/Ahaan.jpg",
       cover: "/assets/teams/D2.png",
-    },
-    {
-      name: "Milind Mishra",
-      position: "Tech",
-      socials: {
-        github: "https://github.com/imilindmishra",
-        linkedin: "https://www.linkedin.com/in/milind-mishra-2a3b23257/",
-        twitter: "https://twitter.com/milindm91612787",
-      },
-      profile:
-        "https://drive.google.com/open?id=1dk24kXEKpwnRpuJMn249gNXGlOBGC0Pg",
-      cover: "/assets/teams/3.png",
     },
     {
       name: "Souvik Basak",
@@ -243,7 +230,19 @@ const team = () => {
         twitter: "https://twitter.com/listen_souvik",
       },
       profile:
-        "https://drive.google.com/open?id=1ko_T8T_4meSxTCN7hW3ybyhHJuyb3rF4",
+        "./assets/teams/Souvik.jpg",
+      cover: "/assets/teams/1.png",
+    },
+    {
+      name: "Mohd Zaid",
+      position: "Tech",
+      socials: {
+        github: "https://github.com/dev-zaid/", 
+        linkedin: "https://www.linkedin.com/in/dev-zaid/",
+        twitter: "https://twitter.com/Za1D04",
+      },
+      profile:
+        "./assets/teams/MohdZaid.jpeg",
       cover: "/assets/teams/1.png",
     },
     // {
@@ -263,14 +262,14 @@ const team = () => {
       position: "Crypto",
       socials: {
         github: "https://github.com/haaniyairam", 
-        linkedin: "www.linkedin.com/in/ haaniya-iram-687402252",
+        linkedin: "https://www.linkedin.com/in/haaniya-iram-687402252/",
         twitter: "https://twitter.com/HaaniyaIram",
       },
-      profile: "https://drive.google.com/open?id=1765gF7VBNJBAyLJq47ddRJs5MIV8Q4Qr",
+      profile: "./assets/teams/Haaniya.jpg",
       cover: "/assets/teams/20.png",
     },
     {
-      name: "Soumya Darshan Kamila",
+      name: "Soumya Darshan",
       position: "Creatives",
       socials: {
         github: "http://github.com/soumyaDKamila", 
@@ -278,7 +277,7 @@ const team = () => {
         twitter: "https://twitter.com/soumya_kamila",
       },
       profile:
-        "https://drive.google.com/open?id=1lBGwoSSDuJOWxU6hvt9mnuvBjQP8jPdz",
+        "./assets/teams/Soumya.jpeg",
       cover: "/assets/teams/D1.png",
     },
     {
@@ -289,64 +288,221 @@ const team = () => {
         linkedin: "https://www.linkedin.com/in/tanisha-sharma-ba8a911bb",
         twitter: "https://twitter.com/_Tish9704",
       },
-      profile: "https://drive.google.com/open?id=14yMAyJEkLAaEccfo9BkRfgvDQrKPr6Yo",
+      profile: "./assets/teams/Tanisha.jpg",
       cover: "/assets/teams/D1.png",
     },
     {
-      name: "Harsh Vardhan Upadhyay",
+      name: "Harsh Vardhan",
       position: "Creatives",
       socials: {
         github: "https://github.com/Harsh-Vardhan-Upadhyay", 
         linkedin: "https://www.linkedin.com/in/hvu20/",
         twitter: "https://twitter.com/Harshva40316846",
       },
-      profile: "https://drive.google.com/open?id=11-UG6PSIzoYQznuok7QFsxsjoKuC0stq",
+      profile: "./assets/teams/Harshvardhan.jpeg",
       cover: "/assets/teams/D1.png",
     },
   ];
   const tech: any[] = [
     {
       name: "Akash",
-      position: "member",
+      position: "Member",
       socials: {
         github: "https://github.com/akashpanda122", 
         linkedin: "https://www.linkedin.com/in/akash-panda-dev/",
         twitter:"https://twitter.com/akashpanda_dev",},
       profile:
-        "https://drive.google.com/open?id=1NfNhYCwLY73-PPiOT9L1Ycioos-wWW69",
+        "./assets/teams/Akash.jpg",
     },
     {
-      name: "Ankit",
-      position: "member",
-      socials: "https://github.com/ankit7241",
+      name: "Milind Mishra",
+      position: "Member",
+      socials: {
+        github: "https://github.com/imilindmishra",
+        linkedin: "https://www.linkedin.com/in/milind-mishra-2a3b23257/",
+        twitter: "https://twitter.com/milindm91612787",
+      },
       profile:
-        "https://drive.google.com/uc?export=view&id=12uyixa-xWgKI6HOOfbVRzWdLN7nugqHr",
+        "./assets/teams/milind mishra.jpg",
+      cover: "/assets/teams/3.png",
+    },
+    {
+      name: "Taseen Iqbal",
+      position: "Member",
+      socials: {
+        github: "https://github.com/PaleDeath",
+        linkedin: "https://www.linkedin.com/in/taseen-iqbal-2b428125b/",
+        twitter: "https://twitter.com/iqbal_taseen",
+      },
+      profile:
+        "./assets/teams/TaseenIqbal.jpg",
+      cover: "/assets/teams/3.png",
     },
     {
       name: "Atul",
-      position: "member",
-      socials: "https://github.com/AtulRaghuvanshi73",
+      position: "Member",
+      socials: {
+        github: "https://github.com/AtulRaghuvanshi73",
+        linkedin: "https://www.linkedin.com/feed/",
+        twitter: "https://twitter.com/AtulRaghu73",
+      },
       profile:
-        "https://drive.google.com/uc?export=view&id=1M5o3z44ymykGMShLyhm6kE3mncbfi5ar",
+        "./assets/teams/Atul Raghuvanshi.jpeg",
     },
     {
       name: "Varun",
-      position: "member",
-      socials: "https://github.com/Varun-2538",
+      position: "Member",
+      socials: {
+        github: "https://github.com/Varun-2538",
+        linkedin: "https://www.linkedin.com/in/varun-singh-422a27206/",
+        twitter: "https://twitter.com/Varunsingh2534",
+      },
       profile:
-        "https://drive.google.com/uc?export=view&id=1qNJMje6VmkDF6f-K4zDf6IG1-zhJXWjY",
+        "./assets/teams/Varun.jpeg",
     },
+    {
+      name: "Aayush Gautam",
+      position: "member",
+      socials: {
+        github: "https://github.com/NinjaNeku",
+        linkedin: "www.linkedin.com/in/aayush-gautam-a712b5266",
+      },
+      profile:
+        "./assets/teams/Aayush Gautam.jpg",
+    },
+    {
+      name: "Dhruv Sovasaria",
+      position: "Tech",
+      socials: {
+        github: "https://github.com/dhruvsovasaria",
+        linkedin: "www.linkedin.com/dhruvsovasaria",
+        twitter: "https://x.com/dhruvsvsria?t=BsyRZcKNngZBLJrlP_JbRA&s=09",
+      },
+      profile:
+        "./assets/teams/Dhruv Sovasaria.jpg",
+      cover: "/assets/teams/3.png",
+    },
+    {
+      name: "Akrish",
+      position: "Tech",
+      socials: {
+        github: "https://github.com/avadacodavra",
+        linkedin: "https://linkedin.com/in/akrishweb3/",
+        twitter: "https://twitter.com/Akrish847495",
+      },
+      profile:
+        "./assets/teams/Akrish.png",
+      cover: "/assets/teams/3.png",
+    },
+    {
+      name: "Kanev Seth",
+      position: "Tech",
+      socials: {
+        github: "https://github.com/kanev-seth",
+        linkedin: "https://www.linkedin.com/in/kanevseth/",
+        twitter: "https://twitter.com/kanevseth",
+      },
+      profile:
+        "./assets/teams/Kanev.jpg",
+      cover: "/assets/teams/3.png",
+    },
+    {
+      name: "Yogita Jha",
+      position: "Tech",
+      socials: {
+        github: "https://github.com/yogita005",
+        linkedin: "https://www.linkedin.com/feed/",
+        twitter: "https://twitter.com/ra2311029012651",
+      },
+      profile:
+        "./assets/teams/YOGITA JHA.jpeg",
+      cover: "/assets/teams/3.png",
+    },
+    {
+      name: "Sarthak Patwal",
+      position: "Tech",
+      socials: {
+        github: "https://github.com/sarthakpatwal2",
+        linkedin: "https://www.linkedin.com/in/sarthak-patwal-998b51247/",
+        twitter: "https://twitter.com/Sarthak__Patwal?t=lT8ZDfMfevDgrTeZ50PTrA&s=09",
+      },
+      profile:
+        "./assets/teams/Sarthak Patwal.jpg",
+      cover: "/assets/teams/3.png",
+    },
+    {
+      name: "Tanishq Jaiswal",
+      position: "Tech",
+      socials: {
+        github: "https://github.com/TJ-2004",
+        linkedin: "https://www.linkedin.com/in/tanishq-j-913152288",
+        twitter: "https://twitter.com/tanishqjais9756",
+      },
+      profile:
+        "./assets/teams/Tanishq Jaiswal.jpg",
+      cover: "/assets/teams/3.png",
+    },
+    
   ];
   const crypto: any[] = [
     {
-      name: "Divyansh",
-      position: "member",
+      name: "Nilavo Dhar",
+      position: "Crypto",
       socials: {
-        github: "/", 
-        linkedin: "/",
-        twitter:"/",},
+        github: "/",
+        linkedin: "https://www.linkedin.com/in/nilavo-dhar-189bb8184/",
+        twitter: "https://twitter.com/nilavo4granted",
+      },
       profile:
-        "https://drive.google.com/uc?export=view&id=1S2d6TS98nG-0MOh6E_RqNzTduGJibU1m",
+        "./assets/teams/Nilavo.jpg",
+      cover: "/assets/teams/3.png",
+    },
+    {
+      name: "Navam Endlay",
+      position: "Crypto",
+      socials: {
+        github: "https://github.com/endlaynavam15",
+        linkedin: "https://www.linkedin.com/in/navam-endlay-022503278/",
+        twitter: "https://twitter.com/GurmanKaur_05",
+      },
+      profile:
+        "./assets/teams/navam endlay.png",
+      cover: "/assets/teams/3.png",
+    },
+    {
+      name: "Shaik Aftab",
+      position: "Crypto",
+      socials: {
+        github: "https://github.com/ZenX777",
+        twitter: "https://x.com/Skaftab95730?t=xOCFMAG6vVF6MDdLRmBxEA&s=09",
+      },
+      profile:
+        "./assets/teams/Aftab Sk.jpg",
+      cover: "/assets/teams/3.png",
+    },
+    {
+      name: "Shyam Jaiswal",
+      position: "Crypto",
+      socials: {
+        github: "https://github.com/jaiswalism",
+        linkedin: "https://www.linkedin.com/in/jaiswalism/",
+        twitter: "https://x.com/jaiswalism",
+      },
+      profile:
+        "./assets/teams/Shyam.png",
+      cover: "/assets/teams/3.png",
+    },
+    {
+      name: "Tanishka Mudgal",
+      position: "Crypto",
+      socials: {
+        github: "https://github.com/Tanishka-2004",
+        linkedin: "https://www.linkedin.com/in/tanishka-mudgal-b62865221/",
+        twitter: "https://x.com/_tanixaa_?t=RGNcrf9WyQv-MADWfKKtmQ&s=09",
+      },
+      profile:
+        "./assets/teams/Tanishka.jpg",
+      cover: "/assets/teams/3.png",
     },
     {
       name: "Jayanth",
@@ -355,17 +511,7 @@ const team = () => {
         github: "https://www.github.com/jayanthjayanth", 
         linkedin: "https://www.linkedin.com/in/jayanthvarmav/",
         twitter:"https://www.twitter.com/Cryptojayanth",},
-      profile:"https://drive.google.com/uc?export=view&id=1a5IdKoo9MpwEUATxPnD_uh2zxo6pka4E",
-    },
-    {
-      name: "Vidhi",
-      position: "member",
-      socials: {
-        github: "/", 
-        linkedin: "/",
-        twitter:"/",},
-      profile:
-        "https://drive.google.com/uc?export=view&id=1uEx2zq-qfrUNjpRp9C3Q1vW8ahtwZqyE",
+      profile:"./assets/teams/Jayanth.jpg",
     },
     {
       name: "Vaibhav",
@@ -375,7 +521,262 @@ const team = () => {
         linkedin: "https://www.linkedin.com/in/vaibhav-rathi-3bb887224",
         twitter:"https://twitter.com/Vaibhavrathi02?t=7P5DnuZuxt9461Z9SFB_Sw&s=09",},
       profile:
-        "https://drive.google.com/open?id=1R90i3IPC7LCAsFRgI7tWGJsJh-iTxA80",
+        "./assets/teams/Vaibhav.jpg",
+    },
+  ];
+  const corporate: any[] = [
+    {
+      name: "Jashika Patel",
+      position: "Corporate",
+      socials: {
+        github: "/",
+        linkedin: "https://www.linkedin.com/in/jashika-patel-4a04b5264/",
+        twitter: "https://x.com/jashika_patel56?s=21",
+      },
+      profile:
+        "./assets/teams/Jashika Patel.jpeg",
+      cover: "/assets/teams/3.png",
+    },
+    {
+      name: "Amit Tiwari",
+      position: "Corporate",
+      socials: {
+        github: "https://github.com/AmiTiwarii",
+        linkedin: "https://www.linkedin.com/in/amit-tiwari-25563226b",
+        twitter: "https://twitter.com/Amittiwari2003/",
+      },
+      profile:
+        "./assets/teams/Amit.jpg",
+      cover: "/assets/teams/3.png",
+    },
+    {
+      name: "Tanmany Soni",
+      position: "Corporate",
+      socials: {
+        github: "https://github.com/Tanmay0909",
+        linkedin: "https://www.linkedin.com/in/tanmay-soni-56491b251/",
+        twitter: "https://twitter.com/tanmaysoni09",
+      },
+      profile:
+        "./assets/teams/TANMAY SONI.jpg",
+      cover: "/assets/teams/3.png",
+    },    {
+      name: "Kumar Mehul",
+      position: "Corporate",
+      socials: {
+        github: "https://github.com/kumar-mehul",
+        linkedin: "https://www.linkedin.com/in/kumar-mehul-a70200251/",
+        twitter: "https://x.com/kumarmehul2401?t=ImaA2ZZcpG1G0r837UK_-A&s=09",
+      },
+      profile:
+        "./assets/teams/Kumar Mehul.jpg",
+      cover: "/assets/teams/3.png",
+    },    {
+      name: "Zein Naushad",
+      position: "Corporate",
+      socials: {
+        github: "https://github.com/AmiTiwarii",
+        linkedin: "https://www.linkedin.com/in/amit-tiwari-25563226b",
+        twitter: "https://twitter.com/Amittiwari2003/",
+      },
+      profile:"./assets/teams/Zein.jpg",
+      cover: "/assets/teams/3.png",
+    },    {
+      name: "Sejal Sharma",
+      position: "Corporate",
+      socials: {
+        github: "https://github.com/Sejal707",
+        linkedin: "https://www.linkedin.com/in/sejal-sharma-695330296/",
+        twitter: "https://x.com/Sejalshh07?t=fMWN-ZxHMUZq8sShWzj9wQ&s=09",
+      },
+      profile:
+        "./assets/teams/Sejal Sharma.jpg",
+      cover: "/assets/teams/3.png",
+    },    {
+      name: "Anushka",
+      position: "Corporate",
+      socials: {
+        github: "/",
+        linkedin: "/",
+        twitter: "/",
+      },
+      profile:
+        "./assets/teams/Anushka Chatterjee.jpg",
+      cover: "/assets/teams/3.png",
+    },    {
+      name: "Mudit Khater",
+      position: "Corporate",
+      socials: {
+        github: "/",
+        linkedin: "https://www.linkedin.com/in/mudit-khater-6a3931266/",
+        twitter: "https://x.com/MuditKhater108?t=8kkgS9Ign3-3lJUa72PfPA&s=09",
+      },
+      profile:
+        "./assets/teams/Payal Khater.jpg",
+      cover: "/assets/teams/3.png",
+    },    {
+      name: "Manika Sachdeva",
+      position: "Corporate",
+      socials: {
+        github: "/",
+        linkedin: "https://www.linkedin.com/in/manika-sachdeva-4a77a8281/",
+        twitter: "https://x.com/SachdevaManika?t=RDH9z03ouRCo2PerQW8x_w&s=09",
+      },
+      profile:
+        "./assets/teams/Manika.jpg",
+      cover: "/assets/teams/3.png",
+    },    {
+      name: "Manan Batra",
+      position: "Corporate",
+      socials: {
+        github: "/",
+        linkedin: "/",
+        twitter: "/",
+      },
+      profile:
+        "./assets/teams/Manan Batra.jpeg",
+      cover: "/assets/teams/3.png",
+    },    {
+      name: "Ayush Panwar ",
+      position: "Corporate",
+      socials: {
+        github: "https://github.com/AyushPanwar0705",
+        linkedin: "https://www.linkedin.com/in/ayush-panwar-697639251/",
+        twitter: "https://twitter.com/AyushPanwar0705",
+      },
+      profile:
+        "./assets/teams/Ayush Panwar.png",
+      cover: "/assets/teams/3.png",
+    },    {
+      name: "Yash kumar",
+      position: "Corporate",
+      socials: {
+        github: "/",
+        linkedin: "https://www.linkedin.com/in/yash-singh-380067245?/",
+        twitter: "https://x.com/yashkum07186253?s=21",
+      },
+      profile:
+        "./assets/teams/Yash.jpeg",
+      cover: "/assets/teams/3.png",
+    },    {
+      name: "Vaishak shetty",
+      position: "Corporate",
+      socials: {
+        github: "/",
+        linkedin: "https://www.linkedin.com/in/vaishak-shetty-61440723a/",
+        twitter: "https://twitter.com/Vaishak28",
+      },
+      profile:
+        "./assets/teams/VAISHAK SHETTY.jpeg",
+      cover: "/assets/teams/3.png",
+    },    {
+      name: "Shreya Samridhi",
+      position: "Corporate",
+      socials: {
+        github: "https://github.com/ShreyaSamridhi",
+        linkedin: "https://www.linkedin.com/in/shreya-samridhi-1a526124b/",
+        twitter: "https://twitter.com/ShreyaSamr41250",
+      },
+      profile:
+        "./assets/teams/Shreya.jpg",
+      cover: "/assets/teams/3.png",
+    },
+  ];
+  const creatives: any[] = [
+    {
+      name: "Aryaman Batra ",
+      position: "Creatives",
+      socials: {
+        github: "https://github.com/Aryaman2403",
+        linkedin: "https://www.linkedin.com/in/aryaman-batra-974263252/",
+        twitter: "https://x.com/AryamanBatra24?s=09",
+      },
+      profile:
+        "./assets/teams/ARYAMAN BATRA.jpg",
+      cover: "/assets/teams/3.png",
+    },
+    {
+      name: "Manmohan Yadav",
+      position: "Creatives",
+      socials: {
+        github: "/",
+        linkedin: "https://www.linkedin.com/in/manmohanyadav777?",
+        twitter: "x.com/mann2104",
+      },
+      profile:
+        "./assets/teams/MANMOHAN YADAV.PNG",
+      cover: "/assets/teams/3.png",
+    },
+    {
+      name: "Pranav",
+      position: "Creatives",
+      socials: {
+        github: "https://github.com/pranav2205",
+        linkedin: "http://linkedin.com/in/pranav-mathilakath-77929a24a",
+        twitter: "https://twitter.com/mpranavv",
+      },
+      profile:
+        "./assets/teams/PranavM.jpeg",
+      cover: "/assets/teams/3.png",
+    },
+    {
+      name: "M.Rakshavihasini",
+      position: "Creatives",
+      socials: {
+        github: "https://github.com/Rakshavihasini",
+        linkedin: "https://www.linkedin.com/in/rakshavihasini-m-6b7b1a259/",
+        twitter: "/",
+      },
+      profile:
+        "./assets/teams/Raksha.jpg",
+      cover: "/assets/teams/3.png",
+    },    {
+      name: "Baibhav Kumar ",
+      position: "Creatives",
+      socials: {
+        github: "/",
+        linkedin: "https://www.linkedin.com/in/baibhav-op",
+        twitter: "/",
+      },
+      profile:
+        "./assets/teams/Baibhav.png",
+      cover: "/assets/teams/3.png",
+    },    {
+      name: "Ayush Kaushik ",
+      position: "Creatives",
+      socials: {
+        github: "https://github.com/AyushKaushik07",
+        linkedin: "https://www.linkedin.com/in/ayush-kaushik-11a182267/",
+        twitter: "https://x.com/AyushKaush8407?t=5lE3e9ionmxyx1arGo-KEQ&s=09",
+      },
+      profile: "./assets/teams/Ayush Kaushik.jpg",
+      cover: "/assets/teams/3.png",
+    },   
+  ];
+  const editorial: any[] = [
+    {
+      name: "Ruchit Shivani",
+      position: "Editorial",
+      socials: {
+        github: "/",
+        linkedin: "/",
+        twitter: "/",
+      },
+      profile:
+        "./assets/teams/Varun.jpg",
+      cover: "/assets/teams/3.png",
+    },
+    {
+      name: "Shubham",
+      position: "Creatives",
+      socials: {
+        github: "https://github.com/shubhamranjan4",
+        linkedin: "https://www.linkedin.com/in/shubham-ranjan-361976288/",
+        twitter: "https://x.com/Shubham42445559?t=YJPS_F5JbR6J1ihLbY0Xpw&s=08",
+      },
+      profile:
+        "./assets/teams/Shubham.jpg",
+      cover: "/assets/teams/3.png",
     },
   ];
   const ops: any[] = [
@@ -386,16 +787,7 @@ const team = () => {
         github: "https://www.linkedin.com/in/mudit-khater-6a3931266", 
         linkedin: "https://www.linkedin.com/in/mudit-khater-6a3931266",
         twitter: "https://twitter.com/MuditKhater108?t=3D2VsKqqQwoQTa-_E5FQEA&s=09",},
-      profile:"https://drive.google.com/open?id=1zfNPqkJxeJTxaet-AC5CwpSYyWzpy00k",    },
-    {
-      name: "Prathmesh",
-      position: "member",
-      socials: {
-        github: "/", 
-        linkedin: "/",
-        twitter:"/",},
-      profile: "https://drive.google.com/uc?export=view&id=1xPCCpqScW4MRUPSz5uReBB9z3qHvwNQd",
-    },
+      profile:"./assets/teams/Payal Khater.jpg",    },
     {
       name: "Ayushman",
       position: "member",
@@ -404,7 +796,7 @@ const team = () => {
         linkedin: "https://www.linkedin.com/in/ayushman-anal-960737252",
         twitter:"https://twitter.com/ayushmananal",},
       profile:
-        "https://drive.google.com/open?id=1yZuDzaC_40RMyNgljY9_fZm5Wku2Nt-S",
+        "./assets/teams/Ayushman.jpg",
     },
     {
       name: "Soumya",
@@ -414,7 +806,7 @@ const team = () => {
         linkedin: "https://www.linkedin.com/in/soumya-haswani-0031411b6",
         twitter:"/",},
       profile:
-        "https://drive.google.com/open?id=17qfmzF3iaoT4AdVOK4h5QWgGQwmcrcHD",
+        "./assets/teams/Soumya Haswani.jpg",
     },
     {
       name: "Tanmay",
@@ -424,7 +816,7 @@ const team = () => {
         linkedin: "https://www.linkedin.com/in/tanmay-soni-56491b251",
         twitter:"https://twitter.com/tanmaysoni09?t=NVg8ZcS6k4OOc2r-bQcdQA&s=09",},
       profile:
-        "https://drive.google.com/open?id=11Y0CXXfJPDTwkfj-NACgl_FURJI-AqD9",
+        "./assets/teams/TANMAY SONI.jpg",
     },
     {
       name: "Shradha",
@@ -433,7 +825,7 @@ const team = () => {
         github: "https://github.com/Shradharai", 
         linkedin: "https://www.linkedin.com/in/shradha-rai-18460a213/",
         twitter:"https://twitter.com/shradharai4u?t=GitXnaemFiYi1fYrXjRinA&s=09",},
-      profile: "https://drive.google.com/open?id=1Jh8cykDb3A75MvjJjvPjPe4icxVO2pk6",
+      profile: "./assets/teams/Shradha.jpg",
     },
     {
       name: "Aditi",
@@ -443,7 +835,7 @@ const team = () => {
         linkedin: "https://www.linkedin.com/in/aditi-sahoo-475919251/",
         twitter:"https://twitter.com/01AditiSahoo1",},
       profile:
-        "https://drive.google.com/open?id=1azRPrX0-utV6Z1y2aDrsm1jWFLyKFdhL",
+        "./assets/teams/Aditi Sahoo.jpg",
     },
     {
       name: "Amit",
@@ -453,17 +845,7 @@ const team = () => {
         linkedin: "https://www.linkedin.com/in/amit-tiwari-25563226b",
         twitter:"https://twitter.com/Amittiwari2003?t=oWzG8wfiH1gJGDzLp0Ybjg&s=09",},
       profile:
-        "https://drive.google.com/open?id=18x7daLNbb6UNznE9lLi9J4ekq6619bkR",
-    },
-    {
-      name: "Seneen",
-      position: "member",
-      socials: {
-        github: "/", 
-        linkedin: "/",
-        twitter:"/",},
-      profile:
-        "https://drive.google.com/open?id=1Lj85a18IWUJ94hqQ0Hh5VcEP-ymzs7xi",
+        "./assets/teams/Amit.jpg",
     },
     {
       name: "Mehul",
@@ -473,7 +855,7 @@ const team = () => {
         linkedin: "https://www.linkedin.com/in/kumar-mehul-a70200251",
         twitter:"https://twitter.com/kumarmehul2401?t=gShVp1rvkRhQGGvRuHoxRw&s=09",},
       profile:
-        "https://drive.google.com/open?id=1qRqYQKjnPXRyK_nB81eUBf8C3oDxvc5-",
+        "./assets/teams/Kumar Mehul.jpg",
     },
     {
       name: "Aryan",
@@ -483,17 +865,7 @@ const team = () => {
         linkedin: "https://www.linkedin.com/in/aryan-gupta-5b6613264/",
         twitter:"https://x.com/aryan9719?s=11",},
       profile:
-        "https://drive.google.com/open?id=1ccsxOdOKQ6HC0VQp8zTdlaU6kfk10xQn",
-    },
-    {
-      name: "Hershy",
-      position: "member",
-      socials: {
-        github: "/", 
-        linkedin: "/",
-        twitter:"/",},
-      profile:
-        "https://drive.google.com/uc?export=view&id=1hqb9rc8Zmd_NgiKmFnZiRVdZCDpg9hDK",
+        "./assets/teams/Aryan.jpg",
     },
   ];
 
@@ -516,19 +888,37 @@ const team = () => {
             <TeamCard key={id} details={ele}></TeamCard>
           ))}
         </div>
-        <h2 className="text-[#00D1FF] mt-8 font-semibold">tech team:</h2>
+        <h2 className="text-[#00D1FF] mt-8 font-semibold">Tech team:</h2>
         <div className="flex flex-wrap gap-10 items-center justify-center mb-48">
           {tech.map((ele, id) => (
             <TeamMembersCard key={id} details={ele}></TeamMembersCard>
           ))}
         </div>
-        <h2 className="text-[#00D1FF] mt-8 font-semibold">crypto team:</h2>
+        <h2 className="text-[#00D1FF] mt-8 font-semibold">Crypto team:</h2>
         <div className="flex flex-wrap gap-10 items-center justify-center mb-48">
           {crypto.map((ele, id) => (
             <TeamMembersCard key={id} details={ele}></TeamMembersCard>
           ))}
         </div>
-        <h2 className="text-[#00D1FF] mt-8 font-semibold">operations team:</h2>
+        <h2 className="text-[#00D1FF] mt-8 font-semibold">Corporate team:</h2>
+        <div className="flex flex-wrap gap-10 items-center justify-center mb-48">
+          {corporate.map((ele, id) => (
+            <TeamMembersCard key={id} details={ele}></TeamMembersCard>
+          ))}
+        </div>
+        <h2 className="text-[#00D1FF] mt-8 font-semibold">Creatives team:</h2>
+        <div className="flex flex-wrap gap-10 items-center justify-center mb-48">
+          {creatives.map((ele, id) => (
+            <TeamMembersCard key={id} details={ele}></TeamMembersCard>
+          ))}
+        </div>
+        <h2 className="text-[#00D1FF] mt-8 font-semibold">Editorial team:</h2>
+        <div className="flex flex-wrap gap-10 items-center justify-center mb-48">
+          {editorial.map((ele, id) => (
+            <TeamMembersCard key={id} details={ele}></TeamMembersCard>
+          ))}
+        </div>
+        <h2 className="text-[#00D1FF] mt-8 font-semibold">Operations team:</h2>
         <div className="flex flex-wrap gap-10 items-center justify-center mb-48">
           {ops.map((ele, id) => (
             <TeamMembersCard key={id} details={ele}></TeamMembersCard>
