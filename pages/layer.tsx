@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import LayerHeader from "../components/shared/layerheader";
 import ninenine from "../public/99.png";

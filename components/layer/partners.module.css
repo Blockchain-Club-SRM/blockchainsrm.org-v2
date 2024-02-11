@@ -1,20 +1,20 @@
-/* partners.module.css */
+/* Add these styles to your existing CSS file or partners.module.css */
 
-/* Define the styles for the container of the bubbles */
+.bubbles {
+  overflow: hidden;
+  position: relative; /* Ensure the container is positioned relative */
+}
 
-  /* Define the styles for the bubbles */
-  .bubble {
-    position: absolute;
-    animation: scroll 10s linear infinite;
+.bubble-container {
+  display: flex;
+  animation: scroll-bubbles 20s linear infinite;
+}
+
+@keyframes scroll-bubbles {
+  0% {
+      transform: translateX(100%);
   }
-  
-  /* Define the keyframes for scrolling animation */
-  @keyframes scroll {
-    0% {
-      left: 100%; /* Start the animation from the right side */
-    }
-    100% {
-      left: -100%; /* Move the bubbles to the left side */
-    }
+  100% {
+      transform: translateX(-100%);
   }
-  
+}
