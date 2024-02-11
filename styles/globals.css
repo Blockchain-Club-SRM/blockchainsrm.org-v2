@@ -127,7 +127,7 @@ body {
 
 @media (max-width: 768px) {
   body {
-    background-image: url("../public/mbbg.svg");
+    background-image: url("/mbbg.svg");
   }
 }
 
