@@ -60,10 +60,66 @@ const Judges: React.FC = () => {
 
     
     <div className="w-[284px] h-[49px] relative">
-        <div className="w-[284px] left-0 [font-family:'Impact-Regular',Helvetica] font-normal text-white text-[40px] text-center tracking-[5.20px] leading-[normal]">
+    {/* <div className="w-[284px]  [font-family:'Impact-Regular',Helvetica] font-normal text-white text-[40px] text-center tracking-[5.20px] leading-[normal]">
             FULL NAME
-        </div>
+        </div> */}
+        <div className="absolute [font-family:'Impact-Regular',Helvetica] font-normal text-white text-[40px] text-center top-[300px] left-[118px] tracking-[0.13em] inline-block w-[284px] h-[49px]">FULL NAME</div>
+        <div className="absolute [font-family:'Impact-Regular',Helvetica] font-normal text-white text-[40px] text-center top-[300px] left-[608px] tracking-[0.13em] inline-block w-[284px] h-[49px]">FULL NAME</div>
+        <div className="absolute [font-family:'Impact-Regular',Helvetica] font-normal text-white text-[40px] text-center top-[300px] left-[1150px] tracking-[0.13em] inline-block w-[284px] h-[49px]">FULL NAME</div>
+        <div className="absolute [font-family:'Impact-Regular',Helvetica] font-normal text-white text-[40px] text-center top-[870px] left-[1150px] tracking-[0.13em] inline-block w-[284px] h-[49px]">FULL NAME</div>
+        <div className="absolute [font-family:'Impact-Regular',Helvetica] font-normal text-white text-[40px] text-center top-[870px] left-[645px] tracking-[0.13em] inline-block w-[284px] h-[49px]">FULL NAME</div>
+        <div className="absolute [font-family:'Impact-Regular',Helvetica] font-normal text-white text-[40px] text-center top-[870px] left-[118px] tracking-[0.13em] inline-block w-[284px] h-[49px]">FULL NAME</div>
+
+        <div className="absolute h-[29px] top-[371px] left-[154px] w-[184px] text-[25px] text-center text-white [font-family:'Inter-Regular',Helvetica] font-normal tracking-[0] leading-[normal] whitespace-nowrap">Description</div>
+        <div className="absolute h-[29px] top-[371px] left-[650px] w-[184px] text-[25px] text-center text-white [font-family:'Inter-Regular',Helvetica] font-normal tracking-[0] leading-[normal] whitespace-nowrap">Description</div>
+        <div className="absolute h-[29px] top-[371px] left-[1180px] w-[184px] text-[25px] text-center text-white [font-family:'Inter-Regular',Helvetica] font-normal tracking-[0] leading-[normal] whitespace-nowrap">Description</div>
+        <div className="absolute h-[29px] top-[940px] left-[1190px] w-[184px] text-[25px] text-center text-white [font-family:'Inter-Regular',Helvetica] font-normal tracking-[0] leading-[normal] whitespace-nowrap">Description</div>
+        <div className="absolute h-[29px] top-[940px] left-[680px] w-[184px] text-[25px] text-center text-white [font-family:'Inter-Regular',Helvetica] font-normal tracking-[0] leading-[normal] whitespace-nowrap">Description</div>
+        <div className="absolute h-[29px] top-[940px] left-[154px] w-[184px] text-[25px] text-center text-white [font-family:'Inter-Regular',Helvetica] font-normal tracking-[0] leading-[normal] whitespace-nowrap">Description</div>
+
     </div>
+    <Image
+        className="absolute top-[766px] left-[475px] w-[56px] h-[17px]"
+        alt=""
+        src="/group1.svg"
+        width={273.4}
+        height={226.7}
+    />
+    <Image
+        className="absolute top-[530px] left-[1074px] w-[56px] h-[17px]"
+        alt=""
+        src="/group1.svg"
+        width={273.4}
+        height={226.7}
+    />
+     <Image
+        className="absolute top-[50px] left-[1003px] w-[56px] h-[17px]"
+        alt=""
+        src="/group1.svg"
+        width={273.4}
+        height={226.7}
+    />
+    <Image
+        className="absolute top-[278px] left-[466px] w-[42px] h-[17px]"
+        alt=""
+        src="/group2.svg"
+        width={273.4}
+        height={226.7}
+    />
+    <Image
+        className="absolute top-[587px] left-[46px] w-[42px] h-[17px]"
+        alt=""
+        src="/group2.svg"
+        width={273.4}
+        height={226.7}
+    />
+    <Image
+        className="absolute top-[207px] left-[89px] w-[45px] h-[70px]"
+        alt=""
+        src="/group3.svg"
+        width={273.4}
+        height={226.7}
+    />
 
     {/* Other div components */}
     <Image
