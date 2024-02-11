@@ -145,7 +145,7 @@ const team = () => {
     },
     {
       name: "Ayushi Gupta",
-      position: "EditorialLead",
+      position: "OperationsLead",
       socials: {
         github: "https://github.com/dreamcatcher1712", 
         linkedin: "https://www.linkedin.com/in/ayushi-gupta-445970237",

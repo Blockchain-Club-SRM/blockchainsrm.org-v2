@@ -8,7 +8,7 @@ import prize from "../public/Frame 147.svg";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { RiseLoader } from "react-spinners";
-
+import Judges from "../components/judges/judges";
 export default function Layer() {
   const [loading, setLoading] = useState(true);
 
@@ -80,6 +80,8 @@ export default function Layer() {
           <Footer />
         </>
       )}
+      <Judges />
     </div>
+    
   );
 }
