@@ -22,14 +22,15 @@ export default function Layer() {
     <div className="">
       {loading ? (
         <div
-          className={`h-screen bg-dark-purple flex justify-center items-center transition-all duration-200 ease-out ${loading ? "opacity-100" : "opacity-0"
-            }`}
+          className={`h-screen bg-dark-purple flex justify-center items-center transition-all duration-200 ease-out ${
+            loading ? "opacity-100" : "opacity-0"
+          }`}
         >
           <RiseLoader color="#00D1FF" />
         </div>
       ) : (
         <>
-          <div className="min-h-screen bg-cover bg-[url(../public/layerbg.png)]">
+          <div className="min-h-screen bg-cover bg-[url(/layerbg.png)]">
             <LayerHeader />
             <div className="main flex flex-col">
               <Image
@@ -74,7 +75,7 @@ export default function Layer() {
             width={1180}
             height={752}
             style={{
-              backgroundColor: 'rgba(11, 15, 24, 1)',
+              backgroundColor: "rgba(11, 15, 24, 1)",
             }}
           />
           <Footer />
@@ -82,6 +83,5 @@ export default function Layer() {
       )}
       <Judges />
     </div>
-    
   );
 }
