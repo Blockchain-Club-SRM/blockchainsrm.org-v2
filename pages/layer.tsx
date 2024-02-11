@@ -3,6 +3,7 @@ import LayerHeader from "../components/shared/layerheader";
 import ninenine from "../public/99.png";
 import text from "../public/layertext.png";
 import ship from "../public/ship.png";
+import prize from "../public/Frame 147.png";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { RiseLoader } from "react-spinners";
@@ -65,6 +66,14 @@ export default function Layer() {
               </div>
             </div>
           </div>
+            <Image
+              loading="eager"
+              alt="prizes"
+              src={prize}
+              layout="responsive"
+              width={1180}
+              height={752}
+            />
         </>
       )}
     </div>
