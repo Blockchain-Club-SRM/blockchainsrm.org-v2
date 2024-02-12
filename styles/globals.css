@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
+html {
   scroll-behavior: smooth;
 }
 * {
@@ -121,14 +121,14 @@ p {
 }
 
 body {
-  background-image: url("../public/dtbg.svg");
+  background-image: url("/dtbg.svg");
   background-repeat: repeat-y;
   background-size: 105%;
 }
 
 @media (max-width: 768px) {
   body {
-    background-image: url("../public/mbbg.svg");
+    background-image: url("/mbbg.svg");
   }
 }
 
@@ -142,7 +142,7 @@ body {
 }
 
 .modal-event-content {
-  background-image: url("../public/dtbg.svg");
+  background-image: url("/dtbg.svg");
   background-size: cover;
   background-position: center;
 }
