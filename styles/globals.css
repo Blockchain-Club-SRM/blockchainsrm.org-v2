@@ -169,25 +169,55 @@ body {
 .event-card:hover div {
   display: flex;
 }
+.partners-container {
+  margin: 5rem auto;
+  text-align: center;
+  color: white;
+}
+
+.partners-heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.partners-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
 .partner-card {
-  background-color: rgba(255, 255, 255, 0); 
-  width: 250px;
-  height: 150px;
+  width: 250px; /* Width of the card */
+  height: 150px; /* Height of the card */
+  background-color: rgba(255, 255, 255, 0); /* Semi-transparent background */
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
-  transition: transform 0.2s;
+  transition: transform 0.3s ease-in-out;
 }
 
 .partner-card:hover {
-  transform: translateY(-0.25rem);
+  transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
-.partner-logo {
-  max-width: 90%;
-  max-height: 90%;
-  object-fit: contain;
+/* Image container to ensure images don't stretch beyond their boundaries */
+.image-container {
+  width: 100%; /* Same width as the partner card */
+  height: 100%; /* Same height as the partner card */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container img {
+  max-width: 80%; /* Maximum width of the logo */
+  max-height: 80%; /* Maximum height of the logo */
+}
+
+@media (max-width: 768px) {
+  .partner-card {
+    width: calc(50% - 1rem); /* Two cards per row on smaller screens */
+  }
 }
