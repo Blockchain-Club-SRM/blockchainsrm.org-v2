@@ -170,8 +170,7 @@ body {
   display: flex;
 }
 .partner-card {
-  background-color: rgba(255, 255, 255, 0); /* White with 10% opacity */
-  /* Other styling remains the same */
+  background-color: rgba(255, 255, 255, 0); 
   width: 250px;
   height: 150px;
   display: flex;
@@ -188,7 +187,7 @@ body {
 }
 
 .partner-logo {
-  max-width: 90%; /* Slightly smaller to ensure padding inside the card */
-  max-height: 90%; /* Adjust the percentage as needed */
-  object-fit: contain; /* Keeps the aspect ratio of the logo */
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
 }
