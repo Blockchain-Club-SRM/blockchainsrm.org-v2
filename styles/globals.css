@@ -169,3 +169,26 @@ body {
 .event-card:hover div {
   display: flex;
 }
+.partner-card {
+  background-color: rgba(255, 255, 255, 0); /* White with 10% opacity */
+  /* Other styling remains the same */
+  width: 250px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  transition: transform 0.2s;
+}
+
+.partner-card:hover {
+  transform: translateY(-0.25rem);
+}
+
+.partner-logo {
+  max-width: 90%; /* Slightly smaller to ensure padding inside the card */
+  max-height: 90%; /* Adjust the percentage as needed */
+  object-fit: contain; /* Keeps the aspect ratio of the logo */
+}
