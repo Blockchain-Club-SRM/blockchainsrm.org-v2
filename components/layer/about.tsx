@@ -2,8 +2,11 @@ import type { NextPage } from "next";
 
 const About: NextPage = () => {
   return (
-    <div className="relative top-[0px] left-[0px] w-[1513px] h-[867px] overflow-hidden text-center text-7xl-5 text-white font-khula " style={{ backgroundColor: "rgba(11,15,24)" }}>
-        <img
+    <div
+      className="relative top-[0px] left-[0px] w-[1513px] h-[867px] overflow-hidden text-center text-7xl-5 text-white font-khula "
+      style={{ backgroundColor: "rgba(11,15,24)" }}
+    >
+      <img
         className="absolute h-[101.06%] right-[0%] bottom-[-1.04%] left-[-1.04%] w-[1511px] origin-top-left -rotate-180 bg-gradient-to-b from-slate-950 to-slate-950"
         alt=""
         src="./Rectangle 86.svg"
@@ -20,7 +23,9 @@ const About: NextPage = () => {
         connect keen enthusiasts and upcoming developers to leading industry
         professionals in the blockchain and web3 ecosystem.
       </div>
-      <div className="absolute top-[8.4%] left-[17.85%] text-100xl font-impact w-[446px] h-[135px] text-center text-white text-[119px] font-normal font-['Impact'] tracking-[15.47px] text-transparent leading-none !bg-clip-text [background:linear-gradient(180deg,_#FFFFFF_10.4%,_#006871_100%_)] [-webkit-text-fill-color:transparent] [text-shadow:0px_4px_4px_rgba(0,_0,_0,_0.25)]">ABOUT</div>
+      <div className="absolute top-[8.4%] left-[17.85%] text-100xl font-impact w-[446px] h-[135px] text-center text-white text-[119px] font-normal font-['Impact'] tracking-[15.47px] text-transparent leading-none !bg-clip-text [background:linear-gradient(180deg,_#FFFFFF_10.4%,_#006871_100%_)] [-webkit-text-fill-color:transparent] [text-shadow:0px_4px_4px_rgba(0,_0,_0,_0.25)]">
+        ABOUT
+      </div>
       <img
         className="absolute h-[17.9%] w-[6.54%] top-[11.42%] right-[9.58%] bottom-[70.68%] left-[83.87%] max-w-full overflow-hidden max-h-full"
         alt=""
