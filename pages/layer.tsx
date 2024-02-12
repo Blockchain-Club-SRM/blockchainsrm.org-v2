@@ -10,10 +10,10 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { RiseLoader } from "react-spinners";
 import Judges from "../components/judges/judges";
+import Prizes from "../components/layer/prizes";
 import Partners from "../components/layer/partners";
 import Tracks from "../components/layer/tracks";
 
-import Prizes from "../components/layer/prizes";
 export default function Layer() {
   const [loading, setLoading] = useState(true);
 
@@ -74,18 +74,7 @@ export default function Layer() {
           </div>
           {/* <About /> */}
           <Tracks />
-
-          <Image
-            loading="eager"
-            alt="prizes"
-            src={prize}
-            layout="responsive"
-            width={1180}
-            height={752}
-            style={{
-              backgroundColor: "rgba(11, 15, 24, 1)",
-            }}
-          />
+          <Prizes />
           <div className="test">
             <Partners />
           </div>
