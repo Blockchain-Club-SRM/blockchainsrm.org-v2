@@ -1,6 +1,7 @@
 import Image from "next/image";
 import LayerHeader from "../components/shared/layerheader";
 import Footer from "../components/layer/footer";
+import About from "../components/layer/about";
 import ninenine from "../public/99.png";
 import text from "../public/layertext.png";
 import ship from "../public/ship.png";
@@ -66,6 +67,7 @@ export default function Layer() {
               </div>
             </div>
           </div>
+          <About />
           <Image
             loading="eager"
             alt="prizes"
@@ -77,10 +79,10 @@ export default function Layer() {
               backgroundColor: 'rgba(11, 15, 24, 1)',
             }}
           />
-          <Footer />
         </>
       )}
       <Judges />
+      <Footer />
     </div>
     
   );

@@ -3,7 +3,7 @@ import * as React from "react";
 function Footer() {
   return (
     <div className="flex flex-col top-[500px]" style={{ backgroundColor: "rgba(11,15,24)" }}>
-      <div className="flex gap-5 mt-0 justify-center items-center px-5 max-w-full">
+      <div className="flex gap-5 mt-5 justify-center items-center px-5 max-w-full">
         <a href="https://www.instagram.com/blockchainsrm/" target="_blank" rel="noopener noreferrer">
           <img
             loading="lazy"
