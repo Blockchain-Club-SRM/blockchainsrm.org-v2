@@ -1,12 +1,16 @@
 "use client"
 import Image from "next/image";
 import LayerHeader from "../components/shared/layerheader";
+import Footer from "../components/layer/footer";
+import About from "../components/layer/about";
 import ninenine from "../public/99.png";
 import text from "../public/layertext.png";
 import ship from "../public/ship.png";
+import prize from "../public/Frame 147.svg";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { RiseLoader } from "react-spinners";
+import Judges from "../components/judges/judges";
 import Partners from "../components/layer/partners";
 
 export default function Layer() {
@@ -30,7 +34,7 @@ export default function Layer() {
         </div>
       ) : (
         <>
-          <div className="min-h-screen bg-cover bg-[url(../public/layerbg.png)]">
+          <div className="min-h-screen bg-cover bg-[url(/layerbg.png)]">
             <LayerHeader />
             <div className="main flex flex-col">
               <Image
@@ -67,11 +71,25 @@ export default function Layer() {
               </div>
             </div>
           </div>
+          {/* <About /> */}
+          <Image
+            loading="eager"
+            alt="prizes"
+            src={prize}
+            layout="responsive"
+            width={1180}
+            height={752}
+            style={{
+              backgroundColor: "rgba(11, 15, 24, 1)",
+            }}
+          />
           <div className="test">
                 <Partners/>
           </div>
         </>
       )}
+      <Judges />
+      <Footer />
     </div>
   );
 }

@@ -55,6 +55,7 @@ const LayerHeader = () => {
       <div className="flex items-center space-x-3 2xl:px-32 2xl:py-5">
        
         <Link href={"/"}>
+          {/* <img src= {Srm.src} alt="" /> */}
           <img src={Logo.src} alt="" className="h-16 cursor-pointer" />
         </Link>
       </div>

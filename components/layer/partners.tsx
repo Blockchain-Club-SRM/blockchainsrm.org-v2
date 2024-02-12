@@ -16,15 +16,30 @@ export default function Partners() {
         initial={{ x: "100%" }} // Initial position
         animate={{ x: "-100%" }} // Move div to the left
         transition={{
-          duration: 20, // Adjust the duration as needed
+          duration: 10, // Adjust the duration as needed
           repeat: Infinity, // Repeat indefinitely
           
         }}
-        style={{
-          whiteSpace: "nowrap", // Prevent text from wrapping
-          position: "absolute" // Position the div absolutely
+        
+        className="bubbles-container hidden xl:flex gap-40"
+      >
+        {/* Preload the images */}
+        <Image src={bubble}  alt="bubble" />
+        <Image src={bubble} alt="bubble" />
+        <Image src={bubble} alt="bubble" />
+        <Image src={bubble} alt="bubble" />
+      </motion.div>
+      
+      <motion.div
+        initial={{ x: "100%" }} // Initial position
+        animate={{ x: "-100%" }} // Move div to the left
+        transition={{
+          duration: 10, // Adjust the duration as needed
+          repeat: Infinity, // Repeat indefinitely
+          
         }}
-        className="bubbles-container overflow-hidden mt-44 flex gap-40"
+        
+        className="bubbles-container mt-16  hidden xl:flex gap-40"
       >
         {/* Preload the images */}
         <Image src={bubble} alt="bubble" />
@@ -32,6 +47,8 @@ export default function Partners() {
         <Image src={bubble} alt="bubble" />
         <Image src={bubble} alt="bubble" />
       </motion.div>
+      
+
     </motion.div>
   );
 }
