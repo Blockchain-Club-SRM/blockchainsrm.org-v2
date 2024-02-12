@@ -10,6 +10,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { RiseLoader } from "react-spinners";
 import Judges from "../components/judges/judges";
+import Faq from "../components/layer/faq";
 export default function Layer() {
   const [loading, setLoading] = useState(true);
 
@@ -83,6 +84,7 @@ export default function Layer() {
         </>
       )}
       <Judges />
+      <Faq />
       <Footer />
     </div>
   );
