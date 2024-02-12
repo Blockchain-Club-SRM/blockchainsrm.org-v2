@@ -1,5 +1,3 @@
-/* Add these styles to your existing CSS file or partners.module.css */
-
 .bubbles {
   overflow: hidden;
   position: relative; /* Ensure the container is positioned relative */
@@ -12,9 +10,12 @@
 
 @keyframes scroll-bubbles {
   0% {
-      transform: translateX(100%);
+      transform: translateX(100%) translateY(0);
+  }
+  50% {
+      transform: translateX(0) translateY(-20px);
   }
   100% {
-      transform: translateX(-100%);
+      transform: translateX(-100%) translateY(0);
   }
 }
