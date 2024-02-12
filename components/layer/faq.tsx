@@ -25,7 +25,7 @@ const Faq = () => {
   ];
 
   return (
-    <div className="md:h-screen bg-cover bg-[url(/faqbg.png)]">
+    <div className="h-screen bg-center md:bg-top bg-[url(/faqbg.png)]">
       <div className="flex justify-center pt-5 md:py-10">
         <img alt="faqs" className="md:w-48 w-24" src={"/faq.svg"} />
       </div>
