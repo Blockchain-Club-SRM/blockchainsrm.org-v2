@@ -1,0 +1,20 @@
+/* Add these styles to your existing CSS file or partners.module.css */
+
+.bubbles {
+  overflow: hidden;
+  position: relative; /* Ensure the container is positioned relative */
+}
+
+.bubble-container {
+  display: flex;
+  animation: scroll-bubbles 20s linear infinite;
+}
+
+@keyframes scroll-bubbles {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}

@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import LayerHeader from "../components/shared/layerheader";
 import Footer from "../components/layer/footer";
@@ -10,7 +11,8 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { RiseLoader } from "react-spinners";
 import Judges from "../components/judges/judges";
-import Faq from "../components/layer/faq";
+import Partners from "../components/layer/partners";
+
 export default function Layer() {
   const [loading, setLoading] = useState(true);
 
@@ -39,21 +41,21 @@ export default function Layer() {
                 alt="layer"
                 loading="eager"
                 src={text}
-                className="self-center mt-16"
+                className="self-center mt-16 xl:w-auto w-80"
               />
               <Image
                 loading="eager"
                 alt="ship"
                 src={ship}
-                className="absolute top-[22rem] -left-5 w-[83rem]"
+                className=" xl:block absolute  top-[22rem] -left-3 w-[82rem] hidden"
               />
               <Image
                 loading="eager"
                 alt="99"
                 src={ninenine}
-                className=" self-center mt-[40rem]"
+                className=" self-center mt-[40rem] xl:w-auto w-96 "
               />
-              <div className="buttons flex mt-16 self-center gap-14 mb-72">
+              <div className="buttons flex flex-col md:flex-row mt-16 self-center gap-14 mb-72 ">
                 <Link href="https://layer-2.devfolio.co/">
                   {" "}
                   <h1 className="bg-[#849fa2] hover:scale-110 transition-transform h-16 backdrop-blur-sm w-72 text-center p-4 rounded-full bg-opacity-50 tracking-[3.38px] border-2 border-[#d2cccc] font-Montserrat text-white text-lg ">
@@ -69,7 +71,7 @@ export default function Layer() {
               </div>
             </div>
           </div>
-          <About />
+          {/* <About /> */}
           <Image
             loading="eager"
             alt="prizes"
@@ -81,10 +83,12 @@ export default function Layer() {
               backgroundColor: "rgba(11, 15, 24, 1)",
             }}
           />
+          <div className="test">
+                <Partners/>
+          </div>
         </>
       )}
       <Judges />
-      <Faq />
       <Footer />
     </div>
   );
