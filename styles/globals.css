@@ -169,6 +169,7 @@ body {
 .event-card:hover div {
   display: flex;
 }
+
 .partners-container {
   margin: 5rem auto;
   text-align: center;

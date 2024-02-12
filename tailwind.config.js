@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        "7xl": "6rem",
+      },
       fontFamily: {
         Montserrat: ["Montserrat", "sans-serif"],
       },

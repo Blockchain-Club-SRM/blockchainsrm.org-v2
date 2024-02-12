@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import LayerHeader from "../components/shared/layerheader";
 import Footer from "../components/layer/footer";
@@ -12,6 +12,7 @@ import { useEffect, useState } from "react";
 import { RiseLoader } from "react-spinners";
 import Judges from "../components/judges/judges";
 import Partners from "../components/layer/partners";
+import Tracks from "../components/layer/tracks";
 
 export default function Layer() {
   const [loading, setLoading] = useState(true);
@@ -72,6 +73,8 @@ export default function Layer() {
             </div>
           </div>
           {/* <About /> */}
+          <Tracks />
+
           <Image
             loading="eager"
             alt="prizes"
@@ -84,12 +87,12 @@ export default function Layer() {
             }}
           />
           <div className="test">
-                <Partners/>
+            <Partners />
           </div>
+          <Judges />
+          <Footer />
         </>
       )}
-      <Judges />
-      <Footer />
     </div>
   );
 }
