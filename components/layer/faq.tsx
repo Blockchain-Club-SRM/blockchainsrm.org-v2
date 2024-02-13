@@ -41,7 +41,7 @@ const Faq = () => {
                 <button
                   type="button"
                   onClick={() => toggleAccordion(index)}
-                  className="flex items-center justify-between rounded-xl w-full p-5 font-medium rtl:text-right text-gray-500 border border-b border-[#80DCFF] focus:ring-4 focus:ring-[#80DCFF] gap-3"
+                  className="flex items-center justify-between rounded-xl w-full p-5 font-medium rtl:text-right text-gray-500 border border-b border-[#80DCFF] gap-3"
                   aria-expanded={activeIndex === index}
                   aria-controls="accordion-collapse-body-2"
                 >
