@@ -73,7 +73,7 @@ export default function Layer() {
               </div>
             </div>
           </div>
-          {/* <About /> */}
+          <About />
           <Tracks />
           <Prizes />
           <div className="test">
