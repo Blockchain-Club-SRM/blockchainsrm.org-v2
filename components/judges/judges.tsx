@@ -7,20 +7,14 @@ import type { NextPage } from "next";
 
 const Judges: React.FC = () => {
   return (
-    <div className="bg-[#0c0f17] bg-gradient-to-r flex flex-col from-[#0F2D291A] via-[#122730] via-[#0B0F1800] to-[#0B0F18B0] min-h-screen">
-      <span
-        className="text-6xl self-center mt-10 mb-20  xl:text-8xl font-normal font-['Impact'] tracking-[13.13px]"
-        style={{
-          background: "-webkit-linear-gradient(45deg, #FFFFFF, #00ffff)",
-          WebkitBackgroundClip: "text",
-          WebkitTextFillColor: "transparent",
-          backgroundImage: "-webkit-linear-gradient(top, #FFFFFF, #00ffff)",
-        }}
-      >
-        Judges
-      </span>
+    <div className="bg-slate-950 flex flex-col min-h-screen">
+      <div className="text-center w-full md:my-20 text-5xl mt-4 md:mt-0 md:py-0 md:text-7xl">
+        <span className="bg-clip-text pl-2 md:pl-0 bg-gradient-to-t from-cyan-700 to-slate-50 text-transparent font-black uppercase font-['Impact']">
+          Judges
+        </span>
+      </div>
 
-      <div className="ml-9 md:ml-0 cards flex flex-col xl:gap-48 mb-20  xl:flex-row xl:flex-wrap xl:px-20 justify-center xl:justify-between">
+      <div className="md:ml-0 cards flex flex-col xl:gap-48 mb-20 xl:flex-row xl:flex-wrap xl:px-20 xl:justify-between">
         {[...Array(6)].map((_, index) => (
           <div
             key={index}

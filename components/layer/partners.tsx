@@ -8,9 +8,16 @@ import jellyfish1 from "../../public/partnersjellyfish1.png";
 export default function Partners() {
   return (
     <motion.div className="bg-cover bg-[url(/partnersbg.png)] h-screen flex flex-col relative">
-      <Image alt="Partners" className="self-center md:w-auto w-80 z-0 mt-12" src={text} />
-      <Image alt="jellyfish" className="z-0 self-end mr-44 hidden md:block" src={jellyfish1} />
-
+      <div className="text-center w-full md:mb-14 text-5xl mt-4 md:mt-0 md:py-0 md:text-7xl">
+        <span className="bg-clip-text pl-2 md:pl-0 bg-gradient-to-t from-cyan-700 to-slate-50 text-transparent font-black uppercase font-['Impact']">
+          Partners
+        </span>
+      </div>{" "}
+      <Image
+        alt="jellyfish"
+        className="z-0 self-end mr-44 hidden md:block"
+        src={jellyfish1}
+      />
       {/* Add the marquee effect to the bubbles container */}
       <motion.div
         initial={{ x: "100%" }} // Initial position
@@ -18,27 +25,22 @@ export default function Partners() {
         transition={{
           duration: 10, // Adjust the duration as needed
           repeat: Infinity, // Repeat indefinitely
-          
         }}
-        
         className="bubbles-container hidden xl:flex gap-40"
       >
         {/* Preload the images */}
-        <Image src={bubble}  alt="bubble" />
+        <Image src={bubble} alt="bubble" />
         <Image src={bubble} alt="bubble" />
         <Image src={bubble} alt="bubble" />
         <Image src={bubble} alt="bubble" />
       </motion.div>
-      
       <motion.div
         initial={{ x: "100%" }} // Initial position
         animate={{ x: "-100%" }} // Move div to the left
         transition={{
           duration: 10, // Adjust the duration as needed
           repeat: Infinity, // Repeat indefinitely
-          
         }}
-        
         className="bubbles-container mt-16  hidden xl:flex gap-40"
       >
         {/* Preload the images */}
@@ -47,8 +49,6 @@ export default function Partners() {
         <Image src={bubble} alt="bubble" />
         <Image src={bubble} alt="bubble" />
       </motion.div>
-      
-
     </motion.div>
   );
 }
