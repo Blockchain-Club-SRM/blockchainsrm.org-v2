@@ -55,6 +55,7 @@ const LayerHeader = () => {
       <div className="flex items-center space-x-3 2xl:px-32 2xl:py-5">
        
         <Link href={"/"}>
+          {/* <img src= {Srm.src} alt="" /> */}
           <img src={Logo.src} alt="" className="h-16 cursor-pointer" />
         </Link>
       </div>
@@ -62,7 +63,7 @@ const LayerHeader = () => {
         <div className=" absolute right-6 top-6 md:hidden cursor-pointer">
           <BiMenu onClick={show} size={26} className="cursor-pointer" />
         </div>
-        <ul className="hidden md:flex gap-8 p-3 py-6 lg:w-[50vw] md:justify-center content-center uppercase backdrop-blur-md">
+        <ul className="hidden md:flex gap-2 xl:gap-8 p-3 py-6 lg:w-[50vw] md:justify-center content-center uppercase backdrop-blur-md">
           {menu.map((item, index) => {
             return (
               <li

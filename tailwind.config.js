@@ -1,18 +1,24 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
+  mode: "jit",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
-      fontFamily:{
-        Montserrat:['Montserrat',"sans-serif"]
+      fontSize: {
+        "7xl": "6rem",
+      },
+      fontFamily: {
+        Montserrat: ["Montserrat", "sans-serif"],
+        wendy: ["Wendy One", "sans-serif"],
       },
       colors: {
         "primary-blue": "#00D1FF",
         "primary-pink": "#AD1AAF",
-        "dark-purple":"#4A235A",
+        "dark-purple": "#4A235A",
       },
       backgroundImage: {
         "subheading-gradient":

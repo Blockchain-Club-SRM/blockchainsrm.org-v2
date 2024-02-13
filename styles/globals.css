@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Wendy+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -26,6 +28,31 @@
 }
 
 
+/* In your global stylesheet or component stylesheet */
+
+/* In your Tailwind CSS stylesheet or directly in your HTML/JSX file */
+.custom-text {
+  width: 563px;
+  height: 135px;
+  flex-shrink: 0;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Impact', sans-serif;
+  font-size: 101px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 13.13px;
+  background: linear-gradient(180deg, #FFF 10.4%, #006871 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
 * {
   padding: 0;
   margin: 0;
@@ -140,14 +167,14 @@ p {
 }
 
 body {
-  background-image: url("../public/dtbg.svg");
+  background-image: url("/dtbg.svg");
   background-repeat: repeat-y;
   background-size: 105%;
 }
 
 @media (max-width: 768px) {
   body {
-    background-image: url("../public/mbbg.svg");
+    background-image: url("/mbbg.svg");
   }
 }
 
@@ -161,7 +188,7 @@ body {
 }
 
 .modal-event-content {
-  background-image: url("../public/dtbg.svg");
+  background-image: url("/dtbg.svg");
   background-size: cover;
   background-position: center;
 }
@@ -187,4 +214,57 @@ body {
 }
 .event-card:hover div {
   display: flex;
+}
+
+.partners-container {
+  margin: 5rem auto;
+  text-align: center;
+  color: white;
+}
+
+.partners-heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.partners-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.partner-card {
+  width: 250px; /* Width of the card */
+  height: 150px; /* Height of the card */
+  background-color: rgba(255, 255, 255, 0); /* Semi-transparent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.partner-card:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Image container to ensure images don't stretch beyond their boundaries */
+.image-container {
+  width: 100%; /* Same width as the partner card */
+  height: 100%; /* Same height as the partner card */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container img {
+  max-width: 80%; /* Maximum width of the logo */
+  max-height: 80%; /* Maximum height of the logo */
+}
+
+@media (max-width: 768px) {
+  .partner-card {
+    width: calc(50% - 1rem); /* Two cards per row on smaller screens */
+  }
 }
