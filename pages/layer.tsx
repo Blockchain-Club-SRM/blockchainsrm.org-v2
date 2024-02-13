@@ -13,6 +13,7 @@ import Judges from "../components/judges/judges";
 import Prizes from "../components/layer/prizes";
 import Partners from "../components/layer/partners";
 import Tracks from "../components/layer/tracks";
+import Faq from "../components/layer/faq";
 
 export default function Layer() {
   const [loading, setLoading] = useState(true);
@@ -79,6 +80,7 @@ export default function Layer() {
             <Partners />
           </div>
           <Judges />
+          <Faq />
           <Footer />
         </>
       )}
