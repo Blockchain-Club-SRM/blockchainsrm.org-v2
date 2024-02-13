@@ -17,10 +17,11 @@ const TimeLine: NextPage = () => {
       <div className="absolute custom-text left-[390px]">
         <p className="text-8xl">Timeline</p>
       </div>
-      <Image src={whole} className="absolute w-screen top-[20px]"></Image> 
-      <Image src={bed} className="absolute w-screen top-[-62px] z-10"></Image>
-      <Image src={submarine} className="absolute w-[150px] top-[380px] left-[45px]"></Image>
-      <Image src={shark} className="absolute w-[120px] top-[-120px]"></Image>
+      <Image src={whole} className="absolute w-screen top-[20px]" alt="Full timeline illustration" />
+      <Image src={bed} className="absolute w-screen top-[-62px] z-10" alt="Oceanbed background image" />
+      <Image src={submarine} className="absolute w-[150px] top-[380px] left-[45px]" alt="Submarine diving in the illustration" />
+      <Image src={shark} className="absolute w-[120px] top-[-120px]" alt="Shark swimming in the illustration" />
+
       <div className="absolute text-white w-[60px] left-[145px] top-[70px]">
         <p className="font-Montserrat">11th Apr Registration</p>
       </div>
@@ -33,8 +34,8 @@ const TimeLine: NextPage = () => {
       <div className="absolute text-white w-[60px] left-[1010px] top-[310px]">
         <p className="font-Montserrat">11th Apr Registration</p>
       </div>
-      <Image src={bubbles} className="absolute top-[-23px]"></Image>
-      <Image src={smallBubbles} className="absolute top-[23px] left-[1225px]"></Image>
+      <Image src={bubbles} className="absolute top-[-23px]" alt="Group of large bubbles rising in the illustration" />
+      <Image src={smallBubbles} className="absolute top-[23px] left-[1225px]" alt="Group of small bubbles rising in the illustration" />
     </div>
   );
 };
