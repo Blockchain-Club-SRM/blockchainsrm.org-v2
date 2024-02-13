@@ -81,28 +81,28 @@ export default function Layer() {
               /> */}
               {/* <div className="mt-[40rem] pr-9 md:pr-9 xl:mr-0 xl:w-auto w-96 flex justify-center space-x-10">
                 <div className="days flex flex-col items-center space-y-2">
-                  <div className="md:text-center text-start text-2xl mt-4 md:mt-0 md:py-0 md:text-5xl">
+                  <div className="md:text-center text-start text-4xl mt-4 md:mt-0 md:py-0 md:text-6xl">
                     <span className="bg-clip-text pl-2 md:pl-0 bg-gradient-to-t from-cyan-700 to-slate-50 text-transparent font-black uppercase font-['Impact']">
                       {days}
                     </span>
                   </div>
-                  <p className="text-white">Days</p>
+                  <p className="text-white md:text-2xl text-sm ">Days</p>
                 </div>
                 <div className="hours flex flex-col items-center space-y-2">
-                  <div className="md:text-center text-start text-2xl mt-4 md:mt-0 md:py-0 md:text-5xl">
+                  <div className="md:text-center text-start text-4xl mt-4 md:mt-0 md:py-0 md:text-6xl">
                     <span className="bg-clip-text pl-2 md:pl-0 bg-gradient-to-t from-cyan-700 to-slate-50 text-transparent font-black uppercase font-['Impact']">
                       {hours}
                     </span>
                   </div>
-                  <p className="text-white">Hours</p>
+                  <p className="text-white md:text-2xl text-sm ">Hours</p>
                 </div>
                 <div className="mins flex flex-col items-center space-y-2">
-                  <div className="md:text-center text-start text-2xl mt-4 md:mt-0 md:py-0 md:text-5xl">
+                  <div className="md:text-center text-start text-4xl mt-4 md:mt-0 md:py-0 md:text-6xl">
                     <span className="bg-clip-text pl-2 md:pl-0 bg-gradient-to-t from-cyan-700 to-slate-50 text-transparent font-black uppercase font-['Impact']">
                       {minutes}
                     </span>
                   </div>
-                  <p className="text-white">Minutes</p>
+                  <p className="text-white md:text-2xl text-sm ">Minutes</p>
                 </div>{" "}
               </div> */}
               <div className="flex justify-center md:justify-between md:flex-wrap space-x-6 md:space-x-10 max-w-sm mx-auto mt-16">
