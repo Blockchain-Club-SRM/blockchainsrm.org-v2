@@ -17,7 +17,7 @@ const TimeLine: NextPage = () => {
       <div className="absolute custom-text left-[390px]">
         <p className="text-8xl">Timeline</p>
       </div>
-      <Image src={whole} className="absolute w-screen top-[20px]"></Image>
+      <Image src={whole} className="absolute w-screen top-[20px]"></Image> 
       <Image src={bed} className="absolute w-screen top-[-62px] z-10"></Image>
       <Image src={submarine} className="absolute w-[150px] top-[380px] left-[45px]"></Image>
       <Image src={shark} className="absolute w-[120px] top-[-120px]"></Image>
