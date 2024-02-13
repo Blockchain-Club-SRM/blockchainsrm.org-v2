@@ -1,9 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Wendy+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* In your global stylesheet or component stylesheet */
+
+/* In your Tailwind CSS stylesheet or directly in your HTML/JSX file */
+.custom-text {
+  width: 563px;
+  height: 135px;
+  flex-shrink: 0;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Impact', sans-serif;
+  font-size: 101px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 13.13px;
+  background: linear-gradient(180deg, #FFF 10.4%, #006871 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* In your global stylesheet or component stylesheet */
+
+/* In your Tailwind CSS stylesheet or directly in your HTML/JSX file */
+.custom-text {
+  width: 563px;
+  height: 135px;
+  flex-shrink: 0;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Impact', sans-serif;
+  font-size: 101px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 13.13px;
+  background: linear-gradient(180deg, #FFF 10.4%, #006871 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 html {
   scroll-behavior: smooth;
