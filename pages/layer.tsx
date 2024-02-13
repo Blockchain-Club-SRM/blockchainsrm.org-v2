@@ -64,22 +64,22 @@ export default function Layer() {
         </div>
       ) : (
         <>
-          <div className="min-h-screen bg-cover bg-[url(/layerbg.png)]">
+          <div className="min-h-screen bg-cover bg-[url(/layerbg.png)] ">
             <LayerHeader />
-            <div className="main flex flex-col">
+            <div className="main flex flex-col -mt-16">
               <Image
                 alt="layer"
                 loading="eager"
                 src={text}
                 className="self-center mt-16 xl:w-auto w-80"
               />
-              <Image
+              {/* <Image
                 loading="eager"
                 alt="ship"
                 src={ship}
                 className=" xl:block absolute  top-[22rem] -left-3 w-[82rem] hidden"
-              />
-              <div className="mt-[40rem] pr-9 md:pr-9 xl:mr-0 xl:w-auto w-96 flex justify-center space-x-10">
+              /> */}
+              {/* <div className="mt-[40rem] pr-9 md:pr-9 xl:mr-0 xl:w-auto w-96 flex justify-center space-x-10">
                 <div className="days flex flex-col items-center space-y-2">
                   <div className="md:text-center text-start text-2xl mt-4 md:mt-0 md:py-0 md:text-5xl">
                     <span className="bg-clip-text pl-2 md:pl-0 bg-gradient-to-t from-cyan-700 to-slate-50 text-transparent font-black uppercase font-['Impact']">
@@ -104,7 +104,34 @@ export default function Layer() {
                   </div>
                   <p className="text-white">Minutes</p>
                 </div>{" "}
+              </div> */}
+              <div className="flex justify-center md:justify-between md:flex-wrap space-x-6 md:space-x-10 max-w-sm mx-auto mt-16">
+                <div className="days flex flex-col items-center space-y-2">
+                  <div className="text-center text-4xl md:text-7xl">
+                    <span className="bg-clip-text bg-gradient-to-t from-cyan-700 to-slate-50 text-transparent font-black uppercase font-['Impact'] ">
+                      {days}
+                    </span>
+                  </div>
+                  <p className="text-white text-xl md:text-2xl pt-5">Days</p>
+                </div>
+                <div className="hours flex flex-col items-center space-y-2">
+                  <div className="text-center text-4xl md:text-7xl">
+                    <span className="bg-clip-text bg-gradient-to-t from-cyan-700 to-slate-50 text-transparent font-black uppercase font-['Impact']">
+                      {hours}
+                    </span>
+                  </div>
+                  <p className="text-white text-xl md:text-2xl pt-5">Hours</p>
+                </div>
+                <div className="mins flex flex-col items-center space-y-2">
+                  <div className="text-center text-4xl md:text-7xl">
+                    <span className="bg-clip-text bg-gradient-to-t from-cyan-700 to-slate-50 text-transparent font-black uppercase font-['Impact']">
+                      {minutes}
+                    </span>
+                  </div>
+                  <p className="text-white text-xl md:text-2xl pt-5">Minutes</p>
+                </div>
               </div>
+
               <div className="buttons flex flex-col md:flex-row mt-16 self-center gap-14 mb-72 ">
                 <Link href="https://layer-2.devfolio.co/">
                   {" "}
