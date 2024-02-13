@@ -27,7 +27,7 @@ const Faq = () => {
   return (
     <div className="h-screen bg-center md:bg-top bg-[url(/faqbg.png)]">
       <div className="flex justify-center pt-5 md:py-10">
-        <img alt="faqs" className="md:w-48 w-24" src={"/faq.svg"} />
+        <img alt="faqs" className="md:w-48 w-32" src={"/faq.svg"} />
       </div>
       <div className="faq-container p-10 md:p-0 flex flex-col items-center space-y-10">
         {faqs.map((faq, index) => (
@@ -41,7 +41,7 @@ const Faq = () => {
                 <button
                   type="button"
                   onClick={() => toggleAccordion(index)}
-                  className="flex items-center justify-between rounded-xl w-full p-5 font-medium rtl:text-right text-gray-500 border border-b border-[#80DCFF] focus:ring-4 focus:ring-[#80DCFF] gap-3"
+                  className="flex items-center justify-between rounded-xl w-full p-5 font-medium rtl:text-right text-gray-500 border border-b border-[#80DCFF] gap-3"
                   aria-expanded={activeIndex === index}
                   aria-controls="accordion-collapse-body-2"
                 >
