@@ -43,10 +43,10 @@ const Faq = () => {
     <div className="md:h-screen h-full bg-center md:bg-top bg-[url(/faqbg.png)]">
       <div className="flex justify-center pt-5 md:py-10">
         <div className="text-center w-full text-5xl mt-4 md:mt-0 md:py-0 md:text-7xl">
-          <span className="bg-clip-text pl-2 md:pl-0 bg-gradient-to-t from-cyan-700 to-slate-50 text-transparent font-black uppercase font-['Impact']">
+          <span className="bg-clip-text pl-2 md:pl-0 bg-gradient-to-t from-cyan-700 to-slate-50 text-center text-transparent font-black uppercase font-['Impact']">
             FAQs
           </span>
-        </div>{" "}
+        </div>
       </div>
       <div className="faq-container p-10 md:p-0 flex flex-col items-center space-y-10">
         {faqs.map((faq, index) => (

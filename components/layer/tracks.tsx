@@ -17,7 +17,7 @@ const Tracks = () => {
   ];
 
   return (
-    <div className="relative bg-slate-950 min-h-screen pt-20">
+    <div className="relative bg-slate-950 min-h-[95vh] pt-20">
       <Image
         src={jellyFishLeft}
         alt="jellyfish"
@@ -28,8 +28,8 @@ const Tracks = () => {
         alt="jellyfish"
         className="absolute bottom-10 opacity-50 right-0"
       />
-      <div className="text-center text-7xl tracking-widest">
-        <span className="bg-clip-text bg-gradient-to-t from-cyan-700 to-slate-50 text-transparent font-normal font-['Impact']">
+      <div className="text-center text-5xl md:text-7xl tracking-widest">
+        <span className="bg-clip-text bg-gradient-to-t from-cyan-700 to-slate-50 text-transparent font-black uppercase font-['Impact']">
           Tracks
         </span>
       </div>
