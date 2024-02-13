@@ -13,6 +13,7 @@ module.exports = {
       },
       fontFamily: {
         Montserrat: ["Montserrat", "sans-serif"],
+        wendy: ["Wendy One", "sans-serif"],
       },
       colors: {
         "primary-blue": "#00D1FF",
