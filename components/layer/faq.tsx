@@ -22,6 +22,21 @@ const Faq = () => {
       answer:
         "Layer is free for all admitted hackers! It's our pleasure to bring our virtual workshops, swag, and prizes to our hackers without any cost on your end. We're committed to making Layer accessible!",
     },
+    {
+      question: "What if i don't have a team or an idea?",
+      answer:
+        "Many of our hackers don't have a team coming in, and find them at the event! Once your admission is confirmed, we open up a team-matching platform for you to find other teammates. We also have a ton of team-forming activities to help you find teammates and idea brainstorming sessions for all our tracks."
+    },
+    {
+      question: "What can i build?",
+      answer: 
+      "Anything your heart desires! Web, mobile, gaming you name it, we'll support it. We have multiple tracks that will have all the extra resources required to inspire you. Check out our Devfolio for examples of what participants built in the past!!"
+    },
+    {
+      question: "What do I get for participating at Layer",
+      answer:
+      "Layer 2.0 has a goal to extend your Web3 and Blockchain knowledge and give you experience by giving you opportunity to learn from experts and network with other individuals interested in Web3. Last but not least, you'll have a shot at winning some cool Web3 swag items."
+    },
   ];
 
   return (
