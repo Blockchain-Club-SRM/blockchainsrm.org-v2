@@ -2,9 +2,16 @@ import * as React from "react";
 
 function Footer() {
   return (
-    <div className="flex flex-col top-[500px]" style={{ backgroundColor: "rgba(11,15,24)" }}>
+    <div
+      className="flex flex-col"
+      style={{ backgroundColor: "rgba(11,15,24)" }}
+    >
       <div className="flex gap-5 mt-5 justify-center items-center px-5 max-w-full">
-        <a href="https://www.instagram.com/blockchainsrm/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.instagram.com/blockchainsrm/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             loading="lazy"
             src="./instagram.svg"
@@ -12,7 +19,11 @@ function Footer() {
             alt="instagram"
           />
         </a>
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             loading="lazy"
             src="./facebook.svg"
@@ -20,7 +31,11 @@ function Footer() {
             alt="facebook"
           />
         </a>
-        <a href="https://www.discord.com" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.discord.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             loading="lazy"
             src="./discord.svg"
@@ -28,7 +43,11 @@ function Footer() {
             alt="discord"
           />
         </a>
-        <a href="https://www.telegram.org" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.telegram.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             loading="lazy"
             src="./telegram.svg"
@@ -36,7 +55,11 @@ function Footer() {
             alt="telegram"
           />
         </a>
-        <a href="www.linkedin.com/company/blockchain-club-srm/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="www.linkedin.com/company/blockchain-club-srm/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             loading="lazy"
             src="./linkedin.svg"
@@ -44,7 +67,11 @@ function Footer() {
             alt="linkedin"
           />
         </a>
-        <a href="https://twitter.com/BlockchainSRM" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://twitter.com/BlockchainSRM"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             loading="lazy"
             src="./twitter.svg"

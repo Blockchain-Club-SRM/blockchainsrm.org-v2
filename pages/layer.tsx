@@ -63,7 +63,7 @@ export default function Layer() {
           <RiseLoader color="#00D1FF" />
         </div>
       ) : (
-        <>
+        <div className="flex flex-col">
           <div className="min-h-screen bg-cover bg-[url(/layerbg.png)] ">
             <LayerHeader />
             <div className="main flex flex-col -mt-16">
@@ -157,7 +157,7 @@ export default function Layer() {
           <Judges />
           <Faq />
           <Footer />
-        </>
+        </div>
       )}
     </div>
   );
