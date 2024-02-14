@@ -157,7 +157,7 @@ const team = () => {
     },
     {
       name: "Ishika Jagatramka",
-      position: "creativeslead",
+      position: "CreativesLead",
       socials: {
         github: "/", 
         linkedin: "https://www.linkedin.com/in/ishika-jagatramka-932225189?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
