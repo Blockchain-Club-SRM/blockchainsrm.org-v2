@@ -155,18 +155,18 @@ const team = () => {
         "./assets/teams/Ayushi.jpg",
       cover: "/assets/teams/11.png",
     },
-    // {
-    //   name: "Ishika Jagatramka",
-    //   position: "creativeslead",
-    //   socials: {
-    //     github: "/", 
-    //     linkedin: "/",
-    //     twitter: "/",
-    //   },
-    //   profile:
-    //     "https://drive.google.com/uc?export=view&id=1rN6IPBbwbOiTd92I6qQlk0LQr9QSU381",
-    //   cover: "/assets/teams/13.png",
-    // },
+    {
+      name: "Ishika Jagatramka",
+      position: "CreativesLead",
+      socials: {
+        github: "/", 
+        linkedin: "https://www.linkedin.com/in/ishika-jagatramka-932225189?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        twitter: "https://x.com/0xIshika?t=Dw8X6IquF6X_kDhQgQI0dQ&s=09",
+      },
+      profile:
+        "./assets/teams/Ishika.jpeg",
+      cover: "/assets/teams/13.png",
+    },
     // {
     //   name: 'Labeeb Khan',
     //   position: 'creativeslead',
@@ -245,18 +245,18 @@ const team = () => {
         "./assets/teams/MohdZaid.jpeg",
       cover: "/assets/teams/1.png",
     },
-    // {
-    //   name: "Hem Popat",
-    //   position: "Crypto",
-    //   socials: {
-    //     github: "/", 
-    //     linkedin: "/",
-    //     twitter: "/",
-    //   },
-    //   profile:
-    //     "https://drive.google.com/uc?export=view&id=1LoBg7H5qOyIYTkkWxwz4_GOYF2WYxmRF",
-    //   cover: "/assets/teams/D2.png",
-    // },
+    {
+      name: "Hem Popat",
+      position: "Crypto",
+      socials: {
+        github: "/", 
+        linkedin: "/",
+        twitter: "/",
+      },
+      profile:
+        "./assets/teams/Varun.jpg",
+      cover: "/assets/teams/D2.png",
+    },
     {
       name: "Haaniya Iram",
       position: "Crypto",

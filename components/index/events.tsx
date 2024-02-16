@@ -94,6 +94,50 @@ const Events = () => {
       desc: "Mr. Aishwary Gupta, who dispelled misunderstandings and offered insights into the world of Blockchain, including Crypto and Web3, was the speaker during an interactive session on Blockchain and its applications, organised by the Blockchain Club SRM.",
       date: "13 june",
     },
+    {
+      key: 5,
+      content: (
+        <div className="event-card cursor-pointer group ">
+          <img
+            src={`/images/Layer.png`}
+            className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md"
+            alt="Events"
+          />
+          <div className="hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="text-xl text-[#00D1FF] group-hover:mt-96">
+              Layer 1.0
+            </p>
+            <p className="text-xl text-white">17th - 18th April 2023</p>
+          </div>
+        </div>
+      ),
+      img: "/images/Layer.png",
+      heading: "Layer 1.0",
+      desc: "The Layer 0 hackathon was a successful event, attracting participants from different colleges and skill sets to create innovative solutions to the proposed tracks. Despite common challenges such as time constraints, technical difficulties, and the need for creativity, the event saw impressive solutions, including cutting-edge technologies and real-world problem-solving. Teams presented their project proposals through slides and visual aids, and the prize pool of $64,000 was a significant motivator. The diverse challenges encouraged a flexible and adaptable mindset, as unexpected issues may arise. The Layer 0 hackathon was a great success, thanks to the support of sponsors like 5irechain, Zeeve, Flow, Router, and Metastart.",
+      date: "17th - 18th April 2023",
+    },
+    {
+      key: 6,
+      content: (
+        <div className="event-card cursor-pointer group ">
+          <img
+            src={`/images/Arweave-1.jpg`}
+            className="aspect-video h-[300px] w-[400px] shadow-lg rounded-md"
+            alt="Events"
+          />
+          <div className="hidden text-center flex-col sm:gap-2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="text-xl text-[#00D1FF] group-hover:mt-96">
+              Arweave
+            </p>
+            <p className="text-xl text-white">18th October 2023</p>
+          </div>
+        </div>
+      ),
+      img: "/images/Arweave-2.jpg",
+      heading: "Arweave",
+      desc: "The session commenced with a general introduction to Arweave. An interactive Q&A session followed, allowing participants to engage with the topic. The meeting was highly interactive, covering topics such as DApps (decentralized apps) and L1s (Layer 1 solutions). This was followed by an in-depth explanation of what sets Arweave apart from platforms like Google and Azure.The discussion delved into how data stored on Arweave is permanent and censorship-free, illustrated through examples such as the China and COVID use case.The HOD of the DSBS department, Dr. M lakshmi, briefly chaired the session. She welcomed the participants, expressed gratitude towards the session heads, and shared important information about upcoming in-house projects on campus.The meeting included a Q&A round where participants raised questions concerning privacy concerns and the direct transfer of data.",
+      date: "18th October 2023",
+    },
   ];
   return (
     <>
