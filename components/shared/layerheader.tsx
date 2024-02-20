@@ -46,10 +46,10 @@ const LayerHeader = () => {
   ];
 
   return (
-   
+    <div className="relative top-0 left-0 right-0 z-50 bg-transparent">
     <div
-      className={` w-full text-white flex justify-between p-2  items-center left-0 right-0 z-50 top-0 ${
-        !active && " backdrop-blur-md md:backdrop-blur-none"
+      className={` w-full text-white flex justify-between p-2 items-center left-0 right-0 z-50 top-0 ${
+        !active && " bg-opacity-100 md:backdrop-blur-none"
       }`}
     >
       <div className="flex items-center space-x-3 2xl:px-32 2xl:py-5">
@@ -63,7 +63,7 @@ const LayerHeader = () => {
         <div className=" absolute right-6 top-6 md:hidden cursor-pointer">
           <BiMenu onClick={show} size={26} className="cursor-pointer" />
         </div>
-        <ul className="hidden md:flex gap-2 xl:gap-8 p-3 py-6 lg:w-[50vw] md:justify-center content-center uppercase backdrop-blur-md">
+        <ul className="hidden md:flex gap-2 xl:gap-8 p-3 py-6 lg:w-[50vw] md:justify-center content-center uppercase bg-opacity-100">
           {menu.map((item, index) => {
             return (
               <li
@@ -77,6 +77,7 @@ const LayerHeader = () => {
         </ul>
         <MenuItems show={show} active={active} menu={menu} />
       </nav>
+    </div>
     </div>
   );
 };
