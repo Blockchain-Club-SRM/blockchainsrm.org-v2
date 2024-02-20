@@ -46,7 +46,7 @@ const LayerHeader = () => {
   ];
 
   return (
-    <div className="relative top-0 left-0 right-0 z-50 bg-transparent">
+    <div className="navbar relative top-0 left-0 right-0 z-50 bg-transparent">
     <div
       className={` w-full text-white flex justify-between p-2 items-center left-0 right-0 z-50 top-0 ${
         !active && " bg-opacity-100 md:backdrop-blur-none"
