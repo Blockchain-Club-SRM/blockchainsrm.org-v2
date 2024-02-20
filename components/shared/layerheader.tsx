@@ -24,10 +24,6 @@ const LayerHeader = () => {
       path: "#layer-tracks",
     },
     {
-      name: "Timeline",
-      path: "#timeline",
-    },
-    {
       name: "Prizes",
       path: "#prizes",
     },
