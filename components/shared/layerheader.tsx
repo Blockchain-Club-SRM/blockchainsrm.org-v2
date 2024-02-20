@@ -17,31 +17,31 @@ const LayerHeader = () => {
   const menu = [
     {
       name: "About",
-      path: "/#about",
-    },
-    {
-      name: "Judges",
-      path: "/#judges",
-    },
-    {
-      name: "Workshop",
-      path: "/#workshop",
-    },
-    {
-      name: "Prizes",
-      path: "/#prizes",
+      path: "#layer-about",
     },
     {
       name: "Tracks",
-      path: "/#tracks",
+      path: "#layer-tracks",
     },
     {
-        name: "Partners",
-        path: "/#partners",
-      },
+      name: "Timeline",
+      path: "#timeline",
+    },
+    {
+      name: "Prizes",
+      path: "#prizes",
+    },
+    {
+      name: "Partners",
+      path: "#partners",
+    },
+    {
+      name: "Judges",
+      path: "#judges",
+    },
       {
         name: "FAQs",
-        path: "/#faqs",
+        path: "#faqs",
       },
   ];
 

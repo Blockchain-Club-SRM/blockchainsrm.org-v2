@@ -7,7 +7,7 @@ import jellyfish1 from "../../public/partnersjellyfish1.png";
 
 export default function Partners() {
   return (
-    <motion.div className="bg-cover bg-[url(/partnersbg.png)] h-screen flex flex-col relative">
+    <motion.div id="partners" className="bg-cover bg-[url(/partnersbg.png)] h-screen flex flex-col relative">
       <div className="text-center w-full md:mb-14 text-5xl mt-4 md:mt-0 md:py-0 md:text-7xl">
         <span className="bg-clip-text pl-2 md:pl-0 bg-gradient-to-t from-cyan-700 to-slate-50 text-transparent font-black uppercase font-['Impact']">
           Partners

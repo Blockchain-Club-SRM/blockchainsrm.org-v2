@@ -18,7 +18,7 @@ const Prizes: NextPage = () => {
   }, []);
 
   return (
-    <div className="prizes">
+    <div id="prizes">
       {isMobile ? (
         <div className="flex-col flex bg-slate-950">
           <div className="text-center w-full md:mb-14 text-5xl md:mt-0 md:py-0 md:text-7xl">
