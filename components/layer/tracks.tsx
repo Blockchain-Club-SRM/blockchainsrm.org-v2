@@ -6,18 +6,24 @@ import prizeBg from "../../public/assets/layer/prizebg.svg";
 import HorizontalScrollCarousel from "./Carousel/tracksCarousel";
 import Marquee from "react-easy-marquee";
 
-const Tracks = () => {
-  const [selectedItem, setSelectedItem] = useState(null);
+interface Item {
+  id: number;
+  title: string;
+  description: string;
+}
 
-  const items = [
+const Tracks = () => {
+  const [selectedItem, setSelectedItem] = useState<number | null>(null);
+
+  const items: Item[] = [
     { id: 1, title: "Cryptography", description: "Be the Bond. Dive into the intriguing realm of FHE, ZK Proofs, DID, dStorage, MPC, and more to crack the code on privacy, security, and innovation in blockchain technology! Get ready to encrypt, decrypt, and unlock the potential of cutting-edge cryptographic techniques, leaving no loose ends!" },
-    { id: 2, title: "DeFi", description: "Code the future of finance-Create accessible and inclusive financial systems powered by decentralized technologies, crafting decentralized lending to sculpting automated market makers, dive into concepts like flash loans and yield farming." },
+    { id: 2, title: "DeFi", description: "Code the future of finance-Create accessible and inclusive financial systems powered by decentralized technologies, crafting decentralized lending to sculpting automated market makers, dive into concepts like flash loans and yield farming." },
     { id: 3, title: "Social on chain", description: "Revolutionize Social Networking with blockchain technology Reshape how we connect and share. Power up your ideas with concepts of Metaverse, AR/VR, and immersive Social experience using Al. Shape the next generation of social networking here at Layer. (Disclaimer: Don't be the next Drake)" },
-    { id: 4, title: "Open track", description: "No limits. No boundaries. Unleash your innovative and creative mind!" },
+    { id: 4, title: "Open track", description: "No limits. No boundaries. Unleash your innovative and creative mind!" },
   ];
 
-  const handleItemClick = (itemId) => {
-    setSelectedItem(itemId === selectedItem ? null : itemId);
+  const handleItemClick = (itemId: number) => {
+    setSelectedItem(prevSelectedItem => prevSelectedItem === itemId ? null : itemId);
   };
 
   return (
