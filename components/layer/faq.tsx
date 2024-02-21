@@ -40,7 +40,10 @@ const Faq = () => {
   ];
 
   return (
-    <div id="faqs" className="md:h-full h-full bg-center md:bg-top bg-[url(/faqbg.png)]">
+    <div
+      id="faqs"
+      className="md:h-full h-full bg-center md:bg-top bg-slate-950"
+    >
       <div className="flex justify-center pt-5 md:py-10">
         <div className="text-center w-full text-5xl mt-4 md:mt-0 md:py-0 md:text-7xl">
           <span className="bg-clip-text pl-2 md:pl-0 bg-gradient-to-t from-cyan-700 to-slate-50 text-center text-transparent font-black uppercase font-['Impact']">
