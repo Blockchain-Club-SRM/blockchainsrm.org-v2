@@ -19,44 +19,20 @@ function Footer() {
             alt="instagram"
           />
         </a>
-        <a
-          href="https://www.facebook.com"
+        {/* <a
+          href="https://chat.whatsapp.com/HpwcmZkSyGQ5ccyS0KEnZR"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
             loading="lazy"
-            src="./facebook.svg"
+            src="./whatsapp.svg"
             className="h-10 w-10 object-contain"
-            alt="facebook"
+            alt="whatsapp"
           />
-        </a>
+        </a> */}
         <a
-          href="https://www.discord.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            loading="lazy"
-            src="./discord.svg"
-            className="h-10 w-10 object-contain"
-            alt="discord"
-          />
-        </a>
-        <a
-          href="https://www.telegram.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            loading="lazy"
-            src="./telegram.svg"
-            className="h-10 w-10 object-contain"
-            alt="telegram"
-          />
-        </a>
-        <a
-          href="www.linkedin.com/company/blockchain-club-srm/"
+          href="https://www.linkedin.com/company/blockchain-club-srm/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -82,7 +58,7 @@ function Footer() {
       </div>
       <div className="flex gap-5 justify-between px-5 mt-20 w-full text-3xl tracking-wider text-center text-white max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
         <div className="flex-auto">Powered by @Devfolio</div>
-        <div className="flex-auto">Crafted by @</div>
+        <div className="flex-auto">Crafted by @BlockchainClubSRM</div>
       </div>
     </div>
   );
