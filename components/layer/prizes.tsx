@@ -37,7 +37,7 @@ const Prizes: NextPage = () => {
               </span>
             </div>
             <div className="w-[168px] h-[53px] text-center text-teal-300 text-[38px] font-bold font-['Quantico'] tracking-widest">
-              ${process.env.NEXT_PUBLIC_FIRST_PRIZE}
+            ₹{process.env.NEXT_PUBLIC_FIRST_PRIZE}
             </div>
           </div>
           <div className="flex flex-col justify-center items-center">
@@ -51,7 +51,7 @@ const Prizes: NextPage = () => {
               </span>
             </div>
             <div className="w-[168px] h-[53px] text-center text-teal-300 text-[38px] font-bold font-['Quantico'] tracking-widest">
-              ${process.env.NEXT_PUBLIC_SECOND_PRIZE}
+            ₹{process.env.NEXT_PUBLIC_SECOND_PRIZE}
             </div>
           </div>
           <div className="flex flex-col justify-center items-center">
@@ -65,7 +65,7 @@ const Prizes: NextPage = () => {
               </span>
             </div>
             <div className="w-[168px] h-[53px] text-center text-teal-300 text-[38px] font-bold font-['Quantico'] tracking-widest">
-              ${process.env.NEXT_PUBLIC_THIRD_PRIZE}
+            ₹{process.env.NEXT_PUBLIC_THIRD_PRIZE}
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@ const Prizes: NextPage = () => {
                 </span>
               </div>
               <div className="text-center text-teal-300 text-3xl font-bold font-['Quantico'] tracking-widest">
-                ${process.env.NEXT_PUBLIC_SECOND_PRIZE}
+              ₹{process.env.NEXT_PUBLIC_SECOND_PRIZE}
               </div>
             </div>
             <div className="flex flex-col justify-center items-center">
@@ -108,7 +108,7 @@ const Prizes: NextPage = () => {
                 </span>
               </div>
               <div className="text-center text-teal-300 text-3xl font-bold font-['Quantico'] tracking-widest">
-                ${process.env.NEXT_PUBLIC_FIRST_PRIZE}
+              ₹{process.env.NEXT_PUBLIC_FIRST_PRIZE}
               </div>
             </div>
             <div className="flex flex-col justify-center items-center">
@@ -125,7 +125,7 @@ const Prizes: NextPage = () => {
                 </span>
               </div>
               <div className="text-center text-teal-300 text-3xl font-bold font-['Quantico'] tracking-widest">
-                ${process.env.NEXT_PUBLIC_THIRD_PRIZE}
+              ₹{process.env.NEXT_PUBLIC_THIRD_PRIZE}
               </div>
             </div>
           </div>
