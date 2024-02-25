@@ -19,7 +19,7 @@ function Footer() {
             alt="instagram"
           />
         </a>
-        {/* <a
+        <a
           href="https://chat.whatsapp.com/HpwcmZkSyGQ5ccyS0KEnZR"
           target="_blank"
           rel="noopener noreferrer"
@@ -30,7 +30,7 @@ function Footer() {
             className="h-10 w-10 object-contain"
             alt="whatsapp"
           />
-        </a> */}
+        </a>
         <a
           href="https://www.linkedin.com/company/blockchain-club-srm/"
           target="_blank"
