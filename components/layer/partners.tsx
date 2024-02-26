@@ -21,7 +21,7 @@ export default function Partners() {
           
         }}
         
-        className="bubbles-container hidden xl:flex gap-40"
+        className="bubbles-container hidden 2xl:flex gap-40"
       >
         {/* Preload the images */}
         <Image src={bubble}  alt="bubble" />
@@ -39,7 +39,7 @@ export default function Partners() {
           
         }}
         
-        className="bubbles-container mt-16  hidden xl:flex gap-40"
+        className="bubbles-container mt-16  hidden 2xl:flex gap-40"
       >
         {/* Preload the images */}
         <Image src={bubble} alt="bubble" />
