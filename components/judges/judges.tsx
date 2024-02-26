@@ -59,7 +59,7 @@ const Judges: React.FC = () => {
               <Image alt="2" src={group2} />
             </div>
             <div className="absolute w-44 ml-20 mt-14">
-              <Image alt="pfp" src={judge.pfp} width={176} height={96} layout="responsive"/>
+              <img className="rounded-full w-44 h-44" alt="pfp" src={judge.pfp}  />
             </div>
             <div className="flex flex-col mt-80">
               <h1 className="text-white font-bold text-center mt-4">
