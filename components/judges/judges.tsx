@@ -28,7 +28,7 @@ const Judges: React.FC = () => {
     },
     {
       name: "Vedant Utage",
-    pfp: "",
+    pfp: "/prez-removebg-preview.png",
     description: "President, Blockchain Club SRM", 
     },
     {
