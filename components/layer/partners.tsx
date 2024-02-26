@@ -4,7 +4,7 @@ import Image from 'next/image';
 const data = [
   { id: 1, src: '/partners1.png', alt: 'Partner 1', name: 'Mintair' },
   { id: 2, src: '/partners2.png', alt: 'Partner 2', name: 'Avalanche' },
-  { id: 3, src: '/partners3.png', alt: 'Partner 3', name: 'Frame' },
+  { id: 3, src: '/partners3.png', alt: 'Partner 3', name: 'Powerloom' },
   { id: 4, src: '/partners4.png', alt: 'Partner 4', name: 'Shardeum' },
 ];
 
