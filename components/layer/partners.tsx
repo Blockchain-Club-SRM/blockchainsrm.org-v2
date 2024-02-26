@@ -12,15 +12,13 @@ export default function Partners() {
   return (
     <>
       <div id="partners" className="bg-cover bg-slate-950 min-h-screen flex flex-col relative">
-        <div className="text-center w-full mt-4 md:mb-14 md:mt-0 md:py-0 md:text-7xl">
+        <div className="text-center w-full mt-4 md:mb-7 md:mt-0 md:py-0 md:text-7xl">
           <span className="bg-clip-text pl-2 md:pl-0 bg-gradient-to-t from-cyan-700 to-slate-50 text-transparent font-black uppercase font-['Impact'] text-5xl">
             Partners
           </span>
         </div>
-        <div className="text-center pt-8">
-          <h2 className="text-4xl text-white font-bold">Our Trusted Partners</h2>
-        </div>
-        <div className="flex flex-wrap justify-center items-center mt-8 px-4 md:px-0">
+       
+        <div className="flex flex-wrap justify-center items-center 2xl:mt-28 px-4 md:px-0">
           {data.map((partner) => (
             <div key={partner.id} className="card m-4 p-4 bg-white rounded-lg shadow-lg flex flex-col items-center">
               <Image src={partner.src} alt={partner.alt} width={200} height={200} objectFit="contain" />
