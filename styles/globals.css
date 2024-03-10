@@ -231,11 +231,22 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .partner-card {
   width: 250px; /* Width of the card */
+  height: 150px; /* Height of the card */
+  background-color: rgba(255, 255, 255, 0); /* Semi-transparent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.partner-card-shardeum{
+  width: 300px; /* Width of the card */
   height: 150px; /* Height of the card */
   background-color: rgba(255, 255, 255, 0); /* Semi-transparent background */
   display: flex;
