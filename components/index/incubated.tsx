@@ -12,7 +12,7 @@ const data = [
 const Incubated = () => {
   return (
     <div className="partners-container py-40">
-      <h2 className="partners-heading ">Incubated Under BlockChainClubSRM</h2>
+      <h2 className="partners-heading ">Incubated Under BlockChain Club SRM</h2>
       <div className="partners-grid mt-16">
         {data.map((partner) => (
           <div key={partner.id} className="partner-card">
