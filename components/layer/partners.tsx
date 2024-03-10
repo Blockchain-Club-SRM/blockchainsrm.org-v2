@@ -6,6 +6,13 @@ const data = [
   { id: 2, src: '/partners2.png', alt: 'Partner 2', name: 'Avalanche' },
   { id: 3, src: '/partners3.png', alt: 'Partner 3', name: 'Powerloom' },
   { id: 4, src: '/partners4.png', alt: 'Partner 4', name: 'Shardeum' },
+  { id: 5, src: '/partner1.png', alt: 'Partner 5', name: 'Polygon' },
+  { id: 6, src: '/ethindia.png', alt: 'Partner 6', name: 'ETHIndia' },
+  { id: 7, src: '/quillaudits.png', alt: 'Partner 7', name: 'QuillAudits' },
+  { id: 8, src: '/partner18.jpg', alt: 'Partner 8', name: 'SimpX' },
+  { id: 9, src: '/partner19.jpg', alt: 'Partner 9', name: 'Bruhma Labs' },
+  { id: 10, src: '/porfo.jpg', alt: 'Partner 10', name: 'Porfo' },
+  { id: 11, src: '/avex.jpg', alt: 'Partner 11', name: 'Avex' },
 ];
 
 export default function Partners() {
