@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 const data = [
+  
   { id: 1, src: '/partner1.png', alt: 'Partner 1' },
   { id: 2, src: '/partners2.png', alt: 'Partner 2' },
   { id: 3, src: '/partner9.png', alt: 'Partner 9' },
@@ -29,7 +30,7 @@ const Partners = () => {
         {data.map((partner) => (
           <div key={partner.id} className={partner.id === 9 ? "partner-card-shardeum" : "partner-card"}>
             <Image 
-              className={partner.id === 15 ? "scale-[1.7]" : partner.id === 9 ? "scale-[2.6]" : partner.id==16 ? "rounded-full" : ""}
+              className={partner.id === 15 ? "scale-[1.7] " : partner.id === 9 ? "scale-[2] md:scale-[2.6] " : partner.id==16 ? "rounded-full" : ""}
               src={partner.src}
               alt={partner.alt}
               width={partner.id === 9 ? 400 : 100}
