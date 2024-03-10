@@ -16,9 +16,9 @@ const data = [
   { id: 14, src: '/partner14.png', alt: 'Partner 14' },
   { id: 15, src: '/partner3.jpg', alt: 'Partner 3' },
   { id: 16, src: '/partner16.jpg', alt: 'Partner 16' },
-  { id: 17, src: '/partner17.jpg', alt: 'Partner 17' },
-  { id: 18, src: '/partner18.jpg', alt: 'Partner 18' },
-  { id: 19, src: '/partner19.jpg', alt: 'Partner 19' }
+  // { id: 17, src: '/partner17.jpg', alt: 'Partner 17' },
+  // { id: 18, src: '/partner18.jpg', alt: 'Partner 18' },
+  // { id: 19, src: '/partner19.jpg', alt: 'Partner 19' }
 ];
 
 const Partners = () => {
@@ -29,7 +29,7 @@ const Partners = () => {
         {data.map((partner) => (
           <div key={partner.id} className={partner.id === 9 ? "partner-card-shardeum" : "partner-card"}>
             <Image 
-              className={partner.id === 15 ? "scale-[1.7]" : partner.id === 9 ? "scale-[2.6]" : ""}
+              className={partner.id === 15 ? "scale-[1.7]" : partner.id === 9 ? "scale-[2.6]" : partner.id==16 ? "rounded-full" : ""}
               src={partner.src}
               alt={partner.alt}
               width={partner.id === 9 ? 400 : 100}
